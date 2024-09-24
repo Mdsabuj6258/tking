@@ -38,7 +38,17 @@ $(function () {
     });
 
 
-
+    // // ==========type js==========
+    // var type = new typed(".auto_type", {
+    //     srtings: ["sabuj",
+    //         "nadim",
+    //         "light",
+    //         "fan",
+    //     ]
+    //     typeSpeed: 150,
+    //     backSpeed: 150,
+    //     loop: true
+    // })
 
 
 

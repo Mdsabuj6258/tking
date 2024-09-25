@@ -1157,6 +1157,65 @@ button {
     background: var(--colorPrimary);
 }
 
-
-
 /* destination end */
+
+/* ofer start */
+.ofer {}
+
+.ofer .ofer_item {
+    position: relative;
+
+}
+
+.ofer_item:hover.ofer_item .img img {
+    transform: scale(1.05) rotate(2deg);
+    -webkit-transform: scale(1.05) rotate(2deg);
+    -moz-transform: scale(1.05) rotate(2deg);
+    -ms-transform: scale(1.05) rotate(2deg);
+    -o-transform: scale(1.05) rotate(2deg);
+}
+
+.ofer .ofer_item .img img {
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.ofer .ofer_item .img {
+    height: 390px;
+    overflow: hidden;
+
+}
+
+.ofer .ofer_item .text {
+    position: absolute;
+    content: "";
+    top: 0;
+    padding: 60px;
+}
+
+.ofer .ofer_item .text h3 {
+    width: 60%;
+    color: var(--colorBlack);
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 40px;
+    /* 133.333% */
+}
+
+.ofer .ofer_item .text p {
+    color: var(--colorRed);
+    text-align: start;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: normal;
+    text-transform: uppercase;
+    background: var(--colorWhite);
+    padding: 4px 10px;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+/* ofer end */

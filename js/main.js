@@ -139,6 +139,21 @@ $(function () {
     });
 
 
+
+    //====== testimonial slider ======
+    $('.testi_slider_2').slick({
+        slidesToShow: 2,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 3000,
+        dots: true,
+        arrows: false,
+        nextArrow: '<i class="far fa-arrow-right nextArrow"></i>',
+        prevArrow: '<i class="far fa-arrow-left prevArrow"></i>',
+
+    });
+
+
     // counter js
     $('.counter').countUp();
 

@@ -2505,21 +2505,99 @@ footer .footer_banner {
 
 /* about team end */
 
+.about_testimonial {}
+
+.about_testimonial .testimonial_item {
+    background: #EFF5FC;
+    padding: 40px;
+    margin: 0px 12px;
+    position: relative;
+}
+
+
+.about_testimonial .testimonial_item::after {
+    position: absolute;
+    content: "";
+    background: url(../images/quot_icon.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 70px;
+    height: 50px;
+    bottom: 50px;
+    right: 50px;
+}
+
+.about_testimonial .slick-dots {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    align-items: center;
+    margin-top: 51px;
+    margin-left: 47%;
+
+}
+
+.about_testimonial .slick-dots li button {
+    width: 12px;
+    height: 12px;
+    border: 1px solid var(--colorBlack);
+    font-size: 0;
+    background: none;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.about_testimonial .slick-dots li.slick-active button {
+    background: var(--colorBlack);
+}
 
 
 
 
+/* faq start */
+.section_heading h2::after {
+    display: none;
+}
 
 
+.accordion-item {
+    margin-top: 25px;
+    border: 1px solid rgba(4, 6, 24, 0.10);
+    border-radius: 0;
+}
+
+.accordion-button {
+    background: var(--colorWhite);
+    color: var(--colorBlack);
+    font-size: 16px;
+    font-weight: 500;
+    border: none !important;
+    box-shadow: none !important;
+}
 
 
+.accordion-body {
+    padding: 0px 40px 40px 40px;
+}
 
+.accordion-button:not(.collapsed) {
+    background-color: var(--colorWhite);
+}
 
+.accordion-item:not(:first-of-type) {
+    border: 1px solid #eee;
+}
 
-
-
-
-
+/* faq end */
 
 
 

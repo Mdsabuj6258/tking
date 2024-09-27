@@ -167,6 +167,18 @@ button {
     position: relative;
 }
 
+.section_heading_2 {
+    text-align: center;
+}
+
+.section_heading_2 h2 {
+    text-align: center;
+    font-size: 46px;
+    font-weight: 700;
+    display: inline-block;
+    color: var(--colorBlack);
+}
+
 .section_heading h2::after {
     position: absolute;
     content: "";
@@ -391,6 +403,7 @@ button {
     background: linear-gradient(180deg, rgba(4, 6, 24, 0.40) 0%, rgba(4, 6, 24, 0.00) 100%);
     backdrop-filter: blur(0px);
     padding: 215px 0px 140px 0px;
+    min-width: 1920px;
 }
 
 .breadcrumb_text h1 {
@@ -401,7 +414,7 @@ button {
     margin-bottom: 13px;
 }
 
-.wsus__breadcrumb_text ul {
+.breadcrumb_text ul {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -477,6 +490,10 @@ button {
     GLOBAL CSS END
 ============================*/
 
+
+/*============================
+    HOME PASE START
+============================*/
 
 /* menu start */
 .main_menu {
@@ -2151,3 +2168,390 @@ footer .footer_banner {
 }
 
 /* footer end */
+
+
+/*============================
+    HOME PASE END
+============================*/
+
+
+/*============================
+    ABOUT PASE START
+============================*/
+
+
+/* about choose start */
+.about_choose {}
+
+.about_choose .about_choose_text {
+    padding-right: 65px;
+}
+
+.about_choose .about_choose_text h2 {
+    color: var(--colorBlack);
+    font-size: 46px;
+    font-weight: 700;
+    line-height: 54px;
+    margin-bottom: 40px;
+}
+
+.about_choose .about_choose_text ul {}
+
+.about_choose .about_choose_text ul li {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.about_choose .about_choose_text ul li .icon {
+    display: inline-block;
+    height: auto;
+    width: auto;
+    border-radius: 50%;
+    border: 1px solid #eee;
+    padding: 17px;
+}
+
+.about_choose .about_choose_text ul li .text {
+    width: 80%;
+}
+
+.about_choose .about_choose_text ul li .text h3 {
+    color: var(--colorBlack);
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.about_choose .about_choose_img {
+    position: relative;
+    height: 570px;
+    overflow: hidden;
+}
+
+
+.about_choose .about_choose_img p {
+    border-radius: 10px;
+    background: var(--colorWhite);
+    box-shadow: 0px 10px 20px 0px rgba(4, 6, 24, 0.10);
+    position: absolute;
+    bottom: 70px;
+    right: 45px;
+    padding: 20px 30px;
+    font-size: 16px;
+    max-width: 310px;
+}
+
+.about_choose .about_choose_img p span {
+    color: var(--colorBlack);
+}
+
+/* about choose end */
+
+/* about video start */
+
+.about_video {
+    background-position: center !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+
+}
+
+.about_video_overlay {
+    background: rgba(4, 6, 24, 0.50);
+
+}
+
+.about_video::after {
+    position: absolute;
+    content: "";
+    background: url(../images/video_shapes_1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 230px;
+    height: 385px;
+    top: 0;
+    right: 0;
+}
+
+
+.about_video_text {
+    position: relative;
+}
+
+.about_video_text h1 {
+    color: var(--colorWhite);
+    font-size: 70px;
+    font-weight: 700;
+    max-width: 60%;
+    margin-bottom: 35px;
+}
+
+.service_video_img .circle_box,
+.about_video_text .circle_box {
+    position: absolute;
+    top: 60px;
+    right: 10px;
+    width: 190px;
+    height: 190px;
+    animation: circle_animi linear 25s infinite;
+    -webkit-animation: circle_animi linear 25s infinite;
+    filter: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(5845%) hue-rotate(201deg) brightness(122%) contrast(93%);
+    border: 1px solid rgba(255, 255, 255, 0.40);
+    border-radius: 50%;
+    padding: 10px;
+}
+
+@keyframes circle_animi {
+    from {
+        transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+    }
+}
+
+.wsus__service_video_img svg,
+.about_video_text svg {
+    font-size: 15.3px;
+    font-weight: 500;
+}
+
+.wsus__service_video_img .circle_box::after,
+.video_tabout_video_textext .circle_box::after {
+    position: absolute;
+    content: "";
+    background: url(../images/play_icon.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+    top: 80px;
+    left: 80px;
+    animation: circle_animi_2 linear 25s infinite;
+    -webkit-animation: circle_animi_2 linear 25s infinite;
+}
+
+@keyframes circle_animi_2 {
+    from {
+        transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(-360deg);
+        -webkit-transform: rotate(-360deg);
+        -moz-transform: rotate(-360deg);
+        -ms-transform: rotate(-360deg);
+        -o-transform: rotate(-360deg);
+    }
+}
+
+
+.service_video_img .circle_box::before,
+.about_video_text .circle_box::before {
+    position: absolute;
+    content: "";
+    width: 100px;
+    height: 100px;
+    border: 1px solid rgba(255, 255, 255, 0.40);
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+}
+
+.about_video_text::after {
+    position: absolute;
+    content: "";
+    background: url(../images/video_shapes_2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 140px;
+    height: 53px;
+    top: 80px;
+    right: 230px;
+    animation: video_shapes linear 1s infinite alternate;
+    -webkit-animation: video_shapes linear 1s infinite alternate;
+}
+
+@keyframes video_shapes {
+    from {
+        margin-right: 0px;
+    }
+
+    to {
+        margin-right: 10px;
+    }
+}
+
+/* about video end */
+
+/* about team start */
+.team {}
+
+.team .single_team {
+    position: relative;
+}
+
+.team .single_team .img {
+    position: relative;
+    height: 525px;
+    overflow: hidden;
+    margin-top: 25px;
+}
+
+.team .single_team .img ul {
+    position: absolute;
+    content: "";
+    right: 5px;
+    top: 5px;
+    z-index: 1;
+    visibility: hidden;
+    opacity: 0;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.single_team:hover .img ul {
+    right: 20px;
+    top: 20px;
+    visibility: visible;
+    opacity: 1;
+}
+
+.team .single_team .img ul li {
+    margin-bottom: 3px;
+}
+
+.team .single_team .img ul li a {
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    background: var(--colorWhite);
+    text-align: center;
+    color: var(--paraColor);
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.team .single_team .img ul li a:hover {
+    color: var(--colorBlack);
+}
+
+.team .single_team .text {
+    text-align: center;
+    background: var(--colorBlack);
+    position: absolute;
+    bottom: -28px;
+    left: 0;
+    width: 100%;
+    padding: 25px;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+    opacity: 0;
+}
+
+.single_team:hover .text {
+    opacity: 1;
+    bottom: 0;
+}
+
+.team .single_team .text a:hover {
+    color: var(--colorSecondary);
+}
+
+.team .single_team .text a {
+    color: var(--colorWhite);
+}
+
+.team .single_team .text p {
+    font-weight: 600;
+}
+
+
+
+/* about team end */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*============================
+    ABOUT PASE END
+============================*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*============================
+    ABOUT PASE START
+============================*/
+
+/*============================
+    ABOUT PASE END
+============================*/

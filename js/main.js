@@ -23,6 +23,17 @@ $(function () {
         });
     });
 
+
+    // type js
+    $('.animate-clip').animatedHeadline({
+        animationType: 'clip'
+    });
+
+
+    //=======counter up=========   
+    $('.counter').countUp();
+
+
     //======= search quntty ========
     $(".guest_input").on("click", function (event) {
         $(".qantaty_droofdown").toggleClass("show_qnty");
@@ -153,9 +164,6 @@ $(function () {
 
     });
 
-
-    // counter js
-    $('.counter').countUp();
 
 
     //=====venobox js=====

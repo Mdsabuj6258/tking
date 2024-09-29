@@ -41,7 +41,6 @@ span {
     font-weight: 500;
     margin: 0;
     color: var(--paraColor);
-    margin-bottom: 10px;
 }
 
 body {
@@ -146,6 +145,11 @@ button {
     top: auto;
     bottom: 0;
     height: 100%;
+}
+
+.ratting i {
+    color: var(--ratingColor);
+
 }
 
 .section_heading {
@@ -404,7 +408,7 @@ button {
     background: linear-gradient(180deg, rgba(4, 6, 24, 0.40) 0%, rgba(4, 6, 24, 0.00) 100%);
     backdrop-filter: blur(0px);
     padding: 215px 0px 140px 0px;
-    min-width: 1920px;
+    width: 100%;
 }
 
 .breadcrumb_text h1 {
@@ -818,8 +822,19 @@ button {
     margin-bottom: 50px;
 }
 
-.banner .banner_text span {
+.ah-headline.clip .ah-words-wrapper::after {
+    background-color: var(--colorSecondary);
+}
+
+.banner .banner_text span b {
+    font-size: 70px;
+    font-weight: 700;
+}
+
+.banner .banner_text span,
+.banner .banner_text span b {
     color: var(--colorSecondary);
+    padding: 0;
 }
 
 .banner_serch .nav-pills {
@@ -1272,7 +1287,7 @@ button {
 
 .filter .filter_button {}
 
-.filter .nav-pills {
+.filter .nav-tabs {
     background: rgba(14, 119, 243, 0.10);
     padding: 6px 25px;
     display: inline-flex;
@@ -1280,7 +1295,7 @@ button {
     margin-left: 25%;
 }
 
-.filter .nav-pills .nav-link {
+.filter .nav-tabs .nav-link {
     border-radius: 0;
     font-size: 15px;
     font-weight: 500;
@@ -1288,12 +1303,12 @@ button {
     position: relative;
 }
 
-.filter .nav-pills .nav-link.active {
+.filter .nav-tabs .nav-link.active {
     background: var(--colorWhite);
     box-shadow: 0px 2px 3px 0px rgba(10, 37, 64, 0.20);
 }
 
-.filter .nav-pills .nav-link.active::after {
+.filter .nav-tabs .nav-link.active::after {
 
     position: absolute;
     content: "";
@@ -1319,7 +1334,7 @@ button {
 
 }
 
-.filter .nav-pills .nav-link.active::before {
+.filter .nav-tabs .nav-link.active::before {
     position: absolute;
     content: "";
     background: url(../images/filter_shapes_1.png);
@@ -1865,7 +1880,6 @@ button {
     font-size: 46px;
     font-weight: 500;
     line-height: 58px;
-    width: 83%;
 }
 
 .download .download_text h1 span {
@@ -1903,9 +1917,6 @@ button {
     background: var(--colorBlack);
 }
 
-.download_text .download_btn li:last-child a:hover span {
-    filter: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(3014%) hue-rotate(338deg) brightness(117%) contrast(97%);
-}
 
 .download_text .download_btn li:last-child a:hover {
     background: var(--colorBlack);
@@ -1917,6 +1928,7 @@ button {
     width: 16px;
     margin-top: 6px;
     margin-right: 8px;
+    filter: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(3014%) hue-rotate(338deg) brightness(117%) contrast(97%);
 }
 
 .download_img {
@@ -2277,6 +2289,21 @@ footer .footer_banner {
     right: 0;
 }
 
+.service_video .circle_box::after,
+.about_video_text .circle_box::after {
+    position: absolute;
+    content: "";
+    background: url(../images/play_icon.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+    top: 80px;
+    left: 80px;
+    animation: circle_animi_2 linear 25s infinite;
+    -webkit-animation: circle_animi_2 linear 25s infinite;
+}
 
 .about_video_text {
     position: relative;
@@ -2417,6 +2444,7 @@ footer .footer_banner {
 
 .team .single_team {
     position: relative;
+    overflow: hidden;
 }
 
 .team .single_team .img {
@@ -2820,6 +2848,215 @@ footer .footer_banner {
 ============================*/
 
 
+/*============================
+    HOTEL LIST VIEW PASE START
+============================*/
+
+.hotel_list_view {}
+
+.hotel_list_view .item_header {
+    border: 1px solid rgba(4, 6, 24, 0.10);
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+.hotel_list_view .item_header ul {}
+
+.hotel_list_view .item_header ul li {}
+
+.hotel_list_view .item_header ul li a {
+    display: block;
+    width: 40px;
+    height: 40px;
+    background: rgba(4, 6, 24, 0.06);
+    margin-left: 10px;
+    padding: 7px 10px 12px 10px;
+}
+
+
+.item_header .nice-select {
+    background-color: rgba(4, 6, 24, 0.06);
+    border-radius: 0;
+    border: none;
+    width: 240px;
+}
+
+.nice-select .option {
+    width: 240px;
+}
+
+.item_header .nice-select .current {
+    font-size: 13px;
+}
+
+.list_item {
+    align-items: center;
+    background: var(--colorWhite);
+    box-shadow: 0px 24px 60px 0px rgba(10, 37, 64, 0.14);
+    margin-top: 25px;
+}
+
+.hotel_list_img {
+    width: 50%;
+    position: relative;
+    height: 230px;
+    padding: 10px 0px 10px 10px;
+    display: block;
+    overflow: hidden;
+
+}
+
+.hotel_list_img span {
+    position: absolute;
+    top: 30px;
+    left: 20px;
+    z-index: 1;
+    color: var(--colorWhite);
+    font-size: 13px;
+    font-weight: 500;
+    background: var(--colorSecondary);
+    padding: 2px 14px;
+    display: inline-block;
+}
+
+.hotel_list_text {
+    width: 50%;
+    padding-left: 40px;
+}
+
+
+
+.hotel_list_text .location {
+    display: inline-block;
+    position: relative;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    background: rgba(4, 6, 24, 0.06);
+    padding: 4px 10px;
+    padding-left: 35px;
+}
+
+.hotel_list_text .location::after {
+    position: absolute;
+    content: "";
+    background: url(../images/location_icon.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 14px;
+    height: 18px;
+    top: 6px;
+    left: 13px;
+}
+
+.hotel_list_text .description {
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+
+.hotel_list_text .list_btn {
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px 0px 0px;
+    border-top: 1px solid rgba(4, 6, 24, 0.10);
+}
+
+
+.wsus__common_card_text_footer {
+
+    align-items: center;
+    padding: 15px 30px;
+}
+
+.lefi_sidebar {}
+
+.left_sidebar_wizard {
+    padding: 16px 30px 30px 30px;
+    position: relative;
+    border: 1px solid rgba(4, 6, 24, 0.10);
+    margin-bottom: 20px;
+}
+
+.left_sidebar_wizard::after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 55px;
+    background: rgba(4, 6, 24, 0.06);
+    top: 0;
+    left: 0;
+}
+
+.left_sidebar_wizard h3 {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 30px;
+    position: relative;
+    z-index: 1;
+}
+
+.left_sidebar_wizard .form-check input {
+    padding: 0;
+    border-radius: 0;
+    border: 1px solid var(--colorBlack);
+    margin-right: 10px;
+    margin-top: 7px;
+}
+
+.left_sidebar_wizard .form-check label i {
+    color: var(--ratingColor);
+    font-size: 14px;
+}
+
+.left_sidebar_wizard .form-check label {
+    color: var(--colorBlack);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.left_sidebar_wizard.location {
+    padding-bottom: 70px;
+}
+
+.lefi_sidebar .left_sidebar_wizard ul {
+    justify-content: space-between;
+}
+
+.lefi_sidebar .left_sidebar_wizard ul li {}
+
+
+.lefi_sidebar .search_wized form {
+    position: relative;
+}
+
+.lefi_sidebar .search_wized p {
+    font-size: 12px;
+}
+
+.lefi_sidebar .search_wized form button {
+    position: absolute;
+    content: "";
+    right: 10px;
+    top: 15px;
+    color: var(--paraColor);
+    background: none;
+}
+
+
+
+
+
+
+
+
+
+
+/*============================
+    HOTEL LIST VIEW PASE END
+============================*/
 
 /*============================
     ABOUT PASE START

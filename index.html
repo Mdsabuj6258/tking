@@ -7,12 +7,13 @@
         content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, target-densityDpi=device-dpi" />
     <title>Tking - Tour & Travel Agency HTML Template</title>
     <link rel="icon" type="image/png" href="images/favicon.png">
-    <link rel="icon" type="image/png" href="images/favicon.png">
     <link rel="stylesheet" href="css/all.min.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/nice-select.css">
     <link rel="stylesheet" href="css/clendar.css">
+    <link rel="stylesheet" href="css/jquery.animatedheadline.css">
     <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/venobox.min.css">
 
     <link rel="stylesheet" href="css/spacing.css">
     <link rel="stylesheet" href="css/style.css">
@@ -150,16 +151,20 @@
 
 
     <!-- BANNER START -->
-    <section class="banner" style="background: url(/images/banner_bg.jpg);">
+    <section class="banner" style="background: url(./images/banner_bg.jpg);">
         <div class="banner_overlay">
             <div class="container">
                 <div class="row">
                     <div class="col-xl-12">
-                        <div class="banner_text">
+                        <div class="banner_text intro animate-clip">
                             <h5>Book With Us!</h5>
-                            <h1>Discover Your Next Memorable
-                                <span class="auto_type">Journey </span>
-                            </h1>
+                            <h1 class="ah-headline">Discover Your Next Memorable
+                                <span class="ah-words-wrapper">
+                                    <b class="is-visible">Hotel</b>
+                                    <b>Event</b>
+                                    <b>Package</b>
+                                </span>
+                            </h1>,
                         </div>
                         <div class="banner_serch">
                             <ul class="nav nav-pills" id="pills-tab" role="tablist">
@@ -658,41 +663,31 @@
             </div>
             <div class="row">
                 <div class="col-xl-12 ">
-                    <div class="filter_button">
-                        <ul class="nav nav-pills mb_40" id="pills-tab" role="tablist">
-                            <li class="nav-item" role="presentation">
-                                <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill"
-                                    data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home"
-                                    aria-selected="true">Hotel</button>
-                            </li>
-                            <li class="nav-item" role="presentation">
-                                <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill"
-                                    data-bs-target="#pills-profile" type="button" role="tab"
-                                    aria-controls="pills-profile" aria-selected="false">Bundle & Save</button>
-                            </li>
-                            <li class="nav-item" role="presentation">
-                                <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill"
-                                    data-bs-target="#pills-contact" type="button" role="tab"
-                                    aria-controls="pills-contact" aria-selected="false">Car</button>
-                            </li>
-                            <li class="nav-item" role="presentation">
-                                <button class="nav-link" id="pills-boat-tab" data-bs-toggle="pill"
-                                    data-bs-target="#pills-boat" type="button" role="tab" aria-controls="pills-boat"
-                                    aria-selected="false">Boat</button>
-                            </li>
-                            <li class="nav-item" role="presentation">
-                                <button class="nav-link" id="pills-event-tab" data-bs-toggle="pill"
-                                    data-bs-target="#pills-event" type="button" role="tab" aria-controls="pills-event"
-                                    aria-selected="false">Event</button>
-                            </li>
-                        </ul>
-                        <div class="tab-content" id="pills-tabContent">
-                            <div class="tab-pane fade show active" id="pills-home" role="tabpanel"
-                                aria-labelledby="pills-home-tab" tabindex="0">
 
-                                <!-- ===============
-                                              hotel area 
-                                         ================-->
+                    <div class="filter_button">
+                        <nav>
+                            <div class="nav nav-tabs mb_40" id="nav-tab" role="tablist">
+                                <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab"
+                                    data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home"
+                                    aria-selected="true">Hotel</button>
+                                <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab"
+                                    data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile"
+                                    aria-selected="false">Bundle & Save</button>
+                                <button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab"
+                                    data-bs-target="#nav-contact" type="button" role="tab" aria-controls="nav-contact"
+                                    aria-selected="false">Car</button>
+                                <button class="nav-link" id="nav-botat-tab" data-bs-toggle="tab"
+                                    data-bs-target="#nav-boat" type="button" role="tab" aria-controls="nav-boat"
+                                    aria-selected="false">Boat</button>
+                                <button class="nav-link" id="nav-event-tab" data-bs-toggle="tab"
+                                    data-bs-target="#nav-event" type="button" role="tab" aria-controls="nav event"
+                                    aria-selected="false">Event</button>
+                            </div>
+                        </nav>
+                        <div class="tab-content" id="nav-tabContent">
+                            <!-- hotel area -->
+                            <div class="tab-pane fade show active" id="nav-home" role="tabpanel"
+                                aria-labelledby="nav-home-tab" tabindex="0">
                                 <div class="row">
                                     <div class="col-xl-4">
                                         <div class="filter_item">
@@ -797,123 +792,435 @@
                                         </div>
                                     </div>
                                 </div>
-
-
-
                             </div>
-                            <div class="tab-pane fade" id="pills-profile" role="tabpanel"
-                                aria-labelledby="pills-profile-tab" tabindex="0">.....</div>
-                            <div class="tab-pane fade" id="pills-contact" role="tabpanel"
-                                aria-labelledby="pills-contact-tab" tabindex="0">......</div>
-                            <div class="tab-pane fade" id="pills-boat" role="tabpanel" aria-labelledby="pills-boat-tab"
-                                tabindex="0">......</div>
-                            <div class="tab-pane fade" id="pills-event" role="tabpanel"
-                                aria-labelledby="pills-event-tab" tabindex="0">
-                            </div>
-                            <!--======================
-                            Event area
-                            ====================== -->
-
-                            <div class="row">
-                                <div class="col-xl-4">
-                                    <div class="filter_item">
-                                        <div class="img">
-                                            <img src="images/event_img_1.jpg" alt="">
-                                            <span>Featured</span>
-                                            <a href="#"><i class="far fa-bookmark"></i></a>
-                                            <div class="athor_img">
-                                                <img src="images/author_img.png" alt="image" class="img-fluid">
+                            <!-- Bundle $ save -->
+                            <div class="tab-pane fade" id="nav-profile" role="tabpanel"
+                                aria-labelledby="nav-profile-tab" tabindex="0">
+                                <div class="row">
+                                    <div class="col-xl-4">
+                                        <div class="filter_item">
+                                            <div class="img">
+                                                <img src="images/event_img_1.jpg" alt="">
+                                                <span>Featured</span>
+                                                <a href="#"><i class="far fa-bookmark"></i></a>
+                                                <div class="athor_img">
+                                                    <img src="images/author_img.png" alt="image" class="img-fluid">
+                                                </div>
+                                            </div>
+                                            <div class="text">
+                                                <p class="ratting">
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    5(168 reviws)
+                                                </p>
+                                                <a class="title" href="#">What to Know Before Moving
+                                                    to Paris for 7 Day</a>
+                                                <p class="time">Start Time: 17:00</p>
+                                                <p class="duration">Duration: 4H</p>
+                                                <ul class="price d-flex flex-wrap">
+                                                    <li>
+                                                        $99.00
+                                                    </li>
+                                                    <li>
+                                                        <a class="read_btn" href="#">More Details</a>
+                                                    </li>
+                                                </ul>
                                             </div>
                                         </div>
-                                        <div class="text">
-                                            <p class="ratting">
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                                5(168 reviws)
-                                            </p>
-                                            <a class="title" href="#">What to Know Before Moving
-                                                to Paris for 7 Day</a>
-                                            <p class="time">Start Time: 17:00</p>
-                                            <p class="duration">Duration: 4H</p>
-                                            <ul class="price d-flex flex-wrap">
-                                                <li>
-                                                    $99.00
-                                                </li>
-                                                <li>
-                                                    <a class="read_btn" href="#">More Details</a>
-                                                </li>
-                                            </ul>
+                                    </div>
+                                    <div class="col-xl-4">
+                                        <div class="filter_item">
+                                            <div class="img">
+                                                <img src="images/event_img_2.jpg" alt="">
+                                                <span>Featured</span>
+                                                <a href="#"><i class="far fa-bookmark"></i></a>
+                                                <div class="athor_img">
+                                                    <img src="images/author_img.png" alt="image" class="img-fluid">
+                                                </div>
+                                            </div>
+                                            <div class="text">
+                                                <p class="ratting">
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    5(168 reviws)
+                                                </p>
+                                                <a class="title" href="#">Lylan’s Famous Minibus Tour –
+                                                    Small Group Tour</a>
+                                                <p class="time">Start Time: 17:00</p>
+                                                <p class="duration">Duration: 4H</p>
+                                                <ul class="price d-flex flex-wrap">
+                                                    <li>
+                                                        $150.00
+                                                    </li>
+                                                    <li>
+                                                        <a class="read_btn" href="#">More Details</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-4">
+                                        <div class="filter_item">
+                                            <div class="img">
+                                                <img src="images/event_img_3.jpg" alt="">
+                                                <span>Featured</span>
+                                                <a href="#"><i class="far fa-bookmark"></i></a>
+                                                <div class="athor_img">
+                                                    <img src="images/author_img.png" alt="image" class="img-fluid">
+                                                </div>
+                                            </div>
+                                            <div class="text">
+                                                <p class="ratting">
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    5(168 reviws)
+                                                </p>
+                                                <a class="title" href="#">There are many Accommodation
+                                                    Options in Paris.</a>
+                                                <p class="time">Start Time: 17:00</p>
+                                                <p class="duration">Duration: 4H</p>
+                                                <ul class="price d-flex flex-wrap">
+                                                    <li>
+                                                        $96.00
+                                                    </li>
+                                                    <li>
+                                                        <a class="read_btn" href="#">More Details</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-xl-4">
-                                    <div class="filter_item">
-                                        <div class="img">
-                                            <img src="images/event_img_2.jpg" alt="">
-                                            <span>Featured</span>
-                                            <a href="#"><i class="far fa-bookmark"></i></a>
-                                            <div class="athor_img">
-                                                <img src="images/author_img.png" alt="image" class="img-fluid">
+                            </div>
+                            <!-- car -->
+                            <div class="tab-pane fade" id="nav-contact" role="tabpanel"
+                                aria-labelledby="nav-contact-tab" tabindex="0">
+                                <div class="row">
+                                    <div class="col-xl-4">
+                                        <div class="filter_item">
+                                            <div class="img">
+                                                <img src="images/event_img_1.jpg" alt="">
+                                                <span>Featured</span>
+                                                <a href="#"><i class="far fa-bookmark"></i></a>
+                                                <div class="athor_img">
+                                                    <img src="images/author_img.png" alt="image" class="img-fluid">
+                                                </div>
+                                            </div>
+                                            <div class="text">
+                                                <p class="ratting">
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    5(168 reviws)
+                                                </p>
+                                                <a class="title" href="#">What to Know Before Moving
+                                                    to Paris for 7 Day</a>
+                                                <p class="time">Start Time: 17:00</p>
+                                                <p class="duration">Duration: 4H</p>
+                                                <ul class="price d-flex flex-wrap">
+                                                    <li>
+                                                        $99.00
+                                                    </li>
+                                                    <li>
+                                                        <a class="read_btn" href="#">More Details</a>
+                                                    </li>
+                                                </ul>
                                             </div>
                                         </div>
-                                        <div class="text">
-                                            <p class="ratting">
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                                5(168 reviws)
-                                            </p>
-                                            <a class="title" href="#">Lylan’s Famous Minibus Tour –
-                                                Small Group Tour</a>
-                                            <p class="time">Start Time: 17:00</p>
-                                            <p class="duration">Duration: 4H</p>
-                                            <ul class="price d-flex flex-wrap">
-                                                <li>
-                                                    $150.00
-                                                </li>
-                                                <li>
-                                                    <a class="read_btn" href="#">More Details</a>
-                                                </li>
-                                            </ul>
+                                    </div>
+                                    <div class="col-xl-4">
+                                        <div class="filter_item">
+                                            <div class="img">
+                                                <img src="images/event_img_2.jpg" alt="">
+                                                <span>Featured</span>
+                                                <a href="#"><i class="far fa-bookmark"></i></a>
+                                                <div class="athor_img">
+                                                    <img src="images/author_img.png" alt="image" class="img-fluid">
+                                                </div>
+                                            </div>
+                                            <div class="text">
+                                                <p class="ratting">
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    5(168 reviws)
+                                                </p>
+                                                <a class="title" href="#">Lylan’s Famous Minibus Tour –
+                                                    Small Group Tour</a>
+                                                <p class="time">Start Time: 17:00</p>
+                                                <p class="duration">Duration: 4H</p>
+                                                <ul class="price d-flex flex-wrap">
+                                                    <li>
+                                                        $150.00
+                                                    </li>
+                                                    <li>
+                                                        <a class="read_btn" href="#">More Details</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-4">
+                                        <div class="filter_item">
+                                            <div class="img">
+                                                <img src="images/event_img_3.jpg" alt="">
+                                                <span>Featured</span>
+                                                <a href="#"><i class="far fa-bookmark"></i></a>
+                                                <div class="athor_img">
+                                                    <img src="images/author_img.png" alt="image" class="img-fluid">
+                                                </div>
+                                            </div>
+                                            <div class="text">
+                                                <p class="ratting">
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    5(168 reviws)
+                                                </p>
+                                                <a class="title" href="#">There are many Accommodation
+                                                    Options in Paris.</a>
+                                                <p class="time">Start Time: 17:00</p>
+                                                <p class="duration">Duration: 4H</p>
+                                                <ul class="price d-flex flex-wrap">
+                                                    <li>
+                                                        $96.00
+                                                    </li>
+                                                    <li>
+                                                        <a class="read_btn" href="#">More Details</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-xl-4">
-                                    <div class="filter_item">
-                                        <div class="img">
-                                            <img src="images/event_img_3.jpg" alt="">
-                                            <span>Featured</span>
-                                            <a href="#"><i class="far fa-bookmark"></i></a>
-                                            <div class="athor_img">
-                                                <img src="images/author_img.png" alt="image" class="img-fluid">
+                            </div>
+                            <!-- boat -->
+                            <div class="tab-pane fade" id="nav-boat" role="tabpanel" aria-labelledby="nav-boat-tab"
+                                tabindex="0">
+                                <div class="row">
+                                    <div class="col-xl-4">
+                                        <div class="filter_item">
+                                            <div class="img">
+                                                <img src="images/event_img_1.jpg" alt="">
+                                                <span>Featured</span>
+                                                <a href="#"><i class="far fa-bookmark"></i></a>
+                                                <div class="athor_img">
+                                                    <img src="images/author_img.png" alt="image" class="img-fluid">
+                                                </div>
+                                            </div>
+                                            <div class="text">
+                                                <p class="ratting">
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    5(168 reviws)
+                                                </p>
+                                                <a class="title" href="#">What to Know Before Moving
+                                                    to Paris for 7 Day</a>
+                                                <p class="time">Start Time: 17:00</p>
+                                                <p class="duration">Duration: 4H</p>
+                                                <ul class="price d-flex flex-wrap">
+                                                    <li>
+                                                        $99.00
+                                                    </li>
+                                                    <li>
+                                                        <a class="read_btn" href="#">More Details</a>
+                                                    </li>
+                                                </ul>
                                             </div>
                                         </div>
-                                        <div class="text">
-                                            <p class="ratting">
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                                5(168 reviws)
-                                            </p>
-                                            <a class="title" href="#">There are many Accommodation
-                                                Options in Paris.</a>
-                                            <p class="time">Start Time: 17:00</p>
-                                            <p class="duration">Duration: 4H</p>
-                                            <ul class="price d-flex flex-wrap">
-                                                <li>
-                                                    $96.00
-                                                </li>
-                                                <li>
-                                                    <a class="read_btn" href="#">More Details</a>
-                                                </li>
-                                            </ul>
+                                    </div>
+                                    <div class="col-xl-4">
+                                        <div class="filter_item">
+                                            <div class="img">
+                                                <img src="images/event_img_2.jpg" alt="">
+                                                <span>Featured</span>
+                                                <a href="#"><i class="far fa-bookmark"></i></a>
+                                                <div class="athor_img">
+                                                    <img src="images/author_img.png" alt="image" class="img-fluid">
+                                                </div>
+                                            </div>
+                                            <div class="text">
+                                                <p class="ratting">
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    5(168 reviws)
+                                                </p>
+                                                <a class="title" href="#">Lylan’s Famous Minibus Tour –
+                                                    Small Group Tour</a>
+                                                <p class="time">Start Time: 17:00</p>
+                                                <p class="duration">Duration: 4H</p>
+                                                <ul class="price d-flex flex-wrap">
+                                                    <li>
+                                                        $150.00
+                                                    </li>
+                                                    <li>
+                                                        <a class="read_btn" href="#">More Details</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-4">
+                                        <div class="filter_item">
+                                            <div class="img">
+                                                <img src="images/event_img_3.jpg" alt="">
+                                                <span>Featured</span>
+                                                <a href="#"><i class="far fa-bookmark"></i></a>
+                                                <div class="athor_img">
+                                                    <img src="images/author_img.png" alt="image" class="img-fluid">
+                                                </div>
+                                            </div>
+                                            <div class="text">
+                                                <p class="ratting">
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    5(168 reviws)
+                                                </p>
+                                                <a class="title" href="#">There are many Accommodation
+                                                    Options in Paris.</a>
+                                                <p class="time">Start Time: 17:00</p>
+                                                <p class="duration">Duration: 4H</p>
+                                                <ul class="price d-flex flex-wrap">
+                                                    <li>
+                                                        $96.00
+                                                    </li>
+                                                    <li>
+                                                        <a class="read_btn" href="#">More Details</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- event -->
+                            <div class="tab-pane fade" id="nav-event" role="tabpanel" aria-labelledby="nav-event-tab"
+                                tabindex="0">
+                                <div class="row">
+                                    <div class="col-xl-4">
+                                        <div class="filter_item">
+                                            <div class="img">
+                                                <img src="images/event_img_1.jpg" alt="">
+                                                <span>Featured</span>
+                                                <a href="#"><i class="far fa-bookmark"></i></a>
+                                                <div class="athor_img">
+                                                    <img src="images/author_img.png" alt="image" class="img-fluid">
+                                                </div>
+                                            </div>
+                                            <div class="text">
+                                                <p class="ratting">
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    5(168 reviws)
+                                                </p>
+                                                <a class="title" href="#">What to Know Before Moving
+                                                    to Paris for 7 Day</a>
+                                                <p class="time">Start Time: 17:00</p>
+                                                <p class="duration">Duration: 4H</p>
+                                                <ul class="price d-flex flex-wrap">
+                                                    <li>
+                                                        $99.00
+                                                    </li>
+                                                    <li>
+                                                        <a class="read_btn" href="#">More Details</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-4">
+                                        <div class="filter_item">
+                                            <div class="img">
+                                                <img src="images/event_img_2.jpg" alt="">
+                                                <span>Featured</span>
+                                                <a href="#"><i class="far fa-bookmark"></i></a>
+                                                <div class="athor_img">
+                                                    <img src="images/author_img.png" alt="image" class="img-fluid">
+                                                </div>
+                                            </div>
+                                            <div class="text">
+                                                <p class="ratting">
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    5(168 reviws)
+                                                </p>
+                                                <a class="title" href="#">Lylan’s Famous Minibus Tour –
+                                                    Small Group Tour</a>
+                                                <p class="time">Start Time: 17:00</p>
+                                                <p class="duration">Duration: 4H</p>
+                                                <ul class="price d-flex flex-wrap">
+                                                    <li>
+                                                        $150.00
+                                                    </li>
+                                                    <li>
+                                                        <a class="read_btn" href="#">More Details</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-4">
+                                        <div class="filter_item">
+                                            <div class="img">
+                                                <img src="images/event_img_3.jpg" alt="">
+                                                <span>Featured</span>
+                                                <a href="#"><i class="far fa-bookmark"></i></a>
+                                                <div class="athor_img">
+                                                    <img src="images/author_img.png" alt="image" class="img-fluid">
+                                                </div>
+                                            </div>
+                                            <div class="text">
+                                                <p class="ratting">
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    5(168 reviws)
+                                                </p>
+                                                <a class="title" href="#">There are many Accommodation
+                                                    Options in Paris.</a>
+                                                <p class="time">Start Time: 17:00</p>
+                                                <p class="duration">Duration: 4H</p>
+                                                <ul class="price d-flex flex-wrap">
+                                                    <li>
+                                                        $96.00
+                                                    </li>
+                                                    <li>
+                                                        <a class="read_btn" href="#">More Details</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -1221,7 +1528,7 @@
 
 
     <!-- COUNTER START -->
-    <section class="counter mt_120">
+    <section class="counter_section mt_120">
         <div class="container">
             <div class="row">
                 <div class="col-xl-12">
@@ -1230,7 +1537,7 @@
                             <div class="counter_icon">
                                 <img src="images/counter_icon_1.png" alt="icon" class="img-fluid">
                             </div>
-                            <h2><span class="counter">64.4</span>k</h2>
+                            <h2><span class="counter">644</span>k</h2>
                             <p>Happy Traveller</p>
                         </li>
                         <li>
@@ -1244,7 +1551,7 @@
                             <div class="counter_icon">
                                 <img src="images/counter_icon_3.png" alt="icon" class="img-fluid">
                             </div>
-                            <h2><span class="counter">78.6</span>%</h2>
+                            <h2><span class="counter">30.4</span>K</h2>
                             <p>Satisfaction Rate</p>
                         </li>
                         <li>
@@ -1508,76 +1815,18 @@
 
 
 
-    <!-- MENU START -->
-    <!-- MENU END -->
-    <!-- =========================== 
-        HOME PAGE 1 END
- =============================-->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    <!-- =========================== 
-        HOME PAGE 1 START
- =============================-->
-    <!-- =========================== 
-        HOME PAGE 1 END
- =============================-->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     <!--jquery library js-->
     <script src="js/jquery-3.7.1.min.js"></script>
     <!--bootstrap js-->
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/jquery.nice-select.min.js"></script>
     <script src="js/clender.js"></script>
-    <script src="js/typed.js"></script>
+    <script src="js/jquery.animatedheadline.min.js"></script>
     <script src="js/slick.min.js"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
     <script src="js/jquery.countup.min.js"></script>
+    <script src="js/venobox.min.js"></script>
+
     <!--font-awesome js-->
     <script src="js/Font-Awesome.js"></script>
 

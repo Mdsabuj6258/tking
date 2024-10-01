@@ -1261,8 +1261,10 @@ button {
     position: relative;
 }
 
-.filter .section_heading span {
+.filter .section_heading span,
+.banner .section_heading span b {
     color: var(--colorSecondary);
+    padding: 0;
 }
 
 .filter .section_heading span,
@@ -2085,12 +2087,13 @@ footer {
 }
 
 footer .footer_banner {
-    height: 545px;
-    margin-top: -249px;
-    padding-right: 100px;
+    height: 585px;
+    margin-top: -244px;
 }
 
-.footer_link {}
+.footer_link {
+    padding-left: 45px;
+}
 
 .footer_link h2 {
     color: var(--colorWhite);
@@ -2121,7 +2124,7 @@ footer .footer_banner {
 }
 
 .footer_logo {
-    padding-left: 20px;
+    padding-left: 40px;
 }
 
 .footer_logo p {
@@ -2863,7 +2866,13 @@ footer .footer_banner {
 
 .hotel_list_view .item_header ul {}
 
-.hotel_list_view .item_header ul li {}
+.hotel_list_view .item_header ul li a.active {
+    background: var(--colorPrimary);
+}
+
+.hotel_list_view .item_header ul li a.active img {
+    filter: brightness(0) saturate(100%) invert(99%) sepia(100%) saturate(0%) hue-rotate(256deg) brightness(107%) contrast(101%);
+}
 
 .hotel_list_view .item_header ul li a {
     display: block;
@@ -2989,6 +2998,14 @@ footer .footer_banner {
     left: 0;
 }
 
+.left_sidebar_wizard .nice-select {
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+}
+
 .left_sidebar_wizard h3 {
     font-size: 18px;
     font-weight: 600;
@@ -3025,7 +3042,13 @@ footer .footer_banner {
     justify-content: space-between;
 }
 
-.lefi_sidebar .left_sidebar_wizard ul li {}
+.lefi_sidebar .left_sidebar_wizard form input {
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+}
 
 
 .lefi_sidebar .search_wized form {
@@ -3036,6 +3059,10 @@ footer .footer_banner {
     font-size: 12px;
 }
 
+.lefi_sidebar .search_wized form button:hover {
+    color: var(--colorPrimary);
+}
+
 .lefi_sidebar .search_wized form button {
     position: absolute;
     content: "";
@@ -3043,20 +3070,295 @@ footer .footer_banner {
     top: 15px;
     color: var(--paraColor);
     background: none;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.left_sidebar_wizard .range_slider {
+    margin-top: 60px;
+}
+
+.left_sidebar_wizard .accordion-item {
+    border: none;
+    margin-top: 20px;
+    margin-left: 3px;
+}
+
+.left_sidebar_wizard .accordion-header {
+    border: none;
+
+}
+
+.left_sidebar_wizard .accordion-header button {
+    padding: 0;
+    color: var(--colorPrimary);
+    font-size: 15px;
+    position: relative;
+}
+
+.left_sidebar_wizard .accordion-button::after {
+    filter: brightness(0) saturate(100%) invert(30%) sepia(96%) saturate(1883%) hue-rotate(201deg) brightness(97%) contrast(96%);
+    width: 15px;
+    height: 15px;
+    background-size: auto;
+    position: absolute;
+    left: 95px;
+}
+
+.left_sidebar_wizard .accordion-body {
+    padding: 0;
+    margin-top: 10px;
+}
+
+.hotel_list_pasination nav ul {
+    gap: 10px;
+}
+
+.hotel_list_pasination nav ul li a {
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    border: 1px solid rgba(4, 6, 24, 0.10);
+    background: rgba(255, 255, 255, 0.00);
+    padding: 0;
+    border-radius: 0 !important;
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--paraColor);
+    transition: all linear .3s;
+    -webkit-border-radius: 0 !important;
+    -moz-border-radius: 0 !important;
+    -ms-border-radius: 0 !important;
+    -o-border-radius: 0 !important;
+}
+
+/*============================
+    HOTEL LIST VIEW PASE END
+============================*/
+
+
+/*============================
+    HOTEL DETELS PASE START
+============================*/
+.hotel_detels {}
+
+.hotel_detels_slider_item {
+    margin: 0px 12px;
+    height: 570px;
+}
+
+.hotel_detels .nextArrow,
+.hotel_detels .prevArrow {
+    position: absolute;
+    top: 50%;
+    right: -8px;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    z-index: 1;
+}
+
+.hotel_detels .prevArrow {
+    right: auto;
+    left: -8px;
+    border: none;
+}
+
+.hotel_detels_header {
+    position: relative;
+    border-bottom: 1px solid rgba(4, 6, 24, 0.06);
+    padding-bottom: 40px;
+    margin-top: 30px;
+}
+
+.hotel_detels_header .venobox {
+    border: 1px solid #eee;
+    border-radius: 50%;
+    padding: 8px 10px;
+    width: auto;
+    height: auto;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.hotel_detels_header .venobox:hover {
+    background: var(--colorPrimary);
+    color: var(--colorWhite);
+}
+
+.hotel_detels_header .bookmark {
+    position: absolute;
+    content: "";
+    right: 0;
+    top: 0px;
+    background: #0406180F;
+    padding: 8px 15px;
+    border-radius: 50%;
+    color: var(--colorBlack);
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.hotel_detels_header .bookmark:hover {
+    background: var(--colorPrimary);
+    color: var(--colorWhite);
+}
+
+.hotel_detels_header .ratting {
+    margin-top: 20px;
+}
+
+.hotel_detels_header h3 {
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.hotel_detels_header .location {
+    position: relative;
+    display: inline-block;
+    background: rgba(4, 6, 24, 0.06);
+    padding: 4px 10px;
+    padding-left: 35px;
+}
+
+.hotel_detels_header .location::after {
+    position: absolute;
+    content: "";
+    background: url(../images/location_icon.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 14px;
+    height: 18px;
+    top: 6px;
+    left: 13px;
+}
+
+.about_hotel {
+    border-bottom: 1px solid rgba(4, 6, 24, 0.06);
+    padding-bottom: 40px;
+}
+
+.about_hotel h3 {
+    font-size: 30px;
+    font-weight: 500;
+    margin: 30px 0px;
+}
+
+.Hotel_Amenitie {
+    border-bottom: 1px solid rgba(4, 6, 24, 0.06);
+    padding-bottom: 40px;
+}
+
+.Hotel_Amenitie h3 {
+    font-size: 26px;
+    font-weight: 600;
+    margin-bottom: 30px;
+    margin-top: 60px;
+}
+
+.Hotel_Amenitie ul {
+    gap: 20px;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+
+.Hotel_Amenitie ul li {
+    border: 1px solid rgba(4, 6, 24, 0.10);
+    background: rgba(255, 255, 255, 0.00);
+    width: 31%;
+}
+
+.Hotel_Amenitie ul li span {
+    display: inline-block;
+    width: 30px;
+    margin-right: 15px;
+}
+
+.Hotel_Amenitie ul li {
+    font-size: 16px;
+    font-weight: 500;
+    align-items: center;
+    color: var(--paraColor);
+    border: 1px solid rgba(4, 6, 24, 0.10);
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+    padding: 15px;
+    width: 31.5%;
+}
+
+.Hotel_Amenitie ul li:hover {
+    background: var(--colorWhite);
+    border-color: transparent;
+    box-shadow: 0px -3px 0px 0px #0E77F3, 0px 10px 70px 0px rgba(4, 6, 24, 0.16);
+}
+
+.hotel_ruls {
+    margin-top: 30px;
+}
+
+.hotel_ruls h3 {
+    font-size: 26px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.hotel_ruls ul {
+    padding-left: 20px;
+}
+
+.hotel_ruls ul li {
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 5px;
+    position: relative;
+    list-style: disc;
 }
 
 
 
 
 
-
-
-
-
-
 /*============================
-    HOTEL LIST VIEW PASE END
+    HOTEL DETELS PASE END
 ============================*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*============================
     ABOUT PASE START

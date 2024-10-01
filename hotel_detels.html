@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="css/jquery.animatedheadline.css">
     <link rel="stylesheet" href="css/slick.css">
     <link rel="stylesheet" href="css/venobox.min.css">
+    <link rel="stylesheet" href="css/range_slider.css">
 
     <link rel="stylesheet" href="css/spacing.css">
     <link rel="stylesheet" href="css/style.css">
@@ -37,7 +38,8 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav me-auto">
                     <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="#">Home <i class="far fa-angle-down"></i></a>
+                        <a class="nav-link active" aria-current="page" href="#">Home <i
+                                class="far fa-angle-down"></i></a>
                         <ul class="submenu">
                             <li><a href="index.html">home style 01</a></li>
                             <li><a href="#">home style 02</a></li>
@@ -71,7 +73,7 @@
                                 <a href="#">Cars</a>
                                 <ul class="child_menu">
                                     <li><a href="#">Car Grid View</a></li>
-                                    <li><a href="#">Car List View</a></li>
+                                    <li><a class="active" href="hotel_list_view.html">Car List View</a></li>
                                     <li><a href="#">Car Details</a></li>
                                 </ul>
                             </li>
@@ -95,7 +97,7 @@
                     <li class="nav-item">
                         <a class="nav-link" href="#">Pages <i class="far fa-angle-down"></i></a>
                         <ul class="submenu">
-                            <li><a class="active" href="service.html">Services</a></li>
+                            <li><a href="services.html">Services</a></li>
                             <li><a href="agent_profile.html">agent profile</a></li>
                             <li><a href="forgot_password.html">forgot password</a></li>
                             <li><a href="privacy_policy.html">privacy Policy</a></li>
@@ -155,10 +157,10 @@
             <div class="container">
                 <div class="col-xl-12">
                     <div class="breadcrumb_text">
-                        <h1>Services</h1>
+                        <h1>Hotels Details</h1>
                         <ul>
                             <li><a href="#">Home</a></li>
-                            <li>Services</li>
+                            <li>Hotels Details</li>
                         </ul>
                     </div>
                 </div>
@@ -167,235 +169,152 @@
     </section>
     <!-- BREADCRUMB END -->
 
-
-    <!-- SERVICE TEXT START -->
-    <section class="service_text mt_120">
+    <section class="hotel_detels mt_120">
         <div class="container">
-            <div class="row">
-                <div class="col-xl-6">
-                    <div class="section_heading_2 mb_25">
-                        <h2>Strategic Planning for an Unforgettable Travel Experience
-                        </h2>
+            <div class="row hotel_detels_slider">
+                <div class="col-xl-4">
+                    <div class="hotel_detels_slider_item">
+                        <img src="images/hotel_details_slider_img_1.jpg" alt="image" class="img-fluid">
                     </div>
-                    <p>It seems like you're interested in travel! If you have any specific questions or if there's a
-                        particular aspect of travel you'd like information.</p>
-                    <ul>
-                        <li>1. Research and Destination Selection.</li>
-                        <li>2. Travel Dates and Duration.</li>
-                        <li>3. Health and Safety Precautions</li>
-                        <li>4. Photography and Memory Keeping.</li>
-                    </ul>
                 </div>
-                <div class="col-xl-6">
-                    <div class="sercice_img">
-                        <img src="images/sevice_info_img.png" alt="image" class="img-fluid">
+                <div class="col-xl-4">
+                    <div class="hotel_detels_slider_item">
+                        <img src="images/hotel_details_slider_img_2.jpg" alt="image" class="img-fluid">
+                    </div>
+                </div>
+                <div class="col-xl-4">
+                    <div class="hotel_detels_slider_item">
+                        <img src="images/hotel_details_slider_img_1.jpg" alt="image" class="img-fluid">
+                    </div>
+                </div>
+                <div class="col-xl-4">
+                    <div class="hotel_detels_slider_item">
+                        <img src="images/hotel_details_slider_img_3.jpg" alt="image" class="img-fluid">
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
-    <!-- SERVICE TEXT END -->
-
-
-    <!-- SERVICE AREA START -->
-    <section class="service_earea mt_120">
-        <div class="container">
             <div class="row">
-                <div class="col-xl-4">
-                    <div class="service_banner">
-                        <img src="images/footer_banner.jpg" alt="banner" class="img-fluid">
+                <div class="col-xl-8">
+                    <div class="hotel_detels_header">
+                        <a class="venobox" data-autoplay="true" data-vbtype="video"
+                            href="https://youtu.be/OwGkHosBiFU?si=Stvc-zd8rqRql3kD"><i class="fal fa-video"></i></a>
+                        <a class="bookmark" href="#"><i class="far fa-bookmark"></i></a>
+                        <p class="ratting">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            5 (168 reviews)
+                        </p>
+                        <h3>Pan Pacific Sonargaon Dhaka</h3>
+                        <p class="location">107 Kazi Nazrul Islam Ave, Dhaka 1215</p>
+                    </div>
+                    <div class="about_hotel mb_40">
+                        <h3>About this Hotel</h3>
+                        <p>It seems like you're interested in travel! If you have any specific questions or if there's a
+                            particular aspect of travel you'd like information on, feel free to let me know. Whether
+                            it's travel destinations, tips, planning, or anything else related to travel, I'm here to
+                            help!</p>
+                    </div>
+                    <div class="Hotel_Amenitie">
+                        <h3>Hotel Amenities</h3>
+                        <ul class="d-flex flex-wrap">
+                            <li>
+                                <span><img src="images/hotel_aminities_1.png" alt="icon" class="img-fluid"></span>
+                                Air Conditioning
+                            </li>
+                            <li>
+                                <span><img src="images/hotel_aminities_2.png" alt="icon" class="img-fluid"></span>
+                                Flat wall tv
+                            </li>
+                            <li>
+                                <span><img src="images/hotel_aminities_3.png" alt="icon" class="img-fluid"></span>
+                                None Smoking
+                            </li>
+                            <li>
+                                <span><img src="images/hotel_aminities_4.png" alt="icon" class="img-fluid"></span>
+                                Phone
+                            </li>
+                            <li>
+                                <span><img src="images/hotel_aminities_5.png" alt="icon" class="img-fluid"></span>
+                                Heater
+                            </li>
+                            <li>
+                                <span><img src="images/hotel_aminities_6.png" alt="icon" class="img-fluid"></span>
+                                Spa & Sauna
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="Hotel_Amenitie">
+                        <h3>Hotel Amenities</h3>
+                        <ul class="d-flex flex-wrap">
+                            <li>
+                                <span><img src="images/hotel_aminities_1.png" alt="icon" class="img-fluid"></span>
+                                Air Conditioning
+                            </li>
+                            <li>
+                                <span><img src="images/hotel_aminities_2.png" alt="icon" class="img-fluid"></span>
+                                Flat wall tv
+                            </li>
+                            <li>
+                                <span><img src="images/hotel_aminities_3.png" alt="icon" class="img-fluid"></span>
+                                None Smoking
+                            </li>
+                            <li>
+                                <span><img src="images/hotel_aminities_4.png" alt="icon" class="img-fluid"></span>
+                                Phone
+                            </li>
+                            <li>
+                                <span><img src="images/hotel_aminities_5.png" alt="icon" class="img-fluid"></span>
+                                Heater
+                            </li>
+                            <li>
+                                <span><img src="images/hotel_aminities_6.png" alt="icon" class="img-fluid"></span>
+                                Spa & Sauna
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="hotel_ruls">
+                        <h3>Hotel Rules</h3>
+                        <ul>
+                            <li>Smoking not allowed</li>
+                            <li>Pets not allowed</li>
+                            <li>Swimming pool closed from 10.00pm - 6.00am</li>
+                        </ul>
                     </div>
                 </div>
                 <div class="col-xl-4">
-                    <div class="service_item">
-                        <div class="icon">
-                            <img src="images/service_icon_1.png" alt="icon" class="img-fluid">
-                        </div>
-                        <div class="text">
-                            <a class="title" href="#"> Travel Dates & Duration</a>
-                            <p>Non nisi sit amet facilisis magna etiam nunc cursus metus aliquam.</p>
-                        </div>
-                    </div>
-                    <div class="service_item">
-                        <div class="icon">
-                            <img src="images/service_icon_1.png" alt="icon" class="img-fluid">
-                        </div>
-                        <div class="text">
-                            <a class="title" href="#"> Travel Dates & Duration</a>
-                            <p>Non nisi sit amet facilisis magna etiam nunc cursus metus aliquam.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-4">
-                    <div class="service_item">
-                        <div class="icon">
-                            <img src="images/service_icon_1.png" alt="icon" class="img-fluid">
-                        </div>
-                        <div class="text">
-                            <a class="title" href="#"> Travel Dates & Duration</a>
-                            <p>Non nisi sit amet facilisis magna etiam nunc cursus metus aliquam.</p>
-                        </div>
-                    </div>
-                    <div class="service_item">
-                        <div class="icon">
-                            <img src="images/service_icon_1.png" alt="icon" class="img-fluid">
-                        </div>
-                        <div class="text">
-                            <a class="title" href="#"> Travel Dates & Duration</a>
-                            <p>Non nisi sit amet facilisis magna etiam nunc cursus metus aliquam.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-4">
-                    <div class="service_item">
-                        <div class="icon">
-                            <img src="images/service_icon_1.png" alt="icon" class="img-fluid">
-                        </div>
-                        <div class="text">
-                            <a class="title" href="#"> Travel Dates & Duration</a>
-                            <p>Non nisi sit amet facilisis magna etiam nunc cursus metus aliquam.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-4">
-                    <div class="service_item">
-                        <div class="icon">
-                            <img src="images/service_icon_1.png" alt="icon" class="img-fluid">
-                        </div>
-                        <div class="text">
-                            <a class="title" href="#"> Travel Dates & Duration</a>
-                            <p>Non nisi sit amet facilisis magna etiam nunc cursus metus aliquam.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-4">
-                    <div class="service_item">
-                        <div class="icon">
-                            <img src="images/service_icon_1.png" alt="icon" class="img-fluid">
-                        </div>
-                        <div class="text">
-                            <a class="title" href="#"> Travel Dates & Duration</a>
-                            <p>Non nisi sit amet facilisis magna etiam nunc cursus metus aliquam.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- SERVICE AREA END -->
-
-    <!-- VEDIO START -->
-    <section class="service_video mt_120">
-        <div class="container container_large">
-            <div class="row">
-                <div class="col-xl-12">
-                    <div class="servive_video_banner">
-                        <img src="images/service_video_img.png" alt="image" class="img-fluid">
-                    </div>
-                </div>
-            </div>
-        </div>
-        <h2>Start Your Journey With Us!</h2>
-    </section>
-    <!-- VEDIO END -->
-
-
-    <!-- COUNTER START -->
-    <section class="counter mt_120">
-        <div class="container">
-            <div class="row">
-                <div class="col-xl-12">
-                    <ul class="counter_area">
-                        <li>
-                            <div class="counter_icon">
-                                <img src="images/counter_icon_1.png" alt="icon" class="img-fluid">
-                            </div>
-                            <h2><span class="counter">64.4</span>k</h2>
-                            <p>Happy Traveller</p>
-                        </li>
-                        <li>
-                            <div class="counter_icon">
-                                <img src="images/counter_icon_2.png" alt="icon" class="img-fluid">
-                            </div>
-                            <h2><span class="counter">30.4</span>k</h2>
-                            <p>Tent Sites</p>
-                        </li>
-                        <li>
-                            <div class="counter_icon">
-                                <img src="images/counter_icon_3.png" alt="icon" class="img-fluid">
-                            </div>
-                            <h2><span class="counter">78.6</span>%</h2>
-                            <p>Satisfaction Rate</p>
-                        </li>
-                        <li>
-                            <div class="counter_icon">
-                                <img src="images/counter_icon_4.png" alt="icon" class="img-fluid">
-                            </div>
-                            <h2><span class="counter">05.6</span>+</h2>
-                            <p>Year Of Services</p>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- COUNTER END -->
-
-
-    <!--SERVICE  CONTACT START -->
-    <section class="service_contact mt_120">
-        <div class="container container_large">
-            <div class="service_contact_bg">
-                <div class="row">
-                    <div class="col-xl-7">
-                        <div class="service_contact_text">
-                            <h2>Plan your Next Trip</h2>
-                            <form>
-                                <div class="row">
-                                    <div class="col-xl-6">
-                                        <div class="input">
-                                            <input type="text" placeholder="Name">
-                                        </div>
+                    <div class="about_detels_sidebar">
+                        <div class="about_detels_sidebar_book">
+                            <div class="booking_tabs">
+                                <nav>
+                                    <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                                        <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab"
+                                            data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home"
+                                            aria-selected="true">Home</button>
+                                        <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab"
+                                            data-bs-target="#nav-profile" type="button" role="tab"
+                                            aria-controls="nav-profile" aria-selected="false">Profile</button>
                                     </div>
-                                    <div class="col-xl-6">
-                                        <div class="input">
-                                            <input type="E-mail" placeholder="Email">
-                                        </div>
-                                    </div>
-                                    <div class="col-xl-6">
-                                        <div class="input">
-                                            <input type="number" placeholder="Number">
-                                        </div>
-                                    </div>
-                                    <div class="col-xl-6">
-                                        <div class="input">
-                                            <input type="text" placeholder="Subject">
-                                        </div>
-                                    </div>
-                                    <div class="col-xl-12">
-                                        <div class="textarea">
-                                            <textarea rows="7" placeholder="What do you want to discuss?"></textarea>
-                                        </div>
-                                        <div class="button">
-                                            <button class="common_btn" type="submit">Submit <i
-                                                    class="far fa-arrow-right"></i></button>
-                                        </div>
-                                    </div>
+                                </nav>
+                                <div class="tab-content" id="nav-tabContent">
+                                    <div class="tab-pane fade show active" id="nav-home" role="tabpanel"
+                                        aria-labelledby="nav-home-tab" tabindex="0">...</div>
+                                    <div class="tab-pane fade" id="nav-profile" role="tabpanel"
+                                        aria-labelledby="nav-profile-tab" tabindex="0">...</div>
                                 </div>
-                            </form>
+                            </div>
                         </div>
-                    </div>
-                    <div class="col-xl-5">
-                        <div class="service_contact_img">
-                            <img src="images/service_contact_img.jpg" alt="image" class="img-fluid">
-                        </div>
+                        <div class="about_detels_sidebar_map"></div>
+                        <div class="about_detels_sidebar_author"></div>
                     </div>
                 </div>
             </div>
-
         </div>
     </section>
-    <!--SERVICE  CONTACT END -->
+
+
 
 
     <!-- FOOTER CONTACT START -->
@@ -531,6 +450,7 @@
     <script src="js/jquery.waypoints.min.js"></script>
     <script src="js/jquery.countup.min.js"></script>
     <script src="js/venobox.min.js"></script>
+    <script src="js/range_slider.js"></script>
 
     <!--font-awesome js-->
     <script src="js/Font-Awesome.js"></script>

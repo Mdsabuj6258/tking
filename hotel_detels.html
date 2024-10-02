@@ -292,22 +292,110 @@
                                     <div class="nav nav-tabs" id="nav-tab" role="tablist">
                                         <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab"
                                             data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home"
-                                            aria-selected="true">Home</button>
+                                            aria-selected="true">Book</button>
                                         <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab"
                                             data-bs-target="#nav-profile" type="button" role="tab"
-                                            aria-controls="nav-profile" aria-selected="false">Profile</button>
+                                            aria-controls="nav-profile" aria-selected="false">Inquiry</button>
                                     </div>
                                 </nav>
                                 <div class="tab-content" id="nav-tabContent">
                                     <div class="tab-pane fade show active" id="nav-home" role="tabpanel"
-                                        aria-labelledby="nav-home-tab" tabindex="0">...</div>
+                                        aria-labelledby="nav-home-tab" tabindex="0">
+                                        <!-- booktab -->
+                                        <ul class=" booking_top d-flex flex-wrap justify-content-between">
+                                            <li class="ratting"><i class="fas fa-star"></i>5 (168 reviews)</li>
+                                            <li class="d-flex flex-wrap">
+                                                <h5>$150.00/</h5> night
+                                            </li>
+                                        </ul>
+                                        <form>
+                                            <ul>
+                                                <li>
+                                                    <p>Check - out</p>
+                                                    <input type="text" placeholder="24 june 24" class="start-date">
+                                                </li>
+                                                <li>
+                                                    <p>Check - out</p>
+                                                    <input type="text" placeholder="24 june 24" class="end-date">
+                                                </li>
+                                                <li>
+                                                    <div class="icon">
+                                                        <span>02</span>
+                                                    </div>
+                                                    <div class="text">
+                                                        <h3>Gest</h3>
+                                                        <input type="text" placeholder="1 Room" class="guest_input">
+                                                    </div>
+                                                    <div class="quentity_dropdown show_qnty">
+                                                        <div class="quentity_area">
+                                                            <P>Room</P>
+                                                            <div class="qnty_item">
+                                                                <button class="minus"><i
+                                                                        class="far fa-minus"></i></button>
+                                                                <input type="text" placeholder="01">
+                                                                <button class="plus"><i
+                                                                        class="far fa-plus"></i></button>
+                                                            </div>
+
+                                                        </div>
+                                                        <div class="quentity_area mt_15">
+                                                            <P>Adult</P>
+                                                            <div class="qnty_item">
+                                                                <button class="minus"><i
+                                                                        class="far fa-minus"></i></button>
+                                                                <input type="text" placeholder="01">
+                                                                <button class="plus"><i
+                                                                        class="far fa-plus"></i></button>
+                                                            </div>
+
+                                                        </div>
+                                                        <div class="quentity_area last mt_15">
+                                                            <P>Child</P>
+                                                            <div class="qnty_item">
+                                                                <button class="minus"><i
+                                                                        class="far fa-minus"></i></button>
+                                                                <input type="text" placeholder="01">
+                                                                <button class="plus"><i
+                                                                        class="far fa-plus"></i></button>
+                                                            </div>
+
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                            <button class="common_btn" type="submit">Check Availability</button>
+                                        </form>
+                                    </div>
                                     <div class="tab-pane fade" id="nav-profile" role="tabpanel"
-                                        aria-labelledby="nav-profile-tab" tabindex="0">...</div>
+                                        aria-labelledby="nav-profile-tab" tabindex="0">
+                                        <!-- Inquiry tab -->
+                                        <div class="sidebar_inquery">
+                                            <form>
+                                                <label>Name*</label>
+                                                <input type="text" placeholder="Jibon Dey">
+                                                <label>Email*</label>
+                                                <input type="E-mail" placeholder="Example@gmail.com">
+                                                <label>Note</label>
+                                                <textarea rows="5" placeholder="Type something here"></textarea>
+                                            </form>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="about_detels_sidebar_map"></div>
-                        <div class="about_detels_sidebar_author"></div>
+                        <div class="about_detels_sidebar_map">
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5061.370814095372!2d90.38360314090167!3d23.871651609490996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c40fb857cb01%3A0xb6ca60a98b4c89e2!2z4KaJ4Kak4KeN4Kak4Kaw4Ka-IOCmuOCnh-CmleCnjeCmn-CmsC3gp6fgp6gsIOCmquCmvuCmsOCnjeCmlQ!5e0!3m2!1sen!2sbd!4v1703415435068!5m2!1sen!2sbd"
+                                frameborder="0">
+                            </iframe>
+                        </div>
+                        <div class="about_detels_sidebar_author">
+                            <img src="images/sidebar_author_img.jpg" alt="image" class="img-fluid">
+                            <div class="text">
+                                <a class="title" href="#">Dianne Ameter</a>
+                                <p>Member Since June 2021</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>

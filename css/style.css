@@ -1036,6 +1036,8 @@ button {
     -ms-transform: scaleY(1);
     -o-transform: scaleY(1);
     visibility: visible;
+    background: var(--colorWhite) !important;
+    z-index: 11;
 }
 
 /* banner end */
@@ -3339,26 +3341,322 @@ footer .footer_banner {
 /*============================
     HOTEL DETELS PASE END
 ============================*/
+.about_detels_sidebar_book {
+    margin-top: 25px;
+}
+
+.booking_tabs {
+    border: 1px solid rgba(4, 6, 24, 0.10);
+    padding: 25px;
+}
+
+.about_detels_sidebar .nav-tabs {
+    justify-content: center;
+    border: none;
+    gap: 10px;
+}
+
+.about_detels_sidebar .nav-link {
+    background: rgba(4, 6, 24, 0.06);
+    color: var(--colorBlack);
+    font-size: 15px;
+    font-weight: 500;
+    border-radius: 0;
+    padding: 15px 66px;
+    border: 0;
+}
+
+
+.about_detels_sidebar .nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
+    color: var(--colorWhite);
+    background: var(--colorPrimary);
+    border: none;
+}
+
+.about_detels_sidebar_book .booking_top {
+    margin-top: 25px;
+}
+
+.about_detels_sidebar_book form ul {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+    border: 1px solid rgba(4, 6, 24, 0.10);
+    border-right: 0;
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+
+.about_detels_sidebar_book form ul li {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    border-bottom: 1px solid rgba(4, 6, 24, 0.10);
+    width: 50%;
+    padding: 10px;
+    position: relative;
+    z-index: 9;
+    border-right: 1px solid rgba(4, 6, 24, 0.10);
+}
+
+.about_detels_sidebar_book form ul li:last-child {
+    border-bottom: 0;
+    width: 100%;
+    padding: 0;
+}
+
+.about_detels_sidebar_book form ul li input {
+    padding: 0 10px;
+    border: none;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.about_detels_sidebar_book form ul li .icon {
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    color: var(--colorBlack);
+    font-size: 18px;
+    font-weight: 500;
+    border-right: 1px solid rgba(4, 6, 24, 0.10);
+}
+
+.about_detels_sidebar_book form ul li .text {
+    width: 75%;
+}
+
+.about_detels_sidebar_book form ul li h3 {
+    color: var(--paraColor);
+    font-size: 12px;
+    font-weight: 500;
+    padding-left: 10px;
+    margin-bottom: 5px;
+}
+
+.about_detels_sidebar_book .quentity_dropdown {
+    position: absolute;
+    top: 20px;
+    margin-top: 50px;
+    width: auto;
+    min-width: 250px;
+    padding: 20px;
+    height: auto;
+    min-height: 200px;
+    left: 0;
+    background: var(--colorWhite);
+    border: 1px solid #eee;
+    overflow: hidden;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    transform: scaleY(0);
+    transform-origin: top;
+    opacity: 0;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+    z-index: 1;
+    -webkit-transform: scaleY(0);
+    -moz-transform: scaleY(0);
+    -ms-transform: scaleY(0);
+    -o-transform: scaleY(0);
+}
+
+.about_detels_sidebar_book .quentity_dropdown.show_qnty {
+    opacity: 1;
+    transform: scaleY(1);
+    -webkit-transform: scaleY(1);
+    -moz-transform: scaleY(1);
+    -ms-transform: scaleY(1);
+    -o-transform: scaleY(1);
+}
+
+.about_detels_sidebar_book .quentity_area {
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(4, 6, 24, 0.10);
+    padding-bottom: 15px;
+}
+
+.about_detels_sidebar_book .quentity_area p {
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--colorBlack);
+}
+
+.about_detels_sidebar_book .quentity_area .qnty_item button {
+    width: 35px;
+    height: 35px;
+    line-height: 32px;
+    text-align: center;
+    border-radius: 50% !important;
+    background: none;
+    border: 1px solid #eee;
+    transition: all linear .3s;
+    font-size: 13px;
+    margin: 0;
+    padding: 0;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+    -webkit-border-radius: 50% !important;
+    -moz-border-radius: 50% !important;
+    -ms-border-radius: 50% !important;
+    -o-border-radius: 50% !important;
+}
+
+.about_detels_sidebar_book .quentity_area .qnty_item input {
+    width: 40px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.about_detels_sidebar_book .quentity_area {
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(4, 6, 24, 0.10);
+    padding-bottom: 15px;
+}
+
+.about_detels_sidebar_book .quentity_area p {
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--colorBlack);
+}
+
+.about_detels_sidebar_book .quentity_area .qnty_item button {
+    width: 35px;
+    height: 35px;
+    line-height: 32px;
+    text-align: center;
+    border-radius: 50% !important;
+    background: none;
+    border: 1px solid #eee;
+    transition: all linear .3s;
+    font-size: 13px;
+    margin: 0;
+    padding: 0;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+    -webkit-border-radius: 50% !important;
+    -moz-border-radius: 50% !important;
+    -ms-border-radius: 50% !important;
+    -o-border-radius: 50% !important;
+}
+
+.about_detels_sidebar_book .quentity_area {
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(4, 6, 24, 0.10);
+    padding-bottom: 15px;
+}
+
+.about_detels_sidebar_book .quentity_area .qnty_item input {
+    width: 40px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.about_detels_sidebar_book form .common_btn {
+    width: 100%;
+}
 
 
 
+.sidebar_inquery label {
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--colorBlack);
+    display: block;
+    margin-bottom: 5px;
+    margin-top: 15px;
+}
 
+.about_detels_sidebar_map {
+    height: 270px;
+    margin-top: 25px;
+}
 
+.about_detels_sidebar_map iframe {
+    border: 0;
+    width: 100%;
+    height: 100%;
+}
 
+.about_detels_sidebar_author {
+    height: 400px;
+    margin-top: 25px;
+    position: relative;
+}
 
+.about_detels_sidebar_author .text {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: var(--colorWhite);
+    width: 86%;
+    margin-left: 7%;
+    margin-bottom: 20px;
+    box-shadow: 0px 20px 40px 0px rgba(4, 6, 24, 0.20);
+    padding: 20px;
+    text-align: center;
+}
 
+.about_detels_sidebar_author .text a,
+.about_detels_sidebar_author .text h3 {
+    color: var(--colorBlack);
+    display: inline-block;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+    padding-right: 20px;
+    position: relative;
+}
 
+.about_detels_sidebar_author .text a:hover,
+.about_detels_sidebar_author .text h3:hover {
+    color: var(--colorPrimary);
+}
 
-
-
-
-
-
-
-
-
-
-
+.about_detels_sidebar_author .text a::after,
+.wsus__sidebar_author .text h3::after {
+    position: absolute;
+    content: "";
+    background: url(../images/blue_badge.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 13px;
+    height: 12px;
+    top: 8px;
+    right: 0;
+}
 
 /*============================
     ABOUT PASE START

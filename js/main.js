@@ -50,8 +50,6 @@ $(function () {
 
 
 
-
-
     //======destinations slider====== 
     $('.destination_slider').slick({
         slidesToShow: 4,
@@ -228,6 +226,19 @@ $(function () {
     });
 
 
+    //======= side bar quntty ========
+    $(".guest_input").on("click", function (event) {
+        $(".quentity_dropdown").toggleClass("show_qnty");
+        event.stopPropagation();
+    });
+
+    $('body').click(function (event) {
+        if ($(".quentity_dropdown").hasClass("show_qnty")) {
+            if (!$(event.target).closest('.guest').length) {
+                $(".quentity_dropdown").removeClass("show_qnty");
+            }
+        }
+    });
 
 
 

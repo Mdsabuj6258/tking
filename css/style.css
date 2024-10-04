@@ -3659,6 +3659,101 @@ footer .footer_banner {
     right: 0;
 }
 
+
+.room_avelity {}
+
+.single_room_cart {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+    padding: 10px;
+    margin: 0 12px;
+
+}
+
+.single_room_cart .img {
+    height: 210px;
+    overflow: hidden;
+    position: relative;
+}
+
+.single_room_cart .img span {
+    position: absolute;
+    content: "";
+    background: var(--colorSecondary);
+    color: var(--colorWhite);
+    top: 20px;
+    left: 20px;
+    padding: 4px 10px;
+}
+
+.single_room_cart .text {}
+
+.single_room_cart .text a {
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+.single_room_cart .text ul {
+    gap: 15px;
+}
+
+.single_room_cart .text ul li {
+    text-align: center;
+}
+
+.single_room_cart .text ul li p {}
+
+.single_room_cart .footer {
+    border-top: 1px solid rgba(4, 6, 24, 0.10);
+    padding-top: 20px;
+    margin-top: 25px;
+}
+
+
+
+
+.single_room_cart ul li p {
+    display: block;
+    width: 40px;
+    height: 40px;
+    border: 1px solid rgba(4, 6, 24, 0.10);
+    padding: 6px;
+}
+
+
+.room_detels_slider .slick-dots {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    align-items: center;
+    margin-top: 30px;
+    justify-content: center;
+}
+
+.room_detels_slider .slick-dots li button {
+    width: 12px;
+    height: 12px;
+    border: 1px solid var(--colorBlack);
+    font-size: 0;
+    background: none;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.room_detels_slider .slick-dots li.slick-active button {
+    background: var(--colorBlack);
+}
+
+
+
+
 /*============================
     ABOUT PASE START
 ============================*/

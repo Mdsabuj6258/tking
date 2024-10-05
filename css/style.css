@@ -3342,9 +3342,6 @@ footer .footer_banner {
 /*============================
     HOTEL DETELS PASE END
 ============================*/
-.about_detels_sidebar_book {
-    margin-top: 25px;
-}
 
 .booking_tabs {
     border: 1px solid rgba(4, 6, 24, 0.10);
@@ -3751,8 +3748,105 @@ footer .footer_banner {
     background: var(--colorBlack);
 }
 
+.review_header {
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+    padding: 20px 0 10px 0;
+}
+
+.review_header .nice-select {
+    border-radius: 0;
+    border: 0;
+    width: 100%;
+}
+
+.review_header .nice-select .list {
+    width: 100px;
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+}
+
+.single_review_author {
+    gap: 15px;
+    align-items: center;
+}
+
+.single_review_author .img {
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    line-height: 60px;
+}
+
+.single_review .ratting {
+    margin-bottom: 10px;
+}
+
+.single_review_author .text h3 {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.review_area .form-check-input {
+    padding: 0;
+    font-size: 18px;
+}
+
+.review_area .form-check-label {
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--paraColor);
+}
+
+.review_area form {
+    border-top: 1px solid #eee;
+    padding-top: 30px;
+    margin-top: 50px;
+}
+
+.review_area form h3 {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
 
 
+
+
+
+.review_area form span {
+    margin-bottom: 35px;
+}
+
+.review_area form p {
+    font-size: 14px;
+    font-weight: 400;
+    margin: 10px 0;
+}
+
+.review_area form p i {}
+
+.review_area form .input {
+    margin-bottom: 20px;
+    margin-top: 35px;
+}
+
+.review_area form label {
+    color: var(--colorBlack);
+    font-size: 13px;
+    font-weight: 500;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.review_area form .input label {}
+
+.review_area form .input input {}
+
+.review_area form .textarea {}
 
 /*============================
     ABOUT PASE START

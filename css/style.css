@@ -3154,7 +3154,9 @@ footer .footer_banner {
     height: 570px;
 }
 
+.room_detels .nextArrow,
 .hotel_detels .nextArrow,
+.room_detels .prevArrow,
 .hotel_detels .prevArrow {
     position: absolute;
     top: 50%;
@@ -3167,6 +3169,7 @@ footer .footer_banner {
     z-index: 1;
 }
 
+.room_detels .prevArrow,
 .hotel_detels .prevArrow {
     right: auto;
     left: -8px;
@@ -3336,12 +3339,6 @@ footer .footer_banner {
 }
 
 
-
-
-
-/*============================
-    HOTEL DETELS PASE END
-============================*/
 
 .booking_tabs {
     border: 1px solid rgba(4, 6, 24, 0.10);
@@ -3657,8 +3654,6 @@ footer .footer_banner {
 }
 
 
-.room_avelity {}
-
 .single_room_cart {
     box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
     padding: 10px;
@@ -3813,10 +3808,6 @@ footer .footer_banner {
     margin-bottom: 10px;
 }
 
-
-
-
-
 .review_area form span {
     margin-bottom: 35px;
 }
@@ -3842,11 +3833,208 @@ footer .footer_banner {
     margin-bottom: 10px;
 }
 
-.review_area form .input label {}
+/*============================
+    HOTEL DETELS PASE END
+============================*/
 
-.review_area form .input input {}
+/*============================
+    ROOM DETELS PASE END
+============================*/
+.room_detels .about_detels_sidebar .nav-link {
+    padding: 15px 54px;
+}
 
-.review_area form .textarea {}
+/*============================
+    ROOM DETELS PASE END
+============================*/
+
+
+/*============================
+    BOAT LISI VIEW PASE START
+============================*/
+
+/*============================
+    BOAT LISI VIEW PASE END
+============================*/
+.boat_list_view .hotel_list_text .location::after {
+    top: 13px;
+    background: var(--colorBlack);
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.boat_list_view .hotel_list_text .location {
+    padding-left: 25px;
+}
+
+.boat_list_view .hotel_list_text ul {
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.boat_list_view .hotel_list_text ul li {
+    width: 40px;
+    height: 40px;
+    border: 1px solid rgba(4, 6, 24, 0.10);
+    padding: 6px;
+}
+
+/*============================
+    BOAT GRID VIEW PASE START
+============================*/
+
+
+.Boat_grid_View .text .location {
+    padding-left: 25px;
+}
+
+.Boat_grid_View .text .location::after {
+    top: 13px;
+    background: var(--colorBlack);
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.Boat_grid_View .text .icon {
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.Boat_grid_View .text .icon li {
+    width: 40px;
+    height: 40px;
+    border: 1px solid rgba(4, 6, 24, 0.10);
+    padding: 6px;
+}
+
+.Boat_grid_View .text .location {
+    margin-top: 0;
+}
+
+/*============================
+    BOAT GRID VIEW PASE END
+============================*/
+
+
+/*============================
+    BOAT DETELS PASE START
+============================*/
+
+
+.boat_avelity .text .icon {
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.boat_avelity .text .icon li {
+    width: 40px;
+    height: 40px;
+    border: 1px solid rgba(4, 6, 24, 0.10);
+    padding: 6px;
+}
+
+
+.boat_avelity .text .location {
+    padding-left: 25px;
+}
+
+.boat_detels .text .location::after {
+    top: 13px;
+    background: var(--colorBlack);
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.boat_detels .text .location {
+    margin-top: 0;
+}
+
+.car_slider_small_img {
+    margin: 0px 5px;
+    cursor: pointer;
+}
+
+
+
+.boat_detels .nextArrow,
+.boat_detels .prevArrow {
+    position: absolute;
+    top: 50%;
+    right: -20px;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    z-index: 1;
+}
+
+
+.boat_detels .prevArrow {
+    right: auto;
+    left: -25px;
+    border: none;
+}
+
+.boat_avelity .filter_item {
+    margin: 10px 12px 20px 12px;
+    background: var(--colorWhite);
+    box-shadow: rgb(100 100 111 / 13%) 0px 2px 14px 0px;
+    padding-top: 1px;
+}
+
+.boat_avelity .slick-dots {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    align-items: center;
+    margin-top: 51px;
+    margin-left: 47%;
+
+}
+
+.boat_avelity .slick-dots li button {
+    width: 12px;
+    height: 12px;
+    border: 1px solid var(--colorBlack);
+    font-size: 0;
+    background: none;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.boat_avelity .slick-dots li.slick-active button {
+    background: var(--colorBlack);
+}
+
+.wsus__common_card {}
+
+/*============================
+    BOAT DETELS PASE END
+============================*/
 
 /*============================
     ABOUT PASE START

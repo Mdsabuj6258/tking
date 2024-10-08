@@ -3808,9 +3808,40 @@ footer .footer_banner {
     margin-bottom: 10px;
 }
 
-.review_area form span {
-    margin-bottom: 35px;
+.select_rating {
+    display: flex;
+    gap: 5px;
+    align-items: center;
 }
+
+.select_rating i {
+    font-size: 18px;
+    color: var(--paraColor);
+    cursor: pointer;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.select_rating i:hover,
+.select_rating i.active {
+    color: var(--ratingColor);
+}
+
+.review_area form .rating i {
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.review_area form .rating i:hover {
+    color: var(--ratingColor);
+}
+
 
 .review_area form p {
     font-size: 14px;
@@ -4030,11 +4061,450 @@ footer .footer_banner {
     background: var(--colorBlack);
 }
 
-.wsus__common_card {}
-
 /*============================
     BOAT DETELS PASE END
 ============================*/
+
+
+
+/*============================
+    BLOG DETELS PASE START
+============================*/
+.blog_detels_banner {
+    background: #EFF5FC;
+}
+
+.blog_detels_banner_text {
+    padding: 110px 80px;
+}
+
+.blog_detels_banner_text ul {
+    gap: 20px;
+}
+
+.blog_detels_banner_text ul li {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.blog_detels_banner_text ul li span {
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    line-height: 15px;
+}
+
+.blog_detels_banner_text h1 {
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 50px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+.blog_detels_banner_text p {
+    width: 75%;
+}
+
+.blog_detels_banner_img {
+    height: 470px;
+    position: relative;
+}
+
+.blog_detels_banner_img span {
+    position: absolute;
+    content: "";
+    top: 40px;
+    left: 40px;
+    color: var(--colorWhite);
+    background: var(--colorRed);
+    padding: 4px 10px;
+}
+
+.blog_detels_text p {
+    margin-bottom: 30px;
+}
+
+.blog_detels_text .quot {
+    position: relative;
+    padding: 35px 160px 35px 40px;
+    background: var(--colorWhite);
+    box-shadow: -3px 0px 0px 0px #0E77F3, 0px 10px 70px 0px rgba(4, 6, 24, 0.10);
+    color: var(--colorBlack);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    margin: 55px 0px;
+}
+
+.blog_detels_text .quot::after {
+    position: absolute;
+    content: "";
+    background: url(../images/quot_icon_2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 80px;
+    height: 55px;
+    top: 50%;
+    right: 40px;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+}
+
+.blog_detels_text h1,
+.blog_detels_text h2,
+.blog_detels_text h3,
+.blog_detels_text h4,
+.blog_detels_text h3,
+.blog_detels_text h5,
+.blog_detels_text h6 {
+    margin-bottom: 25px;
+    font-weight: 500;
+    max-width: 70%;
+    line-height: 40px;
+}
+
+.blog_detels_text h1 {
+    font-size: 34px;
+}
+
+.blog_detels_text h2 {
+    font-size: 30px;
+}
+
+.blog_detels_text h3 {
+    font-size: 26px;
+}
+
+.blog_detels_text h4 {
+    font-size: 22px;
+}
+
+.blog_detels_text h5,
+
+.blog_detels_text h6 {
+    font-size: 18px;
+}
+
+.blog_detels_text .detels_small_img {
+    margin-bottom: 50px;
+}
+
+.blog_detels_text .detels_small_img .img {
+    height: 270px;
+}
+
+.blog_detels_text .tags_area {
+    border-bottom: 1px solid rgba(4, 6, 24, 0.06);
+    border-top: 1px solid rgba(4, 6, 24, 0.06);
+    padding: 30px 0px 40px 0px;
+}
+
+.blog_detels_text .tags_area h3 {
+    margin-bottom: 10px;
+}
+
+
+.blog_detels_text .tags_area .tags_item ul {
+    gap: 5px;
+}
+
+.blog_detels_text .tags_area .tags_item ul li a {
+    background: rgba(255, 255, 255, 0.00);
+    border: 1px solid rgba(4, 6, 24, 0.10);
+    padding: 8px;
+    color: var(--paraColor);
+    font-size: 14px;
+    font-weight: 500;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.blog_detels_text .tags_area .tags_item ul li a:hover {
+    background: var(--bs-blue);
+    color: var(--colorWhite);
+    border-color: var(--colorPrimary);
+}
+
+.blog_detels_text .tags_area .tags_socal_icon ul {
+    gap: 10px;
+}
+
+
+.blog_detels_text .tags_area .tags_socal_icon ul li a {
+    color: var(--colorWhite);
+    background: var(--colorPrimary);
+    height: 35px;
+    width: 35px;
+    line-height: 35px;
+    border: 1px solid var(--colorPrimary);
+    text-align: center;
+    border-radius: 50%;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.blog_detels_text .tags_area .tags_socal_icon ul li a:hover {
+    color: var(--colorPrimary);
+    background: var(--colorWhite);
+}
+
+.next_pev_button {
+    background: #EFF5FC;
+    padding: 25px 30px 22px 30px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+
+.next_pev_button li a span {
+    border: 1px solid rgb(4 6 24 / 26%);
+    color: var(--paraColor);
+    font-size: 13px;
+    font-weight: 500;
+    padding: 6px 16px;
+    margin-bottom: 5px;
+    display: inline-block;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.next_pev_button li a span:hover {
+    background: var(--colorPrimary);
+    color: var(--colorWhite);
+    border-color: var(--colorPrimary);
+}
+
+.next_pev_button li a p {
+    color: var(--colorBlack);
+    font-size: 15px;
+    font-weight: 500;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    max-width: 80%;
+    margin: 0;
+}
+
+.next_pev_button li.next {
+    text-align: right;
+}
+
+.next_pev_button li.next a p {
+    margin-left: auto;
+}
+
+.comment_area {}
+
+.comment_area h2 {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+
+.comment_area h4 {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.comment_area .img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 15px;
+}
+
+
+.comment_area .single_comment_reply,
+.comment_area .single_comment {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 60px;
+}
+
+.comment_area .single_comment_reply .text {
+    width: 90.8%;
+}
+
+.comment_area .single_comment .text {
+    width: 91.8%;
+}
+
+.comment_area .single_comment_reply span,
+.comment_area .single_comment span {
+    margin-top: 20px;
+    display: inline-block;
+}
+
+.comment_area .single_comment .text h4 {}
+
+.comment_area .single_comment_reply .text p,
+.comment_area .single_comment .text p {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.comment_area .single_comment_reply .text p a,
+.comment_area .single_comment .text p a {
+    color: var(--colorBlack);
+    background: #747d8721;
+    padding: 6px 10px;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.comment_area .single_comment_reply .text p a:hover,
+.comment_area .single_comment .text p a:hover {
+    background: var(--colorPrimary);
+    color: var(--colorWhite);
+}
+
+.blog_sidebar {}
+
+.search_wized {}
+
+.search_wized form {
+    position: relative;
+}
+
+.search_wized form input {}
+
+.search_wized form button {
+    position: absolute;
+    content: "";
+    right: 10px;
+    top: 10px;
+    background: var(--colorWhite);
+    color: var(--colorBlack);
+    padding: 4px 10px;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.search_wized form button:hover {
+    background: var(--colorPrimary);
+    color: var(--colorWhite);
+}
+
+.blog_sidebar ul {}
+
+.blog_sidebar ul li {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    align-items: center;
+}
+
+.blog_sidebar ul li .img {
+    height: 100px;
+    width: 90px;
+    overflow: hidden;
+    margin-right: 20px;
+}
+
+.blog_sidebar ul li .text {
+    width: 68%;
+}
+
+.blog_sidebar ul li .text p span {
+    display: inline-block;
+}
+
+.blog_sidebar ul li .text .title {
+    font-size: 16px;
+}
+
+.blog_sidbar_category {}
+
+.blog_sidbar_category ul {}
+
+.blog_sidbar_category ul li {}
+
+.blog_sidbar_category ul li a {
+    color: var(--paraColor);
+    font-size: 15px;
+    font-weight: 500;
+    position: relative;
+    border-bottom: 1px solid rgba(4, 6, 24, 0.10);
+    display: block;
+    padding: 10px 0px 10px 15px;
+    width: 100%;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.blog_sidbar_category ul li a::after {
+    position: absolute;
+    content: "";
+    height: 5px;
+    width: 5px;
+    background: var(--paraColor);
+    top: 18px;
+    left: 0px;
+    border-radius: 50%;
+}
+
+.blog_sidbar_category ul li:last-child a {
+    padding-bottom: 0;
+    border-bottom: 0;
+}
+
+.blog_sidbar_category ul li a:hover {
+    color: var(--colorSecondary);
+}
+
+/*============================
+    BLOG DETELS PASE END
+============================*/
+
+
+.wsus__sidebar_blog_category ul li a {
+    position: relative;
+    color: var(--paraColor);
+    font-size: 15px;
+    font-weight: 500;
+
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+
+
+
 
 /*============================
     ABOUT PASE START

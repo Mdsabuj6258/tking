@@ -3634,13 +3634,12 @@ footer .footer_banner {
     position: relative;
 }
 
-.about_detels_sidebar_author .text a:hover,
-.about_detels_sidebar_author .text h3:hover {
+.about_detels_sidebar_author .text a:hover {
     color: var(--colorPrimary);
 }
 
 .about_detels_sidebar_author .text a::after,
-.wsus__sidebar_author .text h3::after {
+.about_detels_sidebar_author .text h3::after {
     position: absolute;
     content: "";
     background: url(../images/blue_badge.png);
@@ -4502,9 +4501,256 @@ footer .footer_banner {
     -o-transition: all linear .3s;
 }
 
+.sidebar_contact {
+    background: #EFF5FC;
+    border: none;
+    position: relative;
+
+}
+
+.sidebar_contact .text {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 40px;
+}
+
+.sidebar_contact .text p {
+    color: rgba(255, 255, 255, 0.70);
+    font-weight: 600;
+    display: block;
+    width: 100%;
+    margin-bottom: 5px;
+    position: relative;
+    padding-left: 10px;
+}
+
+.sidebar_contact .text h3 {
+    color: var(--colorWhite);
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.sidebar_contact .text a {
+    color: var(--colorWhite);
+    font-size: 14px;
+    font-weight: 600;
+    display: block;
+    padding-left: 55px;
+    position: relative;
+}
+
+.sidebar_contact .text a span {
+    color: rgba(255, 255, 255, 0.70);
+    font-size: 12px;
+    font-weight: 600;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.sidebar_contact .text a::after {
+    position: absolute;
+    content: "";
+    background: url(../images/call_icon_white.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 45px;
+    height: 45px;
+    padding: 10px;
+    top: 1px;
+    left: 0;
+    background-color: rgba(255, 255, 255, 0.10);
+    border-radius: 50%;
+}
+
+.sidebar_contact .text p::after {
+    position: absolute;
+    content: "";
+    width: 5px;
+    height: 5px;
+    background: rgba(255, 255, 255, 0.70);
+    top: 10px;
+    left: 0;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.agent_profile_img {
+    height: 100%;
+    margin: 0;
+}
+
+.agent_profile_text {
+    margin-left: 50px;
+}
+
+.agent_profile_text h2 {
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.agent_profile_text p {
+    line-height: 26px;
+}
+
+.agent_profile_text .info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 35px;
+    gap: 30px;
+}
+
+.agent_profile_text .info li {
+    width: 47%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.agent_profile_text .info li .icon {
+    width: 45px;
+    height: 45px;
+    background: rgba(4, 6, 24, 0.10);
+    border-radius: 50%;
+    padding: 12px;
+    line-height: 0;
+    margin-right: 12px;
+}
+
+.agent_profile_text .info li .text span {
+    display: block;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.agent_profile_text .info li .text a {
+    color: var(--colorBlack);
+    font-size: 14px;
+    font-weight: 500;
+    display: block;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.agent_profile_text .link {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 6px;
+    margin-top: 40px;
+}
+
+.agent_profile_text .link li:first-child {
+    width: 100%;
+}
+
+.agent_profile_text .link li a {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 50%;
+    color: var(--colorWhite);
+    background: var(--colorPrimary);
+    border: 1px solid var(--colorPrimary);
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.agent_profile_text .link li a:hover {
+    color: var(--colorPrimary);
+    background: var(--colorWhite);
+}
+
+.agent_profile .filter::after {
+    display: none;
+}
+
+.agent_profile .filter .nav-tabs {
+    margin-left: 0;
+    background: none;
+}
 
 
 
+.agent_profile .filter .nav-tabs .nav-link.active::before {
+    display: none;
+}
+
+.agent_profile .filter .nav-tabs .nav-link.active::after {
+    display: none;
+}
+
+.agent_profile .filter .nav-tabs .nav-link {
+    border: none;
+}
+
+.agent_profile .filter .nav-link.active {
+    box-shadow: none;
+    border-bottom: 2px solid var(--colorPrimary);
+}
+
+.agent_profile .filter .nav-link span {
+    display: inline-block;
+    width: 20px;
+    height: auto;
+}
+
+.agent_btn {
+    text-align: center;
+}
+
+.agent_profile_area .common_btn {
+    padding: 12px 58px;
+}
+
+.review_area_btn {
+    border-top: 1px solid#eee;
+    padding-top: 60px;
+    text-align: center;
+}
+
+.review_area_btn .common_btn {
+    padding: 12px 58px;
+}
+
+.agent_sidebar_contact {
+    background: #EFF5FC;
+    border: none;
+}
+
+.agent_sidebar_contact form label {
+    color: var(--colorBlack);
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: capitalize;
+    margin-bottom: 5px;
+    display: block;
+    margin-top: 20px;
+}
+
+.agent_sidebar_contact form input,
+.agent_sidebar_contact form textarea {
+    box-shadow: 0px 1px 1px 0px rgba(4, 6, 24, 0.10);
+    border: none;
+    border-radius: 0;
+}
+
+.agent_profile .blog_sidbar_category ul li {
+    margin-top: 10px;
+}
 
 /*============================
     ABOUT PASE START
@@ -4513,3 +4759,93 @@ footer .footer_banner {
 /*============================
     SERVICE PASE END
 ============================*/
+
+.privacy_policy_text h3,
+.privacy_policy_text h4 {
+    font-size: 22px;
+}
+
+.privacy_policy_text h1,
+.privacy_policy_text h2,
+.privacy_policy_text h3,
+.privacy_policy_text h4,
+.privacy_policy_text h5,
+.privacy_policy_text h6 {
+    font-weight: 700;
+    margin-top: 20px;
+}
+
+.privacy_policy_text p {
+    margin-top: 20px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.privacy_policy_text ul,
+.privacy_policy_text ol {
+    margin-top: 20px;
+    margin-left: 15px;
+}
+
+.privacy_policy_text ul li,
+.privacy_policy_text ol li {
+    font-size: 15px;
+    font-weight: 400;
+    color: var(--paraColor);
+    margin-bottom: 5px;
+    padding-left: 15px;
+    position: relative;
+}
+
+.privacy_policy_text ul li::after,
+.privacy_policy_text ol li::after {
+    position: absolute;
+    content: "";
+    width: 5px;
+    height: 5px;
+    background: var(--colorBlack);
+    top: 11px;
+    left: 0px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+.faq_page .section_heading_2 h2 {
+    text-align: center;
+    max-width: 70%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+.faq_page .accordian_area .accordion-body h3 {
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.faq_page .accordian_area .accordion-button {
+    border: none !important;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 20px;
+    background: var(--colorWhite);
+    color: var(--colorBlack);
+    box-shadow: none !important;
+}
+
+.faq_page .accordian_area .accordion-item {
+    border: 1px solid rgba(4, 6, 24, 0.10) !important;
+    border-radius: 0;
+    margin-top: 10px;
+}

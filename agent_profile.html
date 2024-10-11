@@ -1,0 +1,971 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, target-densityDpi=device-dpi" />
+    <title>Tking - Tour & Travel Agency HTML Template</title>
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/nice-select.css">
+    <link rel="stylesheet" href="css/clendar.css">
+    <link rel="stylesheet" href="css/jquery.animatedheadline.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/venobox.min.css">
+    <link rel="stylesheet" href="css/range_slider.css">
+
+    <link rel="stylesheet" href="css/spacing.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+
+
+    <!-- MENU START -->
+    <nav class="navbar navbar-expand-lg main_menu">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="images/logo.png" alt="Tking" class="img-fluid w-100">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="far fa-bars menu_icon_bar"></i>
+                <i class="far fa-times close_icon_close"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home <i
+                                class="far fa-angle-down"></i></a>
+                        <ul class="submenu">
+                            <li><a href="index.html">home style 01</a></li>
+                            <li><a href="#">home style 02</a></li>
+                            <li><a href="#">home style 03</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">about us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Categories <i class="far fa-angle-down"></i></a>
+                        <ul class="submenu">
+                            <li>
+                                <a href="#">Hotels</a>
+                                <ul class="child_menu">
+                                    <li><a href="#">Hotel Grid View</a></li>
+                                    <li><a href="#">Hotel List View</a></li>
+                                    <li><a href="#">Hotel Details</a></li>
+                                    <li><a href="#">Hotel Room Details</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">Boats</a>
+                                <ul class="child_menu">
+                                    <li><a href="#">Boat List View</a></li>
+                                    <li><a href="#">Boat Grid View</a></li>
+                                    <li><a href="#">Boat Details</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">Cars</a>
+                                <ul class="child_menu">
+                                    <li><a href="#">Car Grid View</a></li>
+                                    <li><a class="active" href="hotel_list_view.html">Car List View</a></li>
+                                    <li><a href="#">Car Details</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">Events</a>
+                                <ul class="child_menu">
+                                    <li><a href="#">Event Grid View</a></li>
+                                    <li><a href="#">Event List View</a></li>
+                                    <li><a href="event_details.html">Event Details</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">Packages</a>
+                                <ul class="child_menu">
+                                    <li><a href="packages.html">packages</a></li>
+                                    <li><a href="package_details.html">packages details</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Pages <i class="far fa-angle-down"></i></a>
+                        <ul class="submenu">
+                            <li><a href="services.html">Services</a></li>
+                            <li><a href="agent_profile.html">agent profile</a></li>
+                            <li><a href="forgot_password.html">forgot password</a></li>
+                            <li><a href="privacy_policy.html">privacy Policy</a></li>
+                            <li><a href="terms_condition.html">terms & conditions</a></li>
+                            <li><a href="payment.html">payment</a></li>
+                            <li><a href="payment_done.html">payment done</a></li>
+                            <li><a href="faq.html">FAQ's</a></li>
+                            <li><a href="error.html">404/error</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">blog <i class="far fa-angle-down"></i></a>
+                        <ul class="submenu">
+                            <li><a href="blog.html">blog</a></li>
+                            <li><a href="blog_details.html">blog details</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+                <ul class="right_menu d-flex flex-wrap align-items-center">
+                    <li>
+                        <select class="select_js">
+                            <option value="">English </option>
+                            <option value="">Japanese </option>
+                            <option value="">Korean</option>
+                            <option value="">Chinese</option>
+                            <option value="">Urdu</option>
+                        </select>
+                    </li>
+                    <li>
+                        <select class="select_js">
+                            <option value="">USD</option>
+                            <option value="">INR</option>
+                            <option value="">CNY</option>
+                            <option value="">EUR</option>
+                            <option value="">THB</option>
+                        </select>
+                    </li>
+                    <li>
+                        <a class="common_btn" href="sign_in.html">
+                            <span><img src="images/user_icon.png" alt="user" class="img-fluid"></span>
+                            Login
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- MENU END -->
+
+
+    <!-- BREADCRUMB START -->
+    <section class="breadcrumb" style="background: url(./images/breadcrumb_bg.jpg);">
+        <div class="breadcrumb_overlay">
+            <div class="container">
+                <div class="col-xl-12">
+                    <div class="breadcrumb_text">
+                        <h1>Agent Profile</h1>
+                        <ul>
+                            <li><a href="#">Home</a></li>
+                            <li>Agent Profile</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- BREADCRUMB END -->
+
+
+
+    <!-- ROOM DETELS START -->
+    <section class="agent_profile mt_120 mb_0">
+        <div class="container">
+            <div class="row justify-content-between">
+                <div class="col-xl-8">
+                    <div class="agent_profile_area filter ">
+                        <div class="row">
+                            <div class="col-xl-4">
+                                <div class="agent_profile_img about_detels_sidebar_author">
+                                    <img src="images/sidebar_author_img.jpg" alt="image" class="img-fluid">
+                                    <div class="text">
+                                        <h3>Dianne Ameter</h3>
+                                        <p>Member Since June 2021</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-8 ">
+                                <div class="agent_profile_text">
+                                    <h2>Hi, I'm Dianne Ameter</h2>
+                                    <p>It seems like you're interested in travel! If you have any specific questions or
+                                        if
+                                        there's a particular aspect of travel.</p>
+                                    <ul class="info">
+                                        <li>
+                                            <div class="icon">
+                                                <img src="images/agent_profile_icon_1.png" alt="icon" class="img-fluid">
+                                            </div>
+                                            <div class="text">
+                                                <span>Hotline:</span>
+                                                <a href="callto:1234567889">
+                                                    12345678911
+                                                </a>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="icon">
+                                                <img src="images/agent_profile_icon_2.png" alt="icon" class="img-fluid">
+                                            </div>
+                                            <div class="text">
+                                                <span>Email:</span>
+                                                <a href="mailto:1234567889">
+                                                    example@gmail.com
+                                                </a>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="icon">
+                                                <img src="images/agent_profile_icon_3.png" alt="icon" class="img-fluid">
+                                            </div>
+                                            <div class="text">
+                                                <span>Website:</span>
+                                                <a href="www.example.com">
+                                                    12345678911
+                                                </a>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="icon">
+                                                <img src="images/agent_profile_icon_4.png" alt="icon" class="img-fluid">
+                                            </div>
+                                            <div class="text">
+                                                <span>WhatsApp:</span>
+                                                <a href="callto:1234567889">
+                                                    12345678911
+                                                </a>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                    <ul class="link">
+                                        <li>
+                                            <span>Social :
+                                            </span>
+                                        </li>
+                                        <li>
+                                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                        </li>
+                                        <li>
+                                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                        </li>
+                                        <li>
+                                            <a href="#"><i class="fab fa-pinterest-p"></i></a>
+                                        </li>
+                                        <li>
+                                            <a href="#"><i class="fab fa-twitter"></i></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="filter_button mt_100">
+                            <nav>
+                                <div class="nav nav-tabs mb_40" id="nav-tab" role="tablist">
+                                    <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab"
+                                        data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home"
+                                        aria-selected="true">
+                                        <span><img src="images/hotel_icon.png" alt="icon" class="img-fluid"></span>
+                                        Hotel</button>
+                                    <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab"
+                                        data-bs-target="#nav-profile" type="button" role="tab"
+                                        aria-controls="nav-profile" aria-selected="false">
+                                        <span><img src="images/hotel_icon.png" alt="icon" class="img-fluid"></span>
+                                        Bundle & Save</button>
+                                    <button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab"
+                                        data-bs-target="#nav-contact" type="button" role="tab"
+                                        aria-controls="nav-contact" aria-selected="false">
+                                        <span><img src="images/hotel_icon.png" alt="icon" class="img-fluid"></span>
+                                        Car</button>
+                                    <button class="nav-link" id="nav-botat-tab" data-bs-toggle="tab"
+                                        data-bs-target="#nav-boat" type="button" role="tab" aria-controls="nav-boat"
+                                        aria-selected="false">
+                                        <span><img src="images/hotel_icon.png" alt="icon" class="img-fluid"></span>
+                                        Boat</button>
+                                    <button class="nav-link" id="nav-event-tab" data-bs-toggle="tab"
+                                        data-bs-target="#nav-event" type="button" role="tab" aria-controls="nav event"
+                                        aria-selected="false">
+                                        <span><img src="images/hotel_icon.png" alt="icon" class="img-fluid"></span>
+                                        Event</button>
+                                </div>
+                            </nav>
+                            <div class="tab-content" id="nav-tabContent">
+                                <!-- hotel area -->
+                                <div class="tab-pane fade show active" id="nav-home" role="tabpanel"
+                                    aria-labelledby="nav-home-tab" tabindex="0">
+                                    <div class="row">
+                                        <div class="col-xl-6">
+                                            <div class="filter_item">
+                                                <div class="img">
+                                                    <img src="images/hotel_img_1.jpg" alt="">
+                                                    <span>Featured</span>
+                                                    <a href="#"><i class="far fa-bookmark"></i></a>
+                                                    <div class="athor_img">
+                                                        <img src="images/author_img.png" alt="image" class="img-fluid">
+                                                    </div>
+                                                </div>
+                                                <div class="text">
+                                                    <p class="ratting">
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        5(168 reviws)
+                                                    </p>
+                                                    <a class="title" href="#">Sayeman Beach Hotel & Resort</a>
+                                                    <p class="location">Airport Road, Shodor Sylhet</p>
+                                                    <p class="description">Enjoy the breathtaking view of the
+                                                        nature, Relax
+                                                        and cherish your dream.</p>
+                                                    <ul class="price d-flex flex-wrap">
+                                                        <li>
+                                                            <del>$150</del> $99.00
+                                                        </li>
+                                                        <li>
+                                                            <a class="read_btn" href="#">More Details</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-xl-6">
+                                            <div class="filter_item">
+                                                <div class="img">
+                                                    <img src="images/hotel_img_2.jpg" alt="">
+                                                    <span>Featured</span>
+                                                    <a href="#"><i class="far fa-bookmark"></i></a>
+                                                    <div class="athor_img">
+                                                        <img src="images/author_img.png" alt="image" class="img-fluid">
+                                                    </div>
+                                                </div>
+                                                <div class="text">
+                                                    <p class="ratting">
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        5(168 reviws)
+                                                    </p>
+                                                    <a class="title" href="#">Grand Sylhet Hotel & Resort</a>
+                                                    <p class="location">Airport Road, Shodor Sylhet</p>
+                                                    <p class="description">Enjoy the breathtaking view of the
+                                                        nature, Relax
+                                                        and cherish your dream.</p>
+                                                    <ul class="price d-flex flex-wrap">
+                                                        <li>
+                                                            <del>$150</del> $99.00
+                                                        </li>
+                                                        <li>
+                                                            <a class="read_btn" href="#">More Details</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Bundle $ save -->
+                                <div class="tab-pane fade" id="nav-profile" role="tabpanel"
+                                    aria-labelledby="nav-profile-tab" tabindex="0">
+                                    <div class="row">
+                                        <div class="col-xl-6">
+                                            <div class="filter_item">
+                                                <div class="img">
+                                                    <img src="images/event_img_1.jpg" alt="">
+                                                    <span>Featured</span>
+                                                    <a href="#"><i class="far fa-bookmark"></i></a>
+                                                    <div class="athor_img">
+                                                        <img src="images/author_img.png" alt="image" class="img-fluid">
+                                                    </div>
+                                                </div>
+                                                <div class="text">
+                                                    <p class="ratting">
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        5(168 reviws)
+                                                    </p>
+                                                    <a class="title" href="#">What to Know Before Moving
+                                                        to Paris for 7 Day</a>
+                                                    <p class="time">Start Time: 17:00</p>
+                                                    <p class="duration">Duration: 4H</p>
+                                                    <ul class="price d-flex flex-wrap">
+                                                        <li>
+                                                            $99.00
+                                                        </li>
+                                                        <li>
+                                                            <a class="read_btn" href="#">More Details</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-xl-6">
+                                            <div class="filter_item">
+                                                <div class="img">
+                                                    <img src="images/event_img_2.jpg" alt="">
+                                                    <span>Featured</span>
+                                                    <a href="#"><i class="far fa-bookmark"></i></a>
+                                                    <div class="athor_img">
+                                                        <img src="images/author_img.png" alt="image" class="img-fluid">
+                                                    </div>
+                                                </div>
+                                                <div class="text">
+                                                    <p class="ratting">
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        5(168 reviws)
+                                                    </p>
+                                                    <a class="title" href="#">Lylan’s Famous Minibus Tour –
+                                                        Small Group Tour</a>
+                                                    <p class="time">Start Time: 17:00</p>
+                                                    <p class="duration">Duration: 4H</p>
+                                                    <ul class="price d-flex flex-wrap">
+                                                        <li>
+                                                            $150.00
+                                                        </li>
+                                                        <li>
+                                                            <a class="read_btn" href="#">More Details</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- car -->
+                                <div class="tab-pane fade" id="nav-contact" role="tabpanel"
+                                    aria-labelledby="nav-contact-tab" tabindex="0">
+                                    <div class="row">
+                                        <div class="col-xl-6">
+                                            <div class="filter_item">
+                                                <div class="img">
+                                                    <img src="images/event_img_1.jpg" alt="">
+                                                    <span>Featured</span>
+                                                    <a href="#"><i class="far fa-bookmark"></i></a>
+                                                    <div class="athor_img">
+                                                        <img src="images/author_img.png" alt="image" class="img-fluid">
+                                                    </div>
+                                                </div>
+                                                <div class="text">
+                                                    <p class="ratting">
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        5(168 reviws)
+                                                    </p>
+                                                    <a class="title" href="#">What to Know Before Moving
+                                                        to Paris for 7 Day</a>
+                                                    <p class="time">Start Time: 17:00</p>
+                                                    <p class="duration">Duration: 4H</p>
+                                                    <ul class="price d-flex flex-wrap">
+                                                        <li>
+                                                            $99.00
+                                                        </li>
+                                                        <li>
+                                                            <a class="read_btn" href="#">More Details</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-xl-6">
+                                            <div class="filter_item">
+                                                <div class="img">
+                                                    <img src="images/event_img_2.jpg" alt="">
+                                                    <span>Featured</span>
+                                                    <a href="#"><i class="far fa-bookmark"></i></a>
+                                                    <div class="athor_img">
+                                                        <img src="images/author_img.png" alt="image" class="img-fluid">
+                                                    </div>
+                                                </div>
+                                                <div class="text">
+                                                    <p class="ratting">
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        5(168 reviws)
+                                                    </p>
+                                                    <a class="title" href="#">Lylan’s Famous Minibus Tour –
+                                                        Small Group Tour</a>
+                                                    <p class="time">Start Time: 17:00</p>
+                                                    <p class="duration">Duration: 4H</p>
+                                                    <ul class="price d-flex flex-wrap">
+                                                        <li>
+                                                            $150.00
+                                                        </li>
+                                                        <li>
+                                                            <a class="read_btn" href="#">More Details</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- boat -->
+                                <div class="tab-pane fade" id="nav-boat" role="tabpanel" aria-labelledby="nav-boat-tab"
+                                    tabindex="0">
+                                    <div class="row">
+                                        <div class="col-xl-6">
+                                            <div class="filter_item">
+                                                <div class="img">
+                                                    <img src="images/event_img_1.jpg" alt="">
+                                                    <span>Featured</span>
+                                                    <a href="#"><i class="far fa-bookmark"></i></a>
+                                                    <div class="athor_img">
+                                                        <img src="images/author_img.png" alt="image" class="img-fluid">
+                                                    </div>
+                                                </div>
+                                                <div class="text">
+                                                    <p class="ratting">
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        5(168 reviws)
+                                                    </p>
+                                                    <a class="title" href="#">What to Know Before Moving
+                                                        to Paris for 7 Day</a>
+                                                    <p class="time">Start Time: 17:00</p>
+                                                    <p class="duration">Duration: 4H</p>
+                                                    <ul class="price d-flex flex-wrap">
+                                                        <li>
+                                                            $99.00
+                                                        </li>
+                                                        <li>
+                                                            <a class="read_btn" href="#">More Details</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-xl-6">
+                                            <div class="filter_item">
+                                                <div class="img">
+                                                    <img src="images/event_img_2.jpg" alt="">
+                                                    <span>Featured</span>
+                                                    <a href="#"><i class="far fa-bookmark"></i></a>
+                                                    <div class="athor_img">
+                                                        <img src="images/author_img.png" alt="image" class="img-fluid">
+                                                    </div>
+                                                </div>
+                                                <div class="text">
+                                                    <p class="ratting">
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        5(168 reviws)
+                                                    </p>
+                                                    <a class="title" href="#">Lylan’s Famous Minibus Tour –
+                                                        Small Group Tour</a>
+                                                    <p class="time">Start Time: 17:00</p>
+                                                    <p class="duration">Duration: 4H</p>
+                                                    <ul class="price d-flex flex-wrap">
+                                                        <li>
+                                                            $150.00
+                                                        </li>
+                                                        <li>
+                                                            <a class="read_btn" href="#">More Details</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- event -->
+                                <div class="tab-pane fade" id="nav-event" role="tabpanel"
+                                    aria-labelledby="nav-event-tab" tabindex="0">
+                                    <div class="row">
+                                        <div class="col-xl-6">
+                                            <div class="filter_item">
+                                                <div class="img">
+                                                    <img src="images/event_img_1.jpg" alt="">
+                                                    <span>Featured</span>
+                                                    <a href="#"><i class="far fa-bookmark"></i></a>
+                                                    <div class="athor_img">
+                                                        <img src="images/author_img.png" alt="image" class="img-fluid">
+                                                    </div>
+                                                </div>
+                                                <div class="text">
+                                                    <p class="ratting">
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        5(168 reviws)
+                                                    </p>
+                                                    <a class="title" href="#">What to Know Before Moving
+                                                        to Paris for 7 Day</a>
+                                                    <p class="time">Start Time: 17:00</p>
+                                                    <p class="duration">Duration: 4H</p>
+                                                    <ul class="price d-flex flex-wrap">
+                                                        <li>
+                                                            $99.00
+                                                        </li>
+                                                        <li>
+                                                            <a class="read_btn" href="#">More Details</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-xl-6">
+                                            <div class="filter_item">
+                                                <div class="img">
+                                                    <img src="images/event_img_2.jpg" alt="">
+                                                    <span>Featured</span>
+                                                    <a href="#"><i class="far fa-bookmark"></i></a>
+                                                    <div class="athor_img">
+                                                        <img src="images/author_img.png" alt="image" class="img-fluid">
+                                                    </div>
+                                                </div>
+                                                <div class="text">
+                                                    <p class="ratting">
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        5(168 reviws)
+                                                    </p>
+                                                    <a class="title" href="#">Lylan’s Famous Minibus Tour –
+                                                        Small Group Tour</a>
+                                                    <p class="time">Start Time: 17:00</p>
+                                                    <p class="duration">Duration: 4H</p>
+                                                    <ul class="price d-flex flex-wrap">
+                                                        <li>
+                                                            $150.00
+                                                        </li>
+                                                        <li>
+                                                            <a class="read_btn" href="#">More Details</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="agent_btn mt_60">
+                            <a class="common_btn m-auto" href="#">See More Hotel <i class="fal fa-angle-down"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3">
+                    <div class="left_sidebar_wizard agent_sidebar_contact">
+                        <h3>Contact Info</h3>
+                        <form>
+                            <label>Your Name</label>
+                            <input type="text" placeholder="Enter your Name">
+                            <label>Your email</label>
+                            <input type="E-mail" placeholder="Enter your email">
+                            <label>Your Number</label>
+                            <input type="number" placeholder="Enter Your Number">
+                            <label>Description</label>
+                            <textarea rows="5" placeholder="Enter your Description"></textarea>
+                            <button type="submit" class="common_btn w-100 mt_20">Send Massege</button>
+                        </form>
+                    </div>
+                    <div class="blog_sidebar">
+                        <div class="left_sidebar_wizard blog_sidbar_category">
+                            <h3>Service Locations</h3>
+                            <ul>
+                                <li><a href="#">Sydney, Australia </a></li>
+                                <li><a href="#">Moments</a></li>
+                                <li><a href="#">Chicago, USA</a></li>
+                                <li><a href="#">NewYork, USA</a></li>
+                                <li><a href="#">Paris, France</a></li>
+                                <li><a href="#">Tokyo, Japan</a></li>
+                            </ul>
+                        </div>
+                        <div class="left_sidebar_wizard blog_sidbar_category">
+                            <h3>Categories</h3>
+                            <ul>
+                                <li><a href="#">Travel Guides</a></li>
+                                <li><a href="#">Moments</a></li>
+                                <li><a href="#">Moments</a></li>
+                                <li><a href="#">Explore World</a></li>
+                                <li><a href="#">Vacation</a></li>
+                                <li><a href="#">Tourist Tours</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ROOM DETELS END -->
+    <!-- HOTEL DETELS REVIEW END -->
+    <section class="hotel_detels_review">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-8">
+                    <div class="review_area">
+                        <div class="review_header d-flex flex-wrap justify-content-between">
+                            <h4>
+                                03 Reviews
+                                <span class="ratting">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </span>
+                            </h4>
+                            <ul class="d-flex flex-wrap align-items-center">
+                                <li>Sort By: </li>
+                                <li> <select class="select_js">
+                                        <option value="">Ratting</option>
+                                        <option value="">5 Star</option>
+                                        <option value="">4 star</option>
+                                        <option value="">3 Star</option>
+                                        <option value="">2 Star</option>
+                                        <option value="">1 Star</option>
+                                    </select></li>
+                            </ul>
+                        </div>
+                        <div class="col-xl-12">
+                            <div class="single_review mt_50">
+                                <p class="ratting">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </p>
+                                <p>Excellent trip with great services, the food for breakfast and dinner was great.
+                                    Singhasari resorts have a large area with a great view for walking around there.It
+                                    was a
+                                    nice day to visit singhasari resorts with friends and family.</p>
+                                <div class="single_review_author d-flex flex-wrap mt_20">
+                                    <div class="img">
+                                        <img src="images/author_img.png" alt="image" class="img-fluid">
+                                    </div>
+                                    <div class="text">
+                                        <h3>Ingredia Nutrish</h3>
+                                        <p>04/09/2024</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="single_review mt_50">
+                                <p class="ratting">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </p>
+                                <p>My favorite stay in! The room is big, clean and so tidy. The cooking area and lotion
+                                    provided was the favorite parts! Will come again if I visit..</p>
+                                <div class="single_review_author d-flex flex-wrap mt_20">
+                                    <div class="img">
+                                        <img src="images/author_img_3.png" alt="image" class="img-fluid">
+                                    </div>
+                                    <div class="text">
+                                        <h3>Ingredia Nutrish</h3>
+                                        <p>04/09/2024</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="single_review mt_50">
+                                <p class="ratting">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </p>
+                                <p>favorite stay in! The room is big, clean and so tidy. The cooking area and lotion
+                                    provided was the favorite parts! Will come again if I visit..</p>
+                                <div class="single_review_author d-flex flex-wrap mt_20">
+                                    <div class="img">
+                                        <img src="images/author_img_4.png" alt="image" class="img-fluid">
+                                    </div>
+                                    <div class="text">
+                                        <h3>Ingredia Nutrish</h3>
+                                        <p>04/09/2024</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-12">
+                                <div class="review_area_btn mt_20">
+                                    <a class="common_btn" href="#">See More Reviews<i class="fal fa-angle-down"></i></a>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- HOTEL DETELS REVIEW END -->
+
+
+
+
+    <!-- FOOTER CONTACT START -->
+    <section class="footer_contact pt_120">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-9 ms-auto">
+                    <div class="footer_contact_contant d-flex flex-wrap">
+                        <div class="text">
+                            <h2>Subscribe Us</h2>
+                            <p>Subscribe us to receive updates.</p>
+                        </div>
+                        <Form>
+                            <input type="text" placeholder="Enter your email">
+                            <button class="common_btn" type="submit">Subscribe</button>
+                        </Form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- FOOTER CONTACT END -->
+
+
+    <!-- FOOTER START -->
+    <footer class="pt_100">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-4">
+                    <div class="footer_banner">
+                        <img src="images/footer_banner.jpg" alt="image" class="img-fluid">
+                    </div>
+                </div>
+                <div class="col-xl-2">
+                    <div class="footer_link">
+                        <h2>Quick Links</h2>
+                        <ul>
+                            <li>
+                                <a href="#">Tour Booking</a>
+                            </li>
+                            <li>
+                                <a href="#">News and Blog</a>
+                            </li>
+                            <li>
+                                <a href="#">Terms & Conditions
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">Privacy Policy
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">Services info</a>
+                            </li>
+                        </ul>
+
+                    </div>
+                </div>
+                <div class="col-xl-2">
+                    <div class="footer_link">
+                        <h2>Platform</h2>
+                        <ul>
+                            <li>
+                                <a href="#">About Us</a>
+                            </li>
+                            <li>
+                                <a href="#">Travel Package</a>
+                            </li>
+                            <li>
+                                <a href="#">Mobile App</a>
+                            </li>
+                            <li>
+                                <a href="#">Contact</a>
+                            </li>
+                            <li>
+                                <a href="#">Partnership</a>
+                            </li>
+                        </ul>
+
+                    </div>
+                </div>
+                <div class="col-xl-3">
+                    <div class="footer_logo">
+                        <div class="logo">
+                            <img src="images/logo_2.png" alt="logo" class="img-fluid">
+                        </div>
+                        <p>Compare and Book 15,000+ Multi-Day Tours all Over the World.</p>
+                        <ul class="d-flex flex-wrap">
+                            <li>
+                                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fab fa-behance"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer_copyright mt_50">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-12">
+                        <div class="footer_copyright_text d-flex flex-wrap">
+                            <p>© 2024 All Rights Reserved by<span>Websolutionus</span></p>
+                            <div class="img">
+                                <img src="images/footer_payment_icon.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- FOOTER END -->
+
+
+
+    <!--jquery library js-->
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <!--bootstrap js-->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery.nice-select.min.js"></script>
+    <script src="js/clender.js"></script>
+    <script src="js/jquery.animatedheadline.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/jquery.countup.min.js"></script>
+    <script src="js/venobox.min.js"></script>
+    <script src="js/range_slider.js"></script>
+
+    <!--font-awesome js-->
+    <script src="js/Font-Awesome.js"></script>
+
+    <!--main/custom js-->
+    <script src="js/main.js"></script>
+
+
+</body>
+
+</html>

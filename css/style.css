@@ -4752,14 +4752,21 @@ footer .footer_banner {
     margin-top: 10px;
 }
 
+
+/*============================
+    AGENT PROFILE PASE END
+============================*/
+
 /*============================
     ABOUT PASE START
 ============================*/
 
 /*============================
-    SERVICE PASE END
+    PRIVACY POLICY PASE END
 ============================*/
-
+/*============================
+    PRIVACY POLICY PASE START
+============================*/
 .privacy_policy_text h3,
 .privacy_policy_text h4 {
     font-size: 22px;
@@ -4813,14 +4820,14 @@ footer .footer_banner {
     -o-border-radius: 50%;
 }
 
+/*============================
+    PRIVACY POLICY PASE END
+============================*/
 
 
-
-
-
-
-
-
+/*============================
+    FAQ PASE START
+============================*/
 
 .faq_page .section_heading_2 h2 {
     text-align: center;
@@ -4848,4 +4855,147 @@ footer .footer_banner {
     border: 1px solid rgba(4, 6, 24, 0.10) !important;
     border-radius: 0;
     margin-top: 10px;
+}
+
+/*============================
+    FAQ PASE END
+============================*/
+
+
+/*============================
+    CONTACT PASE START
+============================*/
+.contact_form h3 {
+    text-align: center;
+    font-size: 46px;
+    font-weight: 700;
+    margin-bottom: 55px;
+}
+
+.contact_form form {
+    background: #EFF5FC;
+    padding: 55px 410px 120px 80px;
+    position: relative;
+}
+
+.contact_input {
+    margin-top: 20px;
+}
+
+.contact_input label {
+    color: var(--colorBlack);
+    font-size: 14px;
+    font-weight: 500;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.contact_input input,
+.contact_input textarea {
+    border: 0;
+    border-radius: 0;
+}
+
+.contact_input .form-check {
+    margin-bottom: 20px;
+}
+
+.contact_input .form-check input {
+    padding: 0;
+    border-radius: 0;
+    border: 1px solid rgb(4 6 24 / 25%);
+}
+
+.contact_img {
+    position: absolute;
+    width: 370px;
+    height: 590px;
+    right: 0;
+    bottom: 0;
+}
+
+.contact_info {
+    background: #EFF5FC;
+    padding: 50px;
+    margin-top: 25px;
+}
+
+.contact_info span {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: block;
+    border: 1px solid rgba(14, 119, 243, 0.30);
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    padding: 17px;
+}
+
+.contact_info h3 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    margin-top: 15px;
+}
+
+.contact_info p,
+.contact_info a {
+    font-size: 15px;
+    font-weight: 500;
+    color: var(--paraColor);
+    display: block;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.contact_info a:hover {
+    color: var(--colorSecondary);
+}
+
+/*============================
+    CONTACT PASE END
+============================*/
+
+.package_details .prevArrow {
+    right: auto;
+    left: -8px;
+    border: 0;
+}
+
+.package_details .nextArrow,
+.package_details .prevArrow {
+    position: absolute;
+    right: -8px;
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    z-index: 1;
+}
+
+.package_details_header ul {
+
+    align-items: center;
+}
+
+.package_details_header ul li span {
+    display: inline-block;
+    width: 15px;
+    margin-right: 8px;
+    margin-bottom: 4px;
+}
+
+.package_details_header {
+    border-bottom: 0;
+}
+
+.package_details .about_detels_sidebar .nav-link {
+    padding: 15px 54px;
 }

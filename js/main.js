@@ -107,19 +107,19 @@ $(function () {
             {
                 breakpoint: 1200,
                 settings: {
-                    slidesToShow: 3,
+                    slidesToShow: 1,
                 }
             },
             {
                 breakpoint: 992,
                 settings: {
-                    slidesToShow: 2,
+                    slidesToShow: 1,
                 }
             },
             {
                 breakpoint: 768,
                 settings: {
-                    slidesToShow: 2,
+                    slidesToShow: 1,
                     arrows: false,
                 }
             },
@@ -144,7 +144,34 @@ $(function () {
         arrows: true,
         nextArrow: '<i class="far fa-arrow-right nextArrow"></i>',
         prevArrow: '<i class="far fa-arrow-left prevArrow"></i>',
-
+        responsive: [
+            {
+                breakpoint: 1200,
+                settings: {
+                    slidesToShow: 1,
+                }
+            },
+            {
+                breakpoint: 992,
+                settings: {
+                    slidesToShow: 1,
+                }
+            },
+            {
+                breakpoint: 768,
+                settings: {
+                    slidesToShow: 1,
+                    arrows: false,
+                }
+            },
+            {
+                breakpoint: 576,
+                settings: {
+                    slidesToShow: 1,
+                    arrows: false,
+                }
+            }
+        ]
     });
 
 
@@ -449,6 +476,11 @@ $(function () {
 
 
 
+
+    //=======SMALL DEVICE MENU ICON======
+    $(".navbar-toggler").on("click", function () {
+        $(".navbar-toggler").toggleClass("show");
+    });
 
 
 

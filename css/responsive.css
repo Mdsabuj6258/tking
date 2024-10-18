@@ -1,26 +1,475 @@
-@media (min-width: 1200px) and (max-width: 1399.99px) {
-    
-      
- 
-  
-}
+@media (min-width: 1200px) and (max-width: 1399.99px) {}
 
 
 
 @media (min-width: 992px) and (max-width: 1199.99px) {
-    
-      
- 
-  
+    .main_menu .container {
+        padding: 20px 0px;
+    }
+
+    .main_menu .navbar-nav {
+        line-height: 45px;
+        background: var(--colorWhite);
+        border-top: 1px solid #ddd;
+        margin-top: 19px;
+        padding-top: 10px;
+    }
+
+    .main_menu .right_menu {
+        background: var(--colorWhite);
+        padding-bottom: 20px;
+        padding-left: 19px;
+        border-top: 1px solid #ddd;
+        margin-top: -1px;
+        padding-top: 15px;
+        border-bottom: 1px solid #ddd;
+    }
+
+    .main_menu .submenu {
+        left: 19px;
+        max-height: 250px;
+    }
+
+    .main_menu .navbar-brand {
+        margin: 0 19px;
+    }
+
+    .banner .banner_text span,
+    .banner .banner_text h1 {
+        font-size: 82px;
+        max-width: 100%;
+        line-height: 100px;
+        margin-bottom: 50px;
+        display: block;
+    }
+
+    .banner .banner_text span,
+    .banner .banner_text span b {
+        font-size: 82px;
+    }
+
+    .banner_serch .nav-pills {
+        gap: 15px;
+        padding: 20px 29px;
+        font-size: 20px;
+        margin-top: 10px;
+    }
+
+    .banner_serch form ul li {
+        width: 48%;
+    }
+
+    .banner_serch form ul {
+        align-items: center;
+        gap: 10px;
+        width: 100%;
+    }
+
+    .banner_serch form button {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .banner_serch form button i {
+        display: inline-block;
+        margin-top: 0;
+        margin-right: 10px;
+        width: initial;
+    }
+
+    .banner_serch form {
+        padding: 20px;
+    }
+
+    .banner .banner_text {
+        margin-top: 30px;
+    }
+
+    .section_heading h2,
+    .section_heading h2 span {
+        font-size: 30px;
+    }
+
+    .section_heading h2::after {
+        height: 38px;
+        top: -35px;
+        right: -20px;
+    }
+
+    .ofer .ofer_item .img {
+        height: 320px;
+    }
+
+    .ofer .ofer_item .text {
+        padding: 30px;
+    }
+
+    .ofer .ofer_item .text h3 {
+        width: 96%;
+        font-size: 25px;
+        line-height: 30px;
+    }
+
+    .ofer .ofer_item {
+        margin-bottom: 20px;
+    }
+
+    .filter .nav-tabs {
+        padding: 6px 20px;
+        gap: 15px;
+        margin-left: 0;
+    }
+
+    .filter_item .img {
+        height: 170px;
+    }
+
+    .testimonial_item .description {
+        color: var(--paraColor);
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 30px;
+    }
+
+    .section_heading h2,
+    .section_heading h2 span {
+        margin-bottom: 30px;
+        font-size: 30px;
+    }
+
+    .flight_banner {
+        height: 510px;
+        margin-bottom: 25px;
+    }
+
+    .popular_flight_item_text .title {
+        font-size: 16px;
+    }
+
+    .popular_flight_item {
+        margin-left: 14px;
+    }
+
+    .popular_flight_item_text {
+        padding: 25px 16px;
+    }
+
+    .counter_area li {
+        width: 50%;
+        padding: 20px;
+        border-bottom: 1px solid rgba(4, 6, 24, 0.14);
+    }
+
+    .download .download_text {
+        margin-top: 45px;
+        padding-bottom: 0;
+        padding-top: 0;
+    }
+
+    .download .download_text h1,
+    .download .download_text h1 span {
+        font-size: 25px;
+        font-weight: 500;
+        line-height: 36px;
+    }
+
+    .download_img {
+        width: 290px;
+        height: auto;
+        margin-top: 0px;
+    }
+
+    .download_text .download_btn {
+        padding-bottom: 0;
+    }
+
+    .blog .blog_item .blog_img {
+        height: 195px;
+    }
+
+
+    .banner {
+        height: auto;
+        padding-bottom: 120px;
+    }
+
+
+    .banner .banner_text {
+        margin-top: 120px;
+    }
+
+
+    .testimonial_content {
+        padding: 30px;
+    }
+
+    .footer_contact .footer_contact_contant {
+        padding: 25px;
+    }
+
+    .footer_link ul li a {
+        margin-top: 15px;
+    }
+
+    .footer_link {
+        margin-top: 30px;
+        padding-left: 25px;
+    }
+
+    .footer_logo {
+        padding-left: 25px;
+        margin-top: 30px;
+    }
+
+    .footer_logo ul {
+        gap: 8px;
+    }
+
+
+
+
+    footer .footer_banner {
+        display: none;
+    }
+
+
 }
 
 
 
 @media (min-width: 768px) and (max-width: 991.99px) {
-    
-      
- 
-  
+    .main_menu .container {
+        padding: 20px 0px;
+    }
+
+    .main_menu .navbar-nav {
+        line-height: 45px;
+        background: var(--colorWhite);
+        border-top: 1px solid #ddd;
+        margin-top: 19px;
+        padding-top: 10px;
+    }
+
+    .main_menu .right_menu {
+        background: var(--colorWhite);
+        padding-bottom: 20px;
+        padding-left: 19px;
+        border-top: 1px solid #ddd;
+        margin-top: -1px;
+        padding-top: 15px;
+        border-bottom: 1px solid #ddd;
+    }
+
+    .main_menu .submenu {
+        left: 19px;
+        max-height: 250px;
+    }
+
+    .main_menu .navbar-brand {
+        margin: 0 19px;
+    }
+
+    .banner .banner_text span,
+    .banner .banner_text h1 {
+        font-size: 82px;
+        max-width: 100%;
+        line-height: 100px;
+        margin-bottom: 50px;
+        display: block;
+    }
+
+    .banner .banner_text span,
+    .banner .banner_text span b {
+        font-size: 82px;
+    }
+
+    .banner_serch .nav-pills {
+        gap: 15px;
+        padding: 20px 29px;
+        font-size: 20px;
+        margin-top: 10px;
+    }
+
+    .banner_serch form ul li {
+        width: 48%;
+    }
+
+    .banner_serch form ul {
+        align-items: center;
+        gap: 10px;
+        width: 100%;
+    }
+
+    .banner_serch form button {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .banner_serch form button i {
+        display: inline-block;
+        margin-top: 0;
+        margin-right: 10px;
+        width: initial;
+    }
+
+    .banner_serch form {
+        padding: 20px;
+    }
+
+    .banner .banner_text {
+        margin-top: 30px;
+    }
+
+    .section_heading h2,
+    .section_heading h2 span {
+        font-size: 30px;
+    }
+
+    .section_heading h2::after {
+        height: 38px;
+        top: -35px;
+        right: -20px;
+    }
+
+    .ofer .ofer_item .img {
+        height: 320px;
+    }
+
+    .ofer .ofer_item .text {
+        padding: 30px;
+    }
+
+    .ofer .ofer_item .text h3 {
+        width: 96%;
+        font-size: 25px;
+        line-height: 30px;
+    }
+
+    .ofer .ofer_item {
+        margin-bottom: 20px;
+    }
+
+    .filter .nav-tabs {
+        padding: 6px 20px;
+        gap: 15px;
+        margin-left: 0;
+    }
+
+    .filter_item .img {
+        height: 170px;
+    }
+
+    .testimonial_item .description {
+        color: var(--paraColor);
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 30px;
+    }
+
+    .section_heading h2,
+    .section_heading h2 span {
+        margin-bottom: 30px;
+        font-size: 30px;
+    }
+
+    .flight_banner {
+        height: 510px;
+        margin-bottom: 25px;
+    }
+
+    .popular_flight_item_text .title {
+        font-size: 16px;
+    }
+
+    .popular_flight_item {
+        margin-left: 14px;
+    }
+
+    .popular_flight_item_text {
+        padding: 25px 16px;
+    }
+
+    .counter_area li {
+        width: 50%;
+        padding: 20px;
+        border-bottom: 1px solid rgba(4, 6, 24, 0.14);
+    }
+
+    .download .download_text {
+        margin-top: 45px;
+        padding-bottom: 0;
+        padding-top: 0;
+    }
+
+    .download .download_text h1,
+    .download .download_text h1 span {
+        font-size: 25px;
+        font-weight: 500;
+        line-height: 36px;
+    }
+
+    .download_img {
+        width: 290px;
+        height: auto;
+        margin-top: 0px;
+    }
+
+    .download_text .download_btn {
+        padding-bottom: 0;
+    }
+
+    .blog .blog_item .blog_img {
+        height: 195px;
+    }
+
+
+    .banner {
+        height: auto;
+        padding-bottom: 120px;
+    }
+
+
+    .banner .banner_text {
+        margin-top: 120px;
+    }
+
+
+    .testimonial_content {
+        padding: 30px;
+    }
+
+    .footer_contact .footer_contact_contant {
+        padding: 25px;
+    }
+
+    .footer_link ul li a {
+        margin-top: 15px;
+    }
+
+    .footer_link {
+        margin-top: 30px;
+        padding-left: 25px;
+    }
+
+    .footer_logo {
+        padding-left: 25px;
+        margin-top: 30px;
+    }
+
+    .footer_logo ul {
+        gap: 8px;
+    }
+
+
+
+
+    footer .footer_banner {
+        display: none;
+    }
+
+
+
+
 }
 
 
@@ -28,10 +477,240 @@
 
 
 @media (min-width: 576px) and (max-width: 767.99px) {
-    
-      
- 
-  
+    .main_menu .container {
+        padding: 20px 0px;
+    }
+
+    .main_menu .navbar-nav {
+        line-height: 45px;
+        background: var(--colorWhite);
+        border-top: 1px solid #ddd;
+        margin-top: 19px;
+        padding-top: 10px;
+    }
+
+    .main_menu .right_menu {
+        background: var(--colorWhite);
+        padding-bottom: 20px;
+        padding-left: 19px;
+        border-top: 1px solid #ddd;
+        margin-top: -1px;
+        padding-top: 15px;
+        border-bottom: 1px solid #ddd;
+    }
+
+    .main_menu .submenu {
+        left: 19px;
+        max-height: 250px;
+    }
+
+    .main_menu .navbar-brand {
+        margin: 0 19px;
+    }
+
+    .banner .banner_text span,
+    .banner .banner_text h1 {
+        font-size: 62px;
+        max-width: 100%;
+        line-height: 64px;
+        margin-bottom: 50px;
+        display: block;
+    }
+
+    .banner .banner_text span,
+    .banner .banner_text span b {
+        font-size: 62px;
+    }
+
+    .banner_serch .nav-pills {
+        gap: 15px;
+        padding: 10px 20px;
+        font-size: 13px;
+        margin-top: 10px;
+    }
+
+    .banner_serch form ul li {
+        width: 100%;
+    }
+
+    .banner_serch form ul {
+        align-items: center;
+        gap: 10px;
+        width: 100%;
+    }
+
+    .banner_serch form button {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .banner_serch form button i {
+        display: inline-block;
+        margin-top: 0;
+        margin-right: 10px;
+        width: initial;
+    }
+
+    .banner_serch form {
+        padding: 20px;
+    }
+
+    .banner .banner_text {
+        margin-top: 30px;
+    }
+
+    .section_heading h2,
+    .section_heading h2 span {
+        font-size: 30px;
+    }
+
+    .section_heading h2::after {
+        height: 38px;
+        top: -35px;
+        right: -20px;
+    }
+
+    .ofer .ofer_item .text {
+        padding: 30px;
+    }
+
+    .ofer .ofer_item .text h3 {
+        width: 96%;
+        font-size: 25px;
+        line-height: 30px;
+    }
+
+    .ofer .ofer_item {
+        margin-bottom: 20px;
+    }
+
+    .filter .nav-tabs {
+        padding: 6px 20px;
+        gap: 15px;
+        margin-left: 0;
+    }
+
+    .filter_item .img {
+        height: 265px;
+    }
+
+    .testimonial_item .description {
+        color: var(--paraColor);
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 30px;
+    }
+
+    .section_heading h2,
+    .section_heading h2 span {
+        margin-bottom: 30px;
+        font-size: 30px;
+    }
+
+    .flight_banner {
+        height: 510px;
+        margin-bottom: 25px;
+    }
+
+    .popular_flight_item_text .title {
+        font-size: 16px;
+    }
+
+    .popular_flight_item {
+        margin-left: 14px;
+    }
+
+    .counter_area li {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .download .download_text h1,
+    .download .download_text h1 span {
+        font-size: 25px;
+        font-weight: 500;
+        line-height: 36px;
+    }
+
+    .download_img {
+        width: auto;
+        height: auto;
+    }
+
+    .blog .blog_item .blog_img {
+        height: auto;
+    }
+
+
+    .banner {
+        height: auto;
+        padding-bottom: 120px;
+    }
+
+
+    .banner .banner_text {
+        margin-top: 120px;
+    }
+
+
+    .testimonial_content {
+        padding: 30px;
+    }
+
+    .footer_contact .footer_contact_contant {
+        padding: 25px;
+    }
+
+    .footer_contact .footer_contact_contant .text {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .footer_contact .footer_contact_contant form {
+        width: 100%;
+        border: none;
+    }
+
+    .footer_contact .footer_contact_contant form input {
+        border: 1px solid #eeeeee38;
+        border-radius: 0;
+        margin-bottom: 10px;
+    }
+
+
+    .footer_link ul li a {
+        margin-top: 15px;
+    }
+
+    .footer_link {
+        margin-top: 30px;
+        padding-left: 25px;
+    }
+
+    .footer_logo {
+        padding-left: 25px;
+        margin-top: 30px;
+    }
+
+    .footer_logo ul {
+        gap: 8px;
+    }
+
+    .footer_contact .footer_contact_contant form button {
+        position: initial;
+        width: 100%;
+        transform: translate(0);
+    }
+
+
+    footer .footer_banner {
+        display: none;
+    }
+
+    .footer_copyright_text .img {
+        margin-top: 15px;
+    }
+
 }
 
 
@@ -39,22 +718,239 @@
 
 
 @media (max-width: 575.99px) {
-    
-      
- 
-  
+    .main_menu .container {
+        padding: 20px 0px;
+    }
+
+    .main_menu .navbar-nav {
+        line-height: 45px;
+        background: var(--colorWhite);
+        border-top: 1px solid #ddd;
+        margin-top: 19px;
+        padding-top: 10px;
+    }
+
+    .main_menu .right_menu {
+        background: var(--colorWhite);
+        padding-bottom: 20px;
+        padding-left: 19px;
+        border-top: 1px solid #ddd;
+        margin-top: -1px;
+        padding-top: 15px;
+        border-bottom: 1px solid #ddd;
+    }
+
+    .main_menu .submenu {
+        left: 19px;
+        max-height: 250px;
+    }
+
+    .main_menu .navbar-brand {
+        margin: 0 19px;
+    }
+
+    .banner .banner_text span,
+    .banner .banner_text h1 {
+        font-size: 37px;
+        max-width: 100%;
+        line-height: 40px;
+        margin-bottom: 40px;
+        display: block;
+    }
+
+    .banner .banner_text span,
+    .banner .banner_text span b {
+        font-size: 37px;
+    }
+
+    .banner_serch .nav-pills {
+        gap: 15px;
+        padding: 10px 20px;
+        font-size: 13px;
+        margin-top: 10px;
+    }
+
+    .banner_serch form ul li {
+        width: 100%;
+    }
+
+    .banner_serch form ul {
+        align-items: center;
+        gap: 10px;
+        width: 100%;
+    }
+
+    .banner_serch form button {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .banner_serch form button i {
+        display: inline-block;
+        margin-top: 0;
+        margin-right: 10px;
+        width: initial;
+    }
+
+    .banner_serch form {
+        padding: 20px;
+    }
+
+    .banner .banner_text {
+        margin-top: 30px;
+    }
+
+    .section_heading h2,
+    .section_heading h2 span {
+        font-size: 30px;
+    }
+
+    .section_heading h2::after {
+        height: 38px;
+        top: -35px;
+        right: -20px;
+    }
+
+    .ofer .ofer_item .text {
+        padding: 30px;
+    }
+
+    .ofer .ofer_item .text h3 {
+        width: 96%;
+        font-size: 25px;
+        line-height: 30px;
+    }
+
+    .ofer .ofer_item {
+        margin-bottom: 20px;
+    }
+
+    .filter .nav-tabs {
+        padding: 6px 20px;
+        gap: 15px;
+        margin-left: 0;
+    }
+
+    .filter_item .img {
+        height: auto;
+    }
+
+    .testimonial_item .description {
+        color: var(--paraColor);
+        font-size: 13px;
+        font-weight: 500;
+        line-height: 30px;
+    }
+
+    .flight_banner {
+        height: auto;
+        margin-bottom: 25px;
+
+    }
+
+    .popular_flight_item_text .title {
+        font-size: 16px;
+    }
+
+    .popular_flight_item {
+        margin-left: 14px;
+    }
+
+    .counter_area li {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .download .download_text h1,
+    .download .download_text h1 span {
+        font-size: 25px;
+        font-weight: 500;
+        line-height: 36px;
+    }
+
+    .download_img {
+        width: auto;
+        height: auto;
+    }
+
+    .blog .blog_item .blog_img {
+        height: auto;
+    }
+
+
+    .banner {
+        height: auto;
+        padding-bottom: 120px;
+    }
+
+
+    .banner .banner_text {
+        margin-top: 120px;
+    }
+
+
+    .testimonial_content {
+        padding: 30px;
+    }
+
+    .footer_contact .footer_contact_contant {
+        padding: 25px;
+    }
+
+    .footer_contact .footer_contact_contant .text {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .footer_contact .footer_contact_contant form {
+        width: 100%;
+        border: none;
+    }
+
+    .footer_contact .footer_contact_contant form input {
+        border: 1px solid #eeeeee38;
+        border-radius: 0;
+        margin-bottom: 10px;
+    }
+
+
+    .footer_link ul li a {
+        margin-top: 15px;
+    }
+
+    .footer_link {
+        margin-top: 30px;
+        padding-left: 25px;
+    }
+
+    .footer_logo {
+        padding-left: 25px;
+        margin-top: 30px;
+    }
+
+    .footer_logo ul {
+        gap: 8px;
+    }
+
+    .footer_contact .footer_contact_contant form button {
+        position: initial;
+        width: 100%;
+        transform: translate(0);
+    }
+
+
+    footer .footer_banner {
+        display: none;
+    }
+
+    .footer_copyright_text .img {
+        margin-top: 15px;
+    }
+
+
+
+
+
+
+
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

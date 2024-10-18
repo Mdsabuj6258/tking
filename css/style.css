@@ -640,6 +640,7 @@ button {
     background: var(--colorWhite);
     line-height: 45px;
     width: 220px;
+    max-height: 450px;
     top: 120%;
     left: 0px;
     border-top: 1px solid var(--colorPrimary);
@@ -652,6 +653,8 @@ button {
     -o-transition: all linear .25s;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     z-index: 999;
+    overflow: hidden;
+    overflow-y: scroll;
 }
 
 .main_menu .submenu li {
@@ -774,6 +777,39 @@ button {
         -ms-transform: translateY(0%);
         -o-transform: translateY(0%);
     }
+}
+
+.navbar-toggler {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    padding: 0;
+    border-radius: 3px;
+    background: var(--colorPrimary);
+    color: var(--colorWhite);
+    /* margin-right: 12px; */
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    margin: 0px 10px;
+}
+
+.navbar-toggler.show {
+    background: var(--colorRed);
+}
+
+.navbar-toggler .close_icon_close {
+    display: none;
+}
+
+.navbar-toggler.show .close_icon_close {
+    display: inline-block;
+}
+
+.navbar-toggler.show .menu_icon_bar {
+    display: none;
 }
 
 /* menu end */
@@ -954,7 +990,6 @@ button {
     width: 100%;
     top: 100%;
     left: 0;
-    padding: 15px;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     visibility: hidden;
     transition: all linear .3s;
@@ -967,15 +1002,19 @@ button {
     -moz-transition: all linear .3s;
     -ms-transition: all linear .3s;
     -o-transition: all linear .3s;
+    transform-origin: top;
+    z-index: 99;
 }
 
 .banner_serch .qantaty_droofdown .qantity_area {
     border-bottom: 1px solid#ddd;
-    padding-bottom: 15px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
+    background: var(--colorWhite);
+    margin: 0 !important;
+    padding: 9px 15px 0px 15px;
 }
 
 .banner_serch .qantaty_droofdown .qantity_area.last {
@@ -986,6 +1025,7 @@ button {
     display: flex;
     flex-wrap: wrap;
     max-width: 240px;
+    align-items: center;
 }
 
 .banner_serch .qantaty_droofdown .qantity_area .qantity_item button {
@@ -1036,8 +1076,6 @@ button {
     -ms-transform: scaleY(1);
     -o-transform: scaleY(1);
     visibility: visible;
-    background: var(--colorWhite) !important;
-    z-index: 11;
 }
 
 /* banner end */
@@ -1192,6 +1230,11 @@ button {
 .destination .common_btn::after {
     background: var(--colorPrimary);
 }
+
+.destination .common_btn:hover {
+    color: var(--colorWhite);
+}
+
 
 /* destination end */
 

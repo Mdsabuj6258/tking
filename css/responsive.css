@@ -1,4 +1,65 @@
-@media (min-width: 1200px) and (max-width: 1399.99px) {}
+@media (min-width: 1400px) and (max-width: 1599.99px) {}
+
+
+
+@media (min-width: 1200px) and (max-width: 1399.99px) {
+
+
+
+    .banner_serch form ul li .text {
+        width: 72%;
+    }
+
+    .banner_serch form button {
+        padding: 9px 29px;
+    }
+
+
+    .destination .destination_img {
+        height: 315px;
+    }
+
+    .ofer .ofer_item .img {
+        height: 330px;
+    }
+
+    .filter_item .img {
+        height: 180px;
+    }
+
+    .popular_flight_item_text {
+        padding: 25px 16px;
+    }
+
+    .flight_banner {
+        height: 440px;
+    }
+
+    .testimonial .nextArrow,
+    .testimonial .prevArrow {
+        left: -348px;
+    }
+
+    .testimonial .prevArrow {
+        left: -402px;
+    }
+
+    .blog .blog_item .blog_img {
+        height: 210px;
+    }
+
+    footer .footer_banner {
+        height: 505px;
+    }
+
+
+
+
+
+
+
+
+}
 
 
 

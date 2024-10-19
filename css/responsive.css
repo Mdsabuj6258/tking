@@ -3,50 +3,17 @@
 
 
 @media (min-width: 992px) and (max-width: 1199.99px) {
-    .main_menu .container {
-        padding: 20px 0px;
+    .main_menu .navbar-nav .nav-item .nav-link {
+        font-size: 13px;
+        margin: 0px 10px;
     }
 
-    .main_menu .navbar-nav {
-        line-height: 45px;
-        background: var(--colorWhite);
-        border-top: 1px solid #ddd;
-        margin-top: 19px;
-        padding-top: 10px;
-    }
-
-    .main_menu .right_menu {
-        background: var(--colorWhite);
-        padding-bottom: 20px;
-        padding-left: 19px;
-        border-top: 1px solid #ddd;
-        margin-top: -1px;
-        padding-top: 15px;
-        border-bottom: 1px solid #ddd;
-    }
-
-    .main_menu .submenu {
-        left: 19px;
-        max-height: 250px;
-    }
-
-    .main_menu .navbar-brand {
-        margin: 0 19px;
-    }
-
-    .banner .banner_text span,
-    .banner .banner_text h1 {
-        font-size: 82px;
-        max-width: 100%;
-        line-height: 100px;
-        margin-bottom: 50px;
+    .banner_text h1,
+    .banner_text h1 span {
+        max-width: 90% !important;
         display: block;
     }
 
-    .banner .banner_text span,
-    .banner .banner_text span b {
-        font-size: 82px;
-    }
 
     .banner_serch .nav-pills {
         gap: 15px;
@@ -56,7 +23,7 @@
     }
 
     .banner_serch form ul li {
-        width: 48%;
+        width: 40%;
     }
 
     .banner_serch form ul {
@@ -65,16 +32,18 @@
         width: 100%;
     }
 
-    .banner_serch form button {
-        width: 100%;
-        margin-top: 10px;
+    .banner_serch .nav-pills .nav-link,
+    .banner_serch .nav-pills .show>.nav-link {
+        font-size: 16px;
     }
 
-    .banner_serch form button i {
-        display: inline-block;
-        margin-top: 0;
-        margin-right: 10px;
-        width: initial;
+    .banner_serch form button {
+        padding: 10px 39px;
+    }
+
+    .banner_serch form button {
+        position: absolute;
+        right: 58px;
     }
 
     .banner_serch form {
@@ -85,11 +54,6 @@
         margin-top: 30px;
     }
 
-    .section_heading h2,
-    .section_heading h2 span {
-        font-size: 30px;
-    }
-
     .section_heading h2::after {
         height: 38px;
         top: -35px;
@@ -97,7 +61,7 @@
     }
 
     .ofer .ofer_item .img {
-        height: 320px;
+        height: 330px;
     }
 
     .ofer .ofer_item .text {
@@ -121,7 +85,7 @@
     }
 
     .filter_item .img {
-        height: 170px;
+        height: 230px;
     }
 
     .testimonial_item .description {
@@ -131,52 +95,25 @@
         line-height: 30px;
     }
 
-    .section_heading h2,
-    .section_heading h2 span {
-        margin-bottom: 30px;
-        font-size: 30px;
-    }
-
     .flight_banner {
-        height: 510px;
-        margin-bottom: 25px;
-    }
-
-    .popular_flight_item_text .title {
-        font-size: 16px;
-    }
-
-    .popular_flight_item {
-        margin-left: 14px;
+        height: 370px;
     }
 
     .popular_flight_item_text {
-        padding: 25px 16px;
+        padding: 5px 10px;
+        max-width: 62%;
     }
 
     .counter_area li {
-        width: 50%;
-        padding: 20px;
-        border-bottom: 1px solid rgba(4, 6, 24, 0.14);
+        width: 25%;
+
     }
 
-    .download .download_text {
-        margin-top: 45px;
-        padding-bottom: 0;
-        padding-top: 0;
-    }
-
-    .download .download_text h1,
-    .download .download_text h1 span {
-        font-size: 25px;
-        font-weight: 500;
-        line-height: 36px;
-    }
 
     .download_img {
-        width: 290px;
-        height: auto;
-        margin-top: 0px;
+        width: 380px;
+        height: 500px;
+        margin-top: 10px;
     }
 
     .download_text .download_btn {
@@ -184,9 +121,8 @@
     }
 
     .blog .blog_item .blog_img {
-        height: 195px;
+        height: 270px;
     }
-
 
     .banner {
         height: auto;
@@ -198,21 +134,25 @@
         margin-top: 120px;
     }
 
+    .testimonial .nextArrow,
+    .testimonial .prevArrow {
+        left: -303px;
+    }
+
+    .testimonial .prevArrow {
+        left: -353px;
+    }
 
     .testimonial_content {
         padding: 30px;
     }
 
-    .footer_contact .footer_contact_contant {
-        padding: 25px;
-    }
 
     .footer_link ul li a {
         margin-top: 15px;
     }
 
     .footer_link {
-        margin-top: 30px;
         padding-left: 25px;
     }
 
@@ -225,12 +165,20 @@
         gap: 8px;
     }
 
-
-
-
     footer .footer_banner {
-        display: none;
+        height: 420px;
+        margin-top: -293px;
     }
+
+    .footer_link ul li a {
+        margin-top: 20px;
+        font-size: 14px;
+    }
+
+    .footer_logo p {
+        font-size: 14px;
+    }
+
 
 
 }

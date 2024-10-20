@@ -219,7 +219,6 @@
 
     .footer_logo {
         padding-left: 25px;
-        margin-top: 30px;
     }
 
     .footer_logo ul {
@@ -240,7 +239,9 @@
         font-size: 14px;
     }
 
-
+    .popular_flight_btn_area {
+        margin-bottom: 15px;
+    }
 
 }
 
@@ -456,13 +457,11 @@
     }
 
     .footer_link {
-        margin-top: 30px;
         padding-left: 25px;
     }
 
     .footer_logo {
         padding-left: 25px;
-        margin-top: 30px;
     }
 
     .footer_logo ul {
@@ -521,7 +520,7 @@
     .banner .banner_text h1 {
         font-size: 62px;
         max-width: 100%;
-        line-height: 64px;
+        line-height: 75px;
         margin-bottom: 50px;
         display: block;
     }
@@ -642,6 +641,7 @@
     }
 
     .download_img {
+        margin-top: -130px;
         width: auto;
         height: auto;
     }
@@ -878,6 +878,7 @@
     }
 
     .download_img {
+        margin-top: -150px;
         width: auto;
         height: auto;
     }
@@ -928,7 +929,6 @@
     }
 
     .footer_link {
-        margin-top: 30px;
         padding-left: 25px;
     }
 

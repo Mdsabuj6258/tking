@@ -653,8 +653,6 @@ button {
     -o-transition: all linear .25s;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     z-index: 999;
-    overflow: hidden;
-    overflow-y: scroll;
 }
 
 .main_menu .submenu li {

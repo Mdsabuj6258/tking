@@ -13,8 +13,8 @@
     <link rel="stylesheet" href="css/clendar.css">
     <link rel="stylesheet" href="css/jquery.animatedheadline.css">
     <link rel="stylesheet" href="css/slick.css">
-    <link rel="stylesheet" href="css/venobox.min.css">
     <link rel="stylesheet" href="css/range_slider.css">
+    <link rel="stylesheet" href="css/venobox.min.css">
 
     <link rel="stylesheet" href="css/spacing.css">
     <link rel="stylesheet" href="css/style.css">
@@ -38,10 +38,9 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav me-auto">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home <i
-                                class="far fa-angle-down"></i></a>
+                        <a class="nav-link" aria-current="page" href="#">Home <i class="far fa-angle-down"></i></a>
                         <ul class="submenu">
-                            <li><a href="index.html">home style 01</a></li>
+                            <li><a class="active" href="index.html">home style 01</a></li>
                             <li><a href="#">home style 02</a></li>
                             <li><a href="#">home style 03</a></li>
                         </ul>
@@ -55,33 +54,33 @@
                             <li>
                                 <a href="#">Hotels</a>
                                 <ul class="child_menu">
-                                    <li><a href="#">Hotel Grid View</a></li>
-                                    <li><a href="#">Hotel List View</a></li>
-                                    <li><a href="#">Hotel Details</a></li>
-                                    <li><a href="#">Hotel Room Details</a></li>
+                                    <li><a href="hotel_grid_view.html">Hotel Grid View</a></li>
+                                    <li><a href="hotel_list_view.html">Hotel List View</a></li>
+                                    <li><a href="hotel_detels.html">Hotel Details</a></li>
+                                    <li><a href="room_detels.html">Hotel Room Details</a></li>
                                 </ul>
                             </li>
                             <li>
                                 <a href="#">Boats</a>
                                 <ul class="child_menu">
-                                    <li><a href="#">Boat List View</a></li>
-                                    <li><a href="#">Boat Grid View</a></li>
-                                    <li><a href="#">Boat Details</a></li>
+                                    <li><a href="boat_list_view.html">Boat List View</a></li>
+                                    <li><a href="boat_grid_view.html">Boat Grid View</a></li>
+                                    <li><a href="boat_detels.html">Boat Details</a></li>
                                 </ul>
                             </li>
                             <li>
                                 <a href="#">Cars</a>
                                 <ul class="child_menu">
-                                    <li><a href="#">Car Grid View</a></li>
-                                    <li><a class="active" href="hotel_list_view.html">Car List View</a></li>
-                                    <li><a href="#">Car Details</a></li>
+                                    <li><a href="car_grid_view.html">Car Grid View</a></li>
+                                    <li><a href="car_list_view.html">Car List View</a></li>
+                                    <li><a href="car_detels.html">Car Details</a></li>
                                 </ul>
                             </li>
                             <li>
                                 <a href="#">Events</a>
                                 <ul class="child_menu">
-                                    <li><a href="#">Event Grid View</a></li>
-                                    <li><a href="#">Event List View</a></li>
+                                    <li><a href="event_grid_view.html">Event Grid View</a></li>
+                                    <li><a href="event_list_view.html">Event List View</a></li>
                                     <li><a href="event_details.html">Event Details</a></li>
                                 </ul>
                             </li>
@@ -89,7 +88,7 @@
                                 <a href="#">Packages</a>
                                 <ul class="child_menu">
                                     <li><a href="packages.html">packages</a></li>
-                                    <li><a href="package_details.html">packages details</a></li>
+                                    <li><a href="pakage_detels.html">packages details</a></li>
                                 </ul>
                             </li>
                         </ul>
@@ -97,11 +96,11 @@
                     <li class="nav-item">
                         <a class="nav-link" href="#">Pages <i class="far fa-angle-down"></i></a>
                         <ul class="submenu">
-                            <li><a href="services.html">Services</a></li>
+                            <li><a href="service.html">Services</a></li>
                             <li><a href="agent_profile.html">agent profile</a></li>
                             <li><a href="forgot_password.html">forgot password</a></li>
                             <li><a href="privacy_policy.html">privacy Policy</a></li>
-                            <li><a href="terms_condition.html">terms & conditions</a></li>
+                            <li><a class="active" href="trams_and_condition.html">terms & conditions</a></li>
                             <li><a href="payment.html">payment</a></li>
                             <li><a href="payment_done.html">payment done</a></li>
                             <li><a href="faq.html">FAQ's</a></li>
@@ -112,7 +111,7 @@
                         <a class="nav-link" href="#">blog <i class="far fa-angle-down"></i></a>
                         <ul class="submenu">
                             <li><a href="blog.html">blog</a></li>
-                            <li><a href="blog_details.html">blog details</a></li>
+                            <li><a href="blog_detels.html">blog details</a></li>
                         </ul>
                     </li>
                     <li class="nav-item">
@@ -468,121 +467,127 @@
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="col-xl-4">
-                <div class="about_detels_sidebar pl_50 mt_25">
-                    <div class="about_detels_sidebar_book">
-                        <div class="booking_tabs">
-                            <nav>
-                                <div class="nav nav-tabs" id="nav-tab" role="tablist">
-                                    <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab"
-                                        data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home"
-                                        aria-selected="true">Book</button>
-                                    <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab"
-                                        data-bs-target="#nav-profile" type="button" role="tab"
-                                        aria-controls="nav-profile" aria-selected="false">Inquiry</button>
-                                </div>
-                            </nav>
-                            <div class="tab-content" id="nav-tabContent">
-                                <div class="tab-pane fade show active" id="nav-home" role="tabpanel"
-                                    aria-labelledby="nav-home-tab" tabindex="0">
-                                    <!-- booktab -->
-                                    <ul class=" booking_top d-flex flex-wrap justify-content-between">
-                                        <li class="ratting"><i class="fas fa-star"></i>5 (168 reviews)</li>
-                                        <li class="d-flex flex-wrap">
-                                            <h5>$150.00/</h5> night
-                                        </li>
-                                    </ul>
-                                    <form>
-                                        <ul>
-                                            <li>
-                                                <p>Check - out</p>
-                                                <input type="text" placeholder="24 june 24" class="start-date">
-                                            </li>
-                                            <li>
-                                                <p>Check - out</p>
-                                                <input type="text" placeholder="24 june 24" class="end-date">
-                                            </li>
-                                            <li>
-                                                <div class="icon">
-                                                    <span>02</span>
-                                                </div>
-                                                <div class="text">
-                                                    <h3>Gest</h3>
-                                                    <input type="text" placeholder="1 Room" class="guest_input">
-                                                </div>
-                                                <div class="quentity_dropdown show_qnty">
-                                                    <div class="quentity_area">
-                                                        <P>Room</P>
-                                                        <div class="qnty_item">
-                                                            <button class="minus"><i class="far fa-minus"></i></button>
-                                                            <input type="text" placeholder="01">
-                                                            <button class="plus"><i class="far fa-plus"></i></button>
-                                                        </div>
-
-                                                    </div>
-                                                    <div class="quentity_area mt_15">
-                                                        <P>Adult</P>
-                                                        <div class="qnty_item">
-                                                            <button class="minus"><i class="far fa-minus"></i></button>
-                                                            <input type="text" placeholder="01">
-                                                            <button class="plus"><i class="far fa-plus"></i></button>
-                                                        </div>
-
-                                                    </div>
-                                                    <div class="quentity_area last mt_15">
-                                                        <P>Child</P>
-                                                        <div class="qnty_item">
-                                                            <button class="minus"><i class="far fa-minus"></i></button>
-                                                            <input type="text" placeholder="01">
-                                                            <button class="plus"><i class="far fa-plus"></i></button>
-                                                        </div>
-
-                                                    </div>
-                                                </div>
+                <div class="col-xl-4">
+                    <div class="about_detels_sidebar pl_50 mt_25">
+                        <div class="about_detels_sidebar_book">
+                            <div class="booking_tabs">
+                                <nav>
+                                    <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                                        <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab"
+                                            data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home"
+                                            aria-selected="true">Book</button>
+                                        <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab"
+                                            data-bs-target="#nav-profile" type="button" role="tab"
+                                            aria-controls="nav-profile" aria-selected="false">Inquiry</button>
+                                    </div>
+                                </nav>
+                                <div class="tab-content" id="nav-tabContent">
+                                    <div class="tab-pane fade show active" id="nav-home" role="tabpanel"
+                                        aria-labelledby="nav-home-tab" tabindex="0">
+                                        <!-- booktab -->
+                                        <ul class=" booking_top d-flex flex-wrap justify-content-between">
+                                            <li class="ratting"><i class="fas fa-star"></i>5 (168 reviews)</li>
+                                            <li class="d-flex flex-wrap">
+                                                <h5>$150.00/</h5> night
                                             </li>
                                         </ul>
-                                        <button class="common_btn" type="submit">Check Availability</button>
-                                    </form>
-                                </div>
-                                <div class="tab-pane fade" id="nav-profile" role="tabpanel"
-                                    aria-labelledby="nav-profile-tab" tabindex="0">
-                                    <!-- Inquiry tab -->
-                                    <div class="sidebar_inquery">
                                         <form>
-                                            <label>Name*</label>
-                                            <input type="text" placeholder="Jibon Dey">
-                                            <label>Email*</label>
-                                            <input type="email" placeholder="Example@gmail.com">
-                                            <label>Note</label>
-                                            <textarea rows="5" placeholder="Type something here"></textarea>
+                                            <ul>
+                                                <li>
+                                                    <p>Check - out</p>
+                                                    <input type="text" placeholder="24 june 24" class="start-date">
+                                                </li>
+                                                <li>
+                                                    <p>Check - out</p>
+                                                    <input type="text" placeholder="24 june 24" class="end-date">
+                                                </li>
+                                                <li>
+                                                    <div class="icon">
+                                                        <span>02</span>
+                                                    </div>
+                                                    <div class="text">
+                                                        <h3>Gest</h3>
+                                                        <input type="text" placeholder="1 Room" class="guest_input">
+                                                    </div>
+                                                    <div class="quentity_dropdown show_qnty">
+                                                        <div class="quentity_area">
+                                                            <P>Room</P>
+                                                            <div class="qnty_item">
+                                                                <button class="minus"><i
+                                                                        class="far fa-minus"></i></button>
+                                                                <input type="text" placeholder="01">
+                                                                <button class="plus"><i
+                                                                        class="far fa-plus"></i></button>
+                                                            </div>
+
+                                                        </div>
+                                                        <div class="quentity_area mt_15">
+                                                            <P>Adult</P>
+                                                            <div class="qnty_item">
+                                                                <button class="minus"><i
+                                                                        class="far fa-minus"></i></button>
+                                                                <input type="text" placeholder="01">
+                                                                <button class="plus"><i
+                                                                        class="far fa-plus"></i></button>
+                                                            </div>
+
+                                                        </div>
+                                                        <div class="quentity_area last mt_15">
+                                                            <P>Child</P>
+                                                            <div class="qnty_item">
+                                                                <button class="minus"><i
+                                                                        class="far fa-minus"></i></button>
+                                                                <input type="text" placeholder="01">
+                                                                <button class="plus"><i
+                                                                        class="far fa-plus"></i></button>
+                                                            </div>
+
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                            <button class="common_btn" type="submit">Check Availability</button>
                                         </form>
+                                    </div>
+                                    <div class="tab-pane fade" id="nav-profile" role="tabpanel"
+                                        aria-labelledby="nav-profile-tab" tabindex="0">
+                                        <!-- Inquiry tab -->
+                                        <div class="sidebar_inquery">
+                                            <form>
+                                                <label>Name*</label>
+                                                <input type="text" placeholder="Jibon Dey">
+                                                <label>Email*</label>
+                                                <input type="email" placeholder="Example@gmail.com">
+                                                <label>Note</label>
+                                                <textarea rows="5" placeholder="Type something here"></textarea>
+                                            </form>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="about_detels_sidebar_map">
-                        <iframe
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5061.370814095372!2d90.38360314090167!3d23.871651609490996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c40fb857cb01%3A0xb6ca60a98b4c89e2!2z4KaJ4Kak4KeN4Kak4Kaw4Ka-IOCmuOCnh-CmleCnjeCmn-CmsC3gp6fgp6gsIOCmquCmvuCmsOCnjeCmlQ!5e0!3m2!1sen!2sbd!4v1703415435068!5m2!1sen!2sbd">
-                        </iframe>
-                    </div>
-                    <div class="about_detels_sidebar_author">
-                        <img src="images/sidebar_author_img.jpg" alt="image" class="img-fluid">
-                        <div class="text">
-                            <a class="title" href="#">Dianne Ameter</a>
-                            <p>Member Since June 2021</p>
+                        <div class="about_detels_sidebar_map">
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5061.370814095372!2d90.38360314090167!3d23.871651609490996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c40fb857cb01%3A0xb6ca60a98b4c89e2!2z4KaJ4Kak4KeN4Kak4Kaw4Ka-IOCmuOCnh-CmleCnjeCmn-CmsC3gp6fgp6gsIOCmquCmvuCmsOCnjeCmlQ!5e0!3m2!1sen!2sbd!4v1703415435068!5m2!1sen!2sbd">
+                            </iframe>
                         </div>
-                    </div>
-                    <div class="sidebar_contact mt_25">
-                        <img src="images/sidebar_call_img.jpg" alt="image" class="img-fluid">
-                        <div class="text">
-                            <p>Next Trip</p>
-                            <h3>Plan Holiday, Your Way!</h3>
-                            <a href="callto:123456787">
-                                <span>Hotline</span>
-                                +(446) 256 234 98
-                            </a>
+                        <div class="about_detels_sidebar_author">
+                            <img src="images/sidebar_author_img.jpg" alt="image" class="img-fluid">
+                            <div class="text">
+                                <a class="title" href="#">Dianne Ameter</a>
+                                <p>Member Since June 2021</p>
+                            </div>
+                        </div>
+                        <div class="sidebar_contact mt_25">
+                            <img src="images/sidebar_call_img.jpg" alt="image" class="img-fluid">
+                            <div class="text">
+                                <p>Next Trip</p>
+                                <h3>Plan Holiday, Your Way!</h3>
+                                <a href="callto:123456787">
+                                    <span>Hotline</span>
+                                    +(446) 256 234 98
+                                </a>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -592,14 +597,11 @@
     <!-- HOTEL DETELS END -->
 
 
-
-
-
     <!-- FOOTER CONTACT START -->
     <section class="footer_contact pt_120">
         <div class="container">
             <div class="row">
-                <div class="col-xl-9 ms-auto">
+                <div class="col-xl-9 ms-auto col-lg-9">
                     <div class="footer_contact_contant d-flex flex-wrap">
                         <div class="text">
                             <h2>Subscribe Us</h2>
@@ -621,12 +623,12 @@
     <footer class="pt_100">
         <div class="container">
             <div class="row">
-                <div class="col-xl-4">
+                <div class="col-xl-4 col-lg-4">
                     <div class="footer_banner">
                         <img src="images/footer_banner.jpg" alt="image" class="img-fluid">
                     </div>
                 </div>
-                <div class="col-xl-2">
+                <div class="col-xl-2 col-md-4 col-lg-2">
                     <div class="footer_link">
                         <h2>Quick Links</h2>
                         <ul>
@@ -651,8 +653,8 @@
 
                     </div>
                 </div>
-                <div class="col-xl-2">
-                    <div class="footer_link">
+                <div class="col-xl-2 col-md-4 col-lg-2">
+                    <div class="footer_link xs_mt_30 ">
                         <h2>Platform</h2>
                         <ul>
                             <li>
@@ -674,7 +676,7 @@
 
                     </div>
                 </div>
-                <div class="col-xl-3">
+                <div class="col-xl-3 col-md-4 col-lg-3">
                     <div class="footer_logo">
                         <div class="logo">
                             <img src="images/logo_2.png" alt="logo" class="img-fluid">
@@ -716,23 +718,27 @@
     <!-- FOOTER END -->
 
 
-
     <!--jquery library js-->
     <script src="js/jquery-3.7.1.min.js"></script>
     <!--bootstrap js-->
     <script src="js/bootstrap.bundle.min.js"></script>
-    <script src="js/jquery.nice-select.min.js"></script>
-    <script src="js/clender.js"></script>
-    <script src="js/jquery.animatedheadline.min.js"></script>
-    <script src="js/slick.min.js"></script>
-    <script src="js/jquery.waypoints.min.js"></script>
-    <script src="js/jquery.countup.min.js"></script>
-    <script src="js/venobox.min.js"></script>
-    <script src="js/range_slider.js"></script>
-
     <!--font-awesome js-->
     <script src="js/Font-Awesome.js"></script>
-
+    <!-- nice select js-->
+    <script src="js/jquery.nice-select.min.js"></script>
+    <!-- clander js-->
+    <script src="js/clender.js"></script>
+    <!-- type js -->
+    <script src="js/jquery.animatedheadline.min.js"></script>
+    <!-- slick slider -->
+    <script src="js/slick.min.js"></script>
+    <!-- counter up js -->
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/jquery.countup.min.js"></script>
+    <!-- venovox js -->
+    <script src="js/venobox.min.js"></script>
+    <!-- range js -->
+    <script src="js/range_slider.js"></script>
     <!--main/custom js-->
     <script src="js/main.js"></script>
 

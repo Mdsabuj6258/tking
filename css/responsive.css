@@ -1,4 +1,8 @@
-@media (min-width: 1400px) and (max-width: 1599.99px) {}
+@media (min-width: 1400px) and (max-width: 1599.99px) {
+    .download .download_text {
+        padding-bottom: 0;
+    }
+}
 
 
 
@@ -21,6 +25,7 @@
 
     .ofer .ofer_item .img {
         height: 330px;
+        margin-top: 45px;
     }
 
     .filter_item .img {
@@ -52,10 +57,54 @@
         height: 505px;
     }
 
+    /* about page start */
+
+    .breadcrumb_overlay {
+        padding: 160px 0px 75px 0px;
+    }
+
+    .breadcrumb_text h1 {
+        font-size: 40px;
+    }
 
 
+    .about_choose .about_choose_text {
+        padding-right: 20px;
+    }
 
+    .service_video_img .circle_box,
+    .about_video_text .circle_box {
+        top: 10px;
+    }
 
+    .about_video_text h1 {
+        font-size: 50px;
+    }
+
+    .team .single_team .img {
+        height: 455px;
+    }
+
+    .download .download_text h1,
+    .download .download_text h1 span {
+        font-size: 38px;
+        line-height: initial;
+    }
+
+    .download .download_text {
+        padding-bottom: 0;
+    }
+
+    /* about page end */
+
+    /* agent page start */
+    .agent_profile_text .info {
+        gap: 20px;
+    }
+
+    .agent_profile_text .info li {
+        width: 47%;
+    }
 
 
 
@@ -243,6 +292,96 @@
         margin-bottom: 15px;
     }
 
+    /* about page start */
+
+    .breadcrumb_overlay {
+        padding: 160px 0px 75px 0px;
+    }
+
+    .breadcrumb_text h1 {
+        font-size: 40px;
+    }
+
+    .about_choose .about_choose_text h2 {
+        font-size: 38px;
+    }
+
+    .about_choose .about_choose_text {
+        padding-right: 20px;
+    }
+
+    .about_choose .about_choose_text ul li .text {
+        width: 74%;
+    }
+
+    .about_choose .about_choose_text ul li .icon {
+        height: 80px;
+    }
+
+    .about_choose .about_choose_img {
+        height: 465px;
+    }
+
+    .ofer .ofer_item .img {
+        height: 320px;
+    }
+
+    .service_video_img .circle_box,
+    .about_video_text .circle_box {
+        top: 10px;
+    }
+
+    .about_video_text h1 {
+        font-size: 50px;
+    }
+
+
+    .team .single_team .img {
+        height: 375px;
+    }
+
+    .download .download_text h1,
+    .download .download_text h1 span {
+        font-size: 38px;
+        line-height: initial;
+    }
+
+    /* about page end */
+
+    /* agent page start */
+    .agent_profile_text {
+        margin-left: 0px;
+    }
+
+    .agent_profile_text h2 {
+        font-size: 25px;
+    }
+
+    .agent_profile_text p {
+        line-height: normal;
+        font-size: 13px;
+    }
+
+    .agent_profile_text .info {
+        gap: 20px 10px;
+    }
+
+    .agent_profile_text .info li {
+        width: 48%;
+    }
+
+    .agent_profile_img {
+        height: 430px;
+    }
+
+    .filter_item .img {
+        height: 150px;
+    }
+
+
+
+
+
 }
 
 
@@ -407,7 +546,6 @@
 
     .download .download_text {
         margin-top: 45px;
-        padding-bottom: 0;
         padding-top: 0;
     }
 
@@ -421,7 +559,7 @@
     .download_img {
         width: 290px;
         height: auto;
-        margin-top: 0px;
+        margin-top: 20px;
     }
 
     .download_text .download_btn {
@@ -468,15 +606,106 @@
         gap: 8px;
     }
 
-
-
-
     footer .footer_banner {
         display: none;
     }
 
+    /* home page end */
 
 
+    /* about page start */
+
+    .breadcrumb_overlay {
+        padding: 160px 0px 75px 0px;
+    }
+
+    .breadcrumb_text h1 {
+        font-size: 40px;
+    }
+
+    .about_choose .about_choose_text h2 {
+        font-size: 32px;
+    }
+
+    .about_choose .about_choose_text {
+        padding-right: 0;
+        margin-top: 0px !important;
+    }
+
+    .about_choose .about_choose_text ul li .text {
+        width: 81%;
+    }
+
+    .about_choose .about_choose_img {
+        height: 705px;
+        margin: 40px 0px;
+    }
+
+    .ofer .ofer_item .img {
+        height: 320px;
+    }
+
+    .service_video_img .circle_box,
+    .about_video_text .circle_box {
+        top: -25px;
+        right: 30px;
+    }
+
+    .about_video_text h1 {
+        font-size: 32px;
+        max-width: 55%;
+    }
+
+
+
+    .about_video_text::after {
+        display: none;
+    }
+
+    .section_heading_2 h2 {
+        font-size: 38px;
+    }
+
+    .team .single_team .img {
+        height: 425px;
+    }
+
+
+
+    /* about page end */
+
+    /* agent start */
+
+    .agent_profile_text {
+        margin-left: 15px;
+    }
+
+    .agent_profile_text p {
+        line-height: normal;
+    }
+
+    .agent_profile_text .text {
+        width: 50%;
+    }
+
+    .agent_profile_text .info {
+        gap: 15px;
+    }
+
+    .agent_btn {
+        margin-bottom: 100px;
+    }
+
+    p,
+    span {
+        font-size: 13px;
+    }
+
+    .review_area_btn {
+        padding-top: 30px;
+    }
+
+    /* agent end */
 
 }
 
@@ -720,6 +949,115 @@
         margin-top: 15px;
     }
 
+    /* home page end */
+
+
+    /* about page start */
+
+    .breadcrumb_overlay {
+        padding: 140px 0px 65px 0px;
+    }
+
+    .breadcrumb_text h1 {
+        font-size: 34px;
+    }
+
+    .about_choose .about_choose_text h2 {
+        font-size: 32px;
+    }
+
+    .about_choose .about_choose_text {
+        padding-right: 0;
+    }
+
+    .about_choose .about_choose_text ul li .text {
+        width: 81%;
+    }
+
+    .about_choose .about_choose_img {
+        height: 525px;
+        margin-top: 30px;
+    }
+
+    .ofer .ofer_item .img {
+        height: 300px;
+    }
+
+    .service_video_img .circle_box,
+    .about_video_text .circle_box {
+        display: none;
+    }
+
+    .about_video_text h1 {
+        font-size: 46px;
+        max-width: 100%;
+    }
+
+    .about_video_text {
+        text-align: center;
+    }
+
+    .about_video_text::after {
+        display: none;
+    }
+
+    .section_heading_2 h2 {
+        font-size: 32px;
+    }
+
+    .team .single_team .img {
+        height: 650px;
+    }
+
+    /* about page end */
+    /* agent start */
+
+    .agent_profile_text {
+        margin-left: 0;
+    }
+
+    .agent_profile_text h2 {
+        font-size: 18px;
+
+    }
+
+    .agent_profile_text p {
+        line-height: normal;
+    }
+
+    .agent_profile_text .text {
+        width: 50%;
+    }
+
+    .agent_profile_text .info {
+        gap: 15px;
+        margin-top: 20px;
+    }
+
+    .agent_profile_text .link {
+        margin-top: 20px;
+    }
+
+    .agent_btn {
+        margin-bottom: 100px;
+    }
+
+    p,
+    span {
+        font-size: 13px;
+    }
+
+    .review_area_btn {
+        padding-top: 30px;
+    }
+
+    /* agent end */
+
+
+
+
+
+
 }
 
 
@@ -956,10 +1294,113 @@
         margin-top: 15px;
     }
 
+    /* home page end */
+
+    /* about page start */
+
+    .breadcrumb_overlay {
+        padding: 140px 0px 65px 0px;
+    }
+
+    .breadcrumb_text h1 {
+        font-size: 34px;
+    }
+
+    .about_choose .about_choose_text h2 {
+        font-size: 24px;
+        line-height: 35px;
+    }
+
+    .about_choose .about_choose_text {
+        padding-right: 0;
+    }
+
+    .about_choose .about_choose_text ul li .text {
+        width: 100%;
+    }
+
+    .about_choose .about_choose_img {
+        height: auto;
+        margin-top: 30px;
+    }
+
+    .ofer .ofer_item .img {
+        height: 260px;
+    }
+
+    .service_video_img .circle_box,
+    .about_video_text .circle_box {
+        display: none;
+    }
+
+    .about_video_text h1 {
+        font-size: 35px;
+        max-width: 100%;
+    }
+
+    .about_video_text {
+        text-align: center;
+    }
+
+    .about_video_text::after {
+        display: none;
+    }
+
+    .section_heading_2 h2 {
+        font-size: 24px;
+    }
+
+    .team .single_team .img {
+        height: auto;
+    }
+
+    .accordion-item {
+        margin-top: 10px;
+    }
+
+    .accordion-button {
+        font-size: 13px;
+    }
+
+    .accordion-body p {
+        font-size: 13px;
+        font-weight: 400;
+    }
+
+    .accordion-body {
+        padding: 20px;
+    }
+
+    /* about page end */
 
 
+    /* agent start */
 
+    .agent_profile_img {
+        height: auto;
+    }
 
+    .agent_profile_text {
+        margin-left: 0;
+        margin-top: 30px;
+    }
 
+    .agent_profile_text .text {
+        width: 65%;
+    }
 
+    .agent_btn {
+        margin-bottom: 100px;
+    }
+
+    p,
+    span {
+        font-size: 13px;
+    }
+
+    .review_area_btn {
+        padding-top: 30px;
+    }
+
+    /* agent end */
 }

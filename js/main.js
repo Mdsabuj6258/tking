@@ -510,7 +510,8 @@ $(function () {
     });
 
 
-
+    //  animation js
+    new WOW().init();
 
 
 

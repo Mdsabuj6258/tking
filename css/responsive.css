@@ -106,7 +106,29 @@
         width: 47%;
     }
 
+    .blog_detels_banner_img {
+        height: 410px;
+    }
 
+    .blog_detels_banner_text {
+        padding: 45px 30px;
+    }
+
+    .blog_detels_banner_text h1 {
+        line-height: 40px;
+    }
+
+    .blog_sidebar ul li .text {
+        width: 62%;
+    }
+
+    .blog_detels_text .detels_small_img .img {
+        height: 235px;
+    }
+
+    .sidebar_contact {
+        height: 465px;
+    }
 
 }
 
@@ -378,6 +400,54 @@
         height: 150px;
     }
 
+    .hotel_list_img {
+        height: 160px;
+    }
+
+    .hotel_list_text {
+        width: 50%;
+        padding: 20px 0px 20px 20px;
+    }
+
+    /* contact page start */
+    .contact_form form {
+        padding: 25px 320px 80px 50px;
+    }
+
+    .contact_img {
+        width: 280px;
+        height: 445px;
+    }
+
+    .contact_info {
+        padding: 30px;
+    }
+
+    .blog_detels_banner_text {
+        padding: 50px;
+    }
+
+    .blog_detels_banner_text h1 {
+        font-size: 30px;
+        line-height: normal;
+    }
+
+    .blog_detels_banner_img {
+        height: 340px;
+    }
+
+    .blog_sidebar ul li .text {
+        width: 52%;
+    }
+
+    .left_sidebar_wizard {
+        padding: 16px 5px 30px 15px;
+    }
+
+
+
+
+
 
 
 
@@ -506,6 +576,19 @@
 
     .filter_item .img {
         height: 170px;
+    }
+
+    .hotel_list_pasination {
+        margin-bottom: 60px;
+    }
+
+
+    .nice-select .option {
+        width: 154px;
+    }
+
+    .left_sidebar_wizard .form-check label {
+        font-size: 14px;
     }
 
     .testimonial_item .description {
@@ -706,6 +789,91 @@
     }
 
     /* agent end */
+    .hotel_list_img {
+        height: 210px;
+    }
+
+    /* contact page start */
+    .contact_form form {
+        padding: 30px;
+    }
+
+    .contact_img {
+        display: none;
+    }
+
+    .contact_info h3 {
+        font-size: 18px;
+    }
+
+    .blog_detels_banner_text {
+        padding: 30px;
+    }
+
+    .blog_detels_banner_text h1 {
+        font-size: 26px;
+        line-height: normal;
+    }
+
+    .blog_detels_banner_img {
+        height: 250px;
+    }
+
+    .blog_detels_text .detels_small_img .img {
+        height: 150px;
+    }
+
+    .sidebar_contact {
+        height: 900px;
+    }
+
+    .blog_sidebar ul li .text {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .blog_sidebar ul li .img {
+        height: 100px;
+        width: 90px;
+    }
+
+    .sidebar_contact {
+        height: 280px;
+    }
+
+    .blog_detels_text h2 {
+        font-size: 28px;
+    }
+
+    .blog_detels_text h1,
+    .blog_detels_text h2,
+    .blog_detels_text h3,
+    .blog_detels_text h4,
+    .blog_detels_text h3,
+    .blog_detels_text h5,
+    .blog_detels_text h6 {
+        max-width: 100%;
+        margin-top: 20px;
+    }
+
+    .blog_detels_text .quot {
+        font-size: 13px;
+        line-height: normal;
+        margin: 0;
+    }
+
+    .next_pev_button li.next {
+        text-align: right;
+        width: 50%;
+    }
+
+    li.pev {
+        width: 50%;
+    }
+
+    .left_sidebar_wizard {
+        padding: 16px 10px 30px 10px;
+    }
 
 }
 
@@ -1053,7 +1221,58 @@
 
     /* agent end */
 
+    .hotel_list_img {
+        width: 100%;
+        height: 290px;
+        padding: 10px 10px 10px 10px;
+    }
 
+    .hotel_list_text {
+        width: 100%;
+        padding: 0px 10px 10px 30px;
+    }
+
+    /* contact page start */
+    .contact_form h3 {
+        font-size: 40px;
+    }
+
+    .contact_form form {
+        padding: 30px;
+    }
+
+    .contact_img {
+        display: none;
+    }
+
+    .contact_info {
+        text-align: center;
+    }
+
+    .contact_info span {
+        margin: 0 auto;
+    }
+
+    .blog_detels_banner_text {
+        padding: 30px;
+    }
+
+    .blog_detels_banner_img {
+        height: 385px;
+    }
+
+    .blog_detels_text .detels_small_img .img {
+        height: 340px;
+        margin-bottom: 30px;
+    }
+
+    li.pev {
+        width: 50%;
+    }
+
+    .next_pev_button li.next {
+        width: 50%;
+    }
 
 
 
@@ -1179,7 +1398,11 @@
     }
 
     .filter_item .img {
-        height: auto;
+        height: 280px;
+    }
+
+    .filter_item .img .athor_img {
+        top: 305px;
     }
 
     .testimonial_item .description {
@@ -1403,4 +1626,115 @@
     }
 
     /* agent end */
+
+    /* hotel gdid view start */
+    .item_header .nice-select {
+        width: 200px;
+    }
+
+    .hotel_list_img {
+        width: auto;
+        height: auto;
+    }
+
+    .hotel_list_text {
+        width: auto;
+        padding: 20px 10px;
+    }
+
+    /* contact page start */
+    .contact_form h3 {
+        font-size: 28px;
+    }
+
+    .contact_form form {
+        padding: 25px;
+    }
+
+    .contact_img {
+        display: none;
+    }
+
+    .contact_info {
+        padding: 30px;
+    }
+
+    /* blog detels start */
+    .blog_detels_banner_text {
+        padding: 20px;
+    }
+
+    .blog_detels_banner_text h1 {
+        font-size: 20px;
+        line-height: normal;
+    }
+
+    .blog_detels_banner_img {
+        height: auto;
+    }
+
+    .blog_detels_text .quot {
+        padding: 20px 50px 20px 10px;
+        font-size: 13px;
+        line-height: normal;
+    }
+
+    .blog_detels_text .quot::after {
+        width: 46px;
+        height: 31px;
+        top: 50%;
+        right: 5px;
+    }
+
+    .blog_detels_text h2 {
+        font-size: 20px;
+        line-height: normal;
+        max-width: 100%;
+    }
+
+    .blog_detels_text .detels_small_img .img {
+        height: auto;
+        margin-bottom: 30px;
+    }
+
+    .blog_detels_text .detels_small_img {
+        margin-bottom: 30px;
+    }
+
+    .tags_socal_icon {
+        margin-top: 20px;
+    }
+
+    .next_pev_button {
+        padding: 25px 10px 22px 10px;
+        margin-top: 30px;
+    }
+
+    .next_pev_button li.next {
+        text-align: right;
+        margin-left: auto;
+        padding-right: 20px;
+        border-top: 1px solid #343a4024;
+        padding-top: 20px;
+        margin-top: 20px;
+        width: 100%;
+    }
+
+    .review_area form .input {
+        margin-bottom: 20px;
+        margin-top: 0px;
+    }
+
+    .review_area form p {
+        margin: 10px 0 30px 0;
+    }
+
+    .blog_sidebar ul li .img {
+        height: auto;
+    }
+
+    .blog_sidebar ul li .text {
+        width: 61%;
+    }
+
 }

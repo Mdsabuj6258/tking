@@ -1737,4 +1737,24 @@
         width: 61%;
     }
 
+    /* privacy polici start */
+
+    .privacy_policy_text h3,
+    .privacy_policy_text h4 {
+        font-size: 20px;
+    }
+
+    .privacy_policy_text ul li,
+    .privacy_policy_text ol li {
+        font-size: 14px;
+    }
+
+    .privacy_policy_text ul li::after,
+    .privacy_policy_text ol li::after {
+        top: 9px;
+    }
+
+
+
+
 }

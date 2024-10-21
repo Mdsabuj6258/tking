@@ -1972,7 +1972,6 @@ button {
 .download_text .download_btn li a span {
     display: block;
     width: 16px;
-    margin-top: 6px;
     margin-right: 8px;
     filter: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(3014%) hue-rotate(338deg) brightness(117%) contrast(97%);
 }

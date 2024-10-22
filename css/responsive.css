@@ -130,6 +130,60 @@
         height: 465px;
     }
 
+
+    .service_earea .service_banner {
+        margin-top: 25px;
+        height: 505px;
+    }
+
+    .service_earea .service_item {
+        padding: 29px;
+    }
+
+    .service_text .sercice_img {
+        height: 365px;
+    }
+
+    .section_heading_2 h2 {
+        font-size: 30px;
+    }
+
+    .service_video h2 {
+        font-size: 85px;
+    }
+
+    .service_contact .service_contact_img {
+        height: 540px;
+    }
+
+    .service_contact_text {
+        padding-left: 50px;
+    }
+
+    .hotel_detels_slider_item {
+        height: 495px;
+    }
+
+    .about_detels_sidebar .nav-link {
+        padding: 15px 50px;
+    }
+
+    .about_detels_sidebar_author {
+        height: 390px;
+    }
+
+    .single_room_cart .img {
+        height: 180px;
+    }
+
+
+
+
+
+
+
+
+
 }
 
 
@@ -444,6 +498,58 @@
         padding: 16px 5px 30px 15px;
     }
 
+    .faq_page .section_heading_2 h2 {
+        max-width: 90%;
+    }
+
+    /* service page start  */
+    .service_text .sercice_img {
+        height: 305px;
+    }
+
+    .service_text .section_heading_2 h2 {
+        font-size: 25px;
+    }
+
+    .service_earea .service_item {
+        padding: 25px;
+    }
+
+    .service_earea .service_banner {
+        height: 420px;
+    }
+
+    .service_video h2 {
+        font-size: 68px;
+    }
+
+    .service_contact .service_contact_img {
+        height: 440px;
+        overflow: hidden;
+    }
+
+    .service_contact_text {
+        padding: 30px;
+    }
+
+    /* hotel deteils start  */
+    .hotel_detels_slider_item {
+        height: 415px;
+    }
+
+    .Hotel_Amenitie ul li {
+        width: 48%;
+    }
+
+    .about_detels_sidebar .nav-link {
+        padding: 15px 35px;
+    }
+
+    .about_detels_sidebar_author {
+        height: 325px;
+    }
+
+
 
 
 
@@ -453,6 +559,19 @@
 
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -875,6 +994,64 @@
         padding: 16px 10px 30px 10px;
     }
 
+    .faq_page .section_heading_2 h2 {
+        max-width: 100%;
+    }
+
+    .service_earea .service_banner {
+        display: none;
+    }
+
+    .service_contact_text {
+        padding: 30px;
+    }
+
+    .service_contact .service_contact_img {
+        height: 840px;
+    }
+
+    .service_video h2 {
+        font-size: 54px;
+    }
+
+    .service_text .sercice_img {
+        height: 225px;
+    }
+
+    .service_text .section_heading_2 h2 {
+        font-size: 20px;
+    }
+
+    .service_text ul li {
+        font-size: 13px;
+        margin-top: 9px;
+    }
+
+    .hotel_detels_slider_item {
+        height: 465px;
+    }
+
+    .Hotel_Amenitie ul li {
+        width: 47.5%;
+    }
+
+    .about_detels_sidebar_book form ul li .text {
+        width: 62%;
+    }
+
+    .about_detels_sidebar_author {
+        height: 495px;
+    }
+
+    .single_room_cart .img {
+        height: 240px;
+    }
+
+
+
+
+
+
 }
 
 
@@ -1274,6 +1451,67 @@
         width: 50%;
     }
 
+    .faq_page .section_heading_2 h2 {
+        max-width: 100%;
+    }
+
+    /* service page start */
+    .service_text .section_heading_2 h2 {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .service_text .sercice_img {
+        height: 345px;
+        margin-top: 30px;
+    }
+
+    .service_earea .service_banner {
+        margin-top: 0;
+        height: 730px;
+    }
+
+    .service_earea .service_item {
+        padding: 50px 10px 30px 20px;
+    }
+
+    .service_video h2 {
+        font-size: 40px;
+    }
+
+    .servive_video_banner {
+        height: auto;
+    }
+
+    .service_contact_text h2 {
+        font-size: 30px;
+    }
+
+    .service_contact_text {
+        padding-left: 20px;
+        padding-top: 30px;
+    }
+
+    .service_contact .service_contact_img {
+        height: 625px;
+        margin-top: 20px;
+    }
+
+    .hotel_detels_slider_item {
+        height: 340px;
+    }
+
+    .Hotel_Amenitie ul li {
+        width: 48%;
+    }
+
+    .about_detels_sidebar_author {
+        height: 560px;
+    }
+
+    .single_room_cart .img {
+        height: 170px;
+    }
 
 
 
@@ -1752,6 +1990,73 @@
     .privacy_policy_text ul li::after,
     .privacy_policy_text ol li::after {
         top: 9px;
+    }
+
+    .faq_page .section_heading_2 h2 {
+        max-width: 100%;
+    }
+
+    /* service page start */
+    .service_text .section_heading_2 h2 {
+        font-size: 22px;
+        text-align: center;
+    }
+
+    .service_text .sercice_img {
+        height: auto;
+        margin-top: 30px;
+    }
+
+    .service_earea .service_banner {
+        margin-top: 0;
+        height: auto;
+    }
+
+    .service_video h2 {
+        font-size: 25px;
+    }
+
+    .servive_video_banner {
+        height: auto;
+    }
+
+    .service_contact_text h2 {
+        font-size: 30px;
+    }
+
+    .service_contact_text {
+        padding-left: 20px;
+        padding-top: 30px;
+    }
+
+    .service_contact .service_contact_img {
+        height: auto;
+        margin-top: 20px;
+    }
+
+    /* hotel details start  */
+    .hotel_detels_slider_item {
+        height: auto;
+    }
+
+    .Hotel_Amenitie ul li {
+        width: 100%;
+    }
+
+    .about_detels_sidebar .nav-link {
+        padding: 15px 50px;
+    }
+
+    .about_detels_sidebar_author {
+        height: auto;
+    }
+
+    .single_room_cart .img {
+        height: auto;
+    }
+
+    .room_avelity .section_heading_2 {
+        margin-bottom: 30px !important;
     }
 
 

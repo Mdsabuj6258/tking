@@ -534,7 +534,7 @@
     }
 
     .service_earea .service_item {
-        padding: 25px;
+        padding: 8px;
     }
 
     .service_earea .service_banner {
@@ -1118,13 +1118,23 @@
         height: 75px;
     }
 
-
+    .package_details .about_detels_sidebar .nav-link,
+    .room_detels .about_detels_sidebar .nav-link,
     .room_detels .about_detels_sidebar .nav-link {
         padding: 15px 76px;
     }
 
+    .about_detels_sidebar .nav-link {
+        padding: 15px 75px;
+    }
 
+    .filter_item .img .athor_img {
+        top: 190px;
+    }
 
+    .agent_profile .about_detels_sidebar_author {
+        height: 370px;
+    }
 }
 
 
@@ -1429,6 +1439,9 @@
 
     /* about page end */
     /* agent start */
+    .agent_profile .about_detels_sidebar_author {
+        height: 270px;
+    }
 
     .agent_profile_text {
         margin-left: 0;
@@ -1631,8 +1644,15 @@
         right: 20px;
     }
 
+    .filter_item .img .athor_img {
+        top: 290px;
+    }
 
-
+    .package_details .about_detels_sidebar .nav-link,
+    .room_detels .about_detels_sidebar .nav-link,
+    .about_detels_sidebar .nav-link {
+        padding: 20px 90px;
+    }
 
 }
 
@@ -1759,7 +1779,7 @@
     }
 
     .filter_item .img .athor_img {
-        top: 305px;
+        top: 205px;
     }
 
     .testimonial_item .description {
@@ -2202,5 +2222,9 @@
         padding: 15px 50px;
     }
 
+    .popular_flight_item .img {
+        width: auto;
+        height: auto;
+    }
 
 }

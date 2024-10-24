@@ -5366,3 +5366,75 @@ footer .footer_banner {
     border-left: 1px solid rgba(4, 6, 24, 0.10);
     border-right: 1px solid rgba(4, 6, 24, 0.10);
 }
+
+
+.eror_text {
+    text-align: center;
+}
+
+.eror_text .img {
+    max-height: 670px;
+}
+
+.eror_text a {
+    margin-top: 45px;
+}
+
+.eror_text a i {
+    margin-left: 0;
+    margin-right: 8px;
+}
+
+.forget_password {
+    background: #EFF5FC;
+}
+
+.sign_in_form form {
+    padding: 50px;
+    background: var(--colorWhite);
+    box-shadow: 0px 1px 1px 0px rgba(4, 6, 24, 0.10);
+}
+
+.sign_in_form form h3 {
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.sign_in_input label {
+    display: block;
+    color: var(--colorBlack);
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.forget_password form a {
+    display: block;
+    text-align: center;
+    color: var(--colorPrimary);
+    margin-top: 25px;
+}
+
+.forget_password form a {
+    display: block;
+    text-align: center;
+    color: var(--colorPrimary);
+    margin-top: 25px;
+}
+
+.sign_in_input button {
+    margin-top: 20px;
+    padding: 13px 25px;
+}
+
+.forget_password form a {
+    display: block;
+    text-align: center;
+    color: var(--colorPrimary);
+    margin-top: 25px;
+}
+
+.forget_password form a:hover {
+    text-decoration: underline;
+}

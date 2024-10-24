@@ -514,7 +514,18 @@ $(function () {
     new WOW().init();
 
 
+    //=======COUNTDOWN======   
+    var d = new Date(),
+        countUpDate = new Date();
+    d.setDate(d.getDate() + 365);
 
+    // default example
+    simplyCountdown('.simply-countdown-one', {
+        year: d.getFullYear(),
+        month: d.getMonth() + 1,
+        day: d.getDate(),
+        enableUtc: true
+    });
 
 
 

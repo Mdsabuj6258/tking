@@ -205,7 +205,15 @@
         height: 400px;
     }
 
+    .sidebar_countdown .simply-amount {
+        width: 70px;
+        height: 70px;
+        line-height: 70px;
+    }
 
+    .single_packages_item .img {
+        height: 430px;
+    }
 }
 
 
@@ -608,10 +616,23 @@
         padding: 12px 31px;
     }
 
+    .sidebar_countdown .simply-amount {
+        width: 60px;
+        height: 60px;
+        line-height: 60px;
+    }
 
+    .sidebar_countdown .simply-word {
+        font-size: 13px;
+    }
 
+    .details_snapshot .text {
+        width: 73%;
+    }
 
-
+    .single_packages_item .img {
+        height: 360px;
+    }
 
 }
 
@@ -1135,6 +1156,18 @@
     .agent_profile .about_detels_sidebar_author {
         height: 370px;
     }
+
+    .details_snapshot .text {
+        width: 76%;
+    }
+
+    .single_packages_item .img {
+        height: 405px;
+    }
+
+
+
+
 }
 
 
@@ -1653,6 +1686,18 @@
     .about_detels_sidebar .nav-link {
         padding: 20px 90px;
     }
+
+    .details_snapshot .text {
+        width: 68%;
+    }
+
+    .single_packages_item .img {
+        height: 620px;
+    }
+
+
+
+
 
 }
 
@@ -2226,5 +2271,21 @@
         width: auto;
         height: auto;
     }
+
+    .details_snapshot .text {
+        width: 100%;
+    }
+
+    .single_packages_item .img {
+        height: auto;
+    }
+
+
+
+
+
+
+
+
 
 }

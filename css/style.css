@@ -2163,7 +2163,7 @@ footer .footer_banner {
 
 .footer_link ul li a:hover {
     color: var(--colorWhite);
-    margin-left: 10px;
+    margin-left: 5px;
 }
 
 .footer_logo {
@@ -2491,6 +2491,15 @@ footer .footer_banner {
 .team .single_team {
     position: relative;
     overflow: hidden;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.team .single_team:hover {
+    margin-top: 20px;
 }
 
 .team .single_team .img {
@@ -2588,6 +2597,16 @@ footer .footer_banner {
     padding: 40px;
     margin: 0px 12px;
     position: relative;
+    border: 1px solid #EFF5FC;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.about_testimonial .testimonial_item:hover {
+    border: 1px solid var(--paraColor);
 }
 
 
@@ -2948,6 +2967,7 @@ footer .footer_banner {
     box-shadow: 0px 24px 60px 0px rgba(10, 37, 64, 0.14);
     margin-top: 25px;
 }
+
 
 .hotel_list_img {
     width: 50%;
@@ -5001,6 +5021,11 @@ footer .footer_banner {
     CONTACT PASE END
 ============================*/
 
+
+/*============================
+    PACKAGE DETAILS PASE START
+============================*/
+
 .package_details .prevArrow {
     right: auto;
     left: -8px;
@@ -5038,4 +5063,306 @@ footer .footer_banner {
 
 .package_details .about_detels_sidebar .nav-link {
     padding: 15px 54px;
+}
+
+/*============================
+    PACKAGE DETAILS PASE END
+============================*/
+
+/*============================
+    PACKAGE PASE START
+============================*/
+.single_packages_item {
+    position: relative;
+    padding: 0;
+    margin-top: 25px;
+
+}
+
+.single_packages_item .img {
+    height: 465px;
+    overflow: hidden;
+}
+
+.single_packages_item .text {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(180deg, rgba(4, 6, 24, 0.00) 0%, #040618 100%);
+    width: 100%;
+    padding: 30px 30px 15px 30px;
+}
+
+.single_packages_item .text .time {
+    color: #D5D1C3;
+}
+
+.single_packages_item .text .time i {
+    color: var(--colorWhite);
+    margin-right: 5px;
+}
+
+.single_packages_item .text .title:hover {
+    color: var(--colorSecondary);
+}
+
+.single_packages_item .text .title {
+    color: var(--colorWhite);
+    font-size: 18px;
+    margin-top: 5px;
+    margin-bottom: 12px;
+}
+
+.single_packages_item .text .read_btn::after {
+    color: var(--colorWhite);
+}
+
+.single_packages_item .text .location {
+    border-radius: 100px;
+    background: rgba(255, 255, 255, 0.12);
+    padding: 4px 10px 4px 30px;
+    position: relative;
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 13px;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.single_packages_item .text .location::after {
+    position: absolute;
+    content: "";
+    background: url(../images/location_icon_2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 15px;
+    height: 18px;
+    top: 6px;
+    left: 10px;
+}
+
+.single_packages_item .img img {
+    overflow: hidden;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.single_packages_item:hover.single_packages_item .img img {
+    transform: scale(1.05) rotate(2deg);
+    -webkit-transform: scale(1.05) rotate(2deg);
+    -moz-transform: scale(1.05) rotate(2deg);
+    -ms-transform: scale(1.05) rotate(2deg);
+    -o-transform: scale(1.05) rotate(2deg);
+}
+
+.single_packages_item .text .price {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    padding-top: 15px;
+    margin-top: 20px;
+}
+
+.single_packages_item .text .price::after {
+    position: absolute;
+    content: "";
+    width: 150%;
+    height: 1px;
+    background: rgba(255, 255, 255, 0.30);
+    top: 0;
+    left: -70px;
+}
+
+.single_packages_item .text .price li span {
+    color: rgba(255, 255, 255, 0.40);
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.single_packages_item .text .price li {
+    color: var(--colorSecondary);
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.single_packages_item .text .price li a {
+    border-radius: 36px;
+    background: rgba(255, 255, 255, 0.10);
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    color: var(--colorWhite);
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.single_packages_item .text .price li a:hover {
+    background: var(--colorSecondary);
+    color: var(--colorWhite);
+}
+
+.single_packages_item .riview {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    background: var(--colorWhite);
+    color: #040618;
+    font-size: 13px;
+    font-weight: 500;
+    display: inline-block;
+    padding: 4px 12px;
+}
+
+.single_packages_item .riview i {
+    color: var(--ratingColor);
+    margin-right: 2px;
+}
+
+/*============================
+    PACKAGE PASE END
+============================*/
+.details_snapshot ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin: 35px 0;
+}
+
+.details_snapshot ul li {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 35%;
+}
+
+.details_snapshot ul li .icon {
+    width: 45px;
+    height: 45px;
+    background: rgba(4, 6, 24, 0.06);
+    padding: 10px;
+    border-radius: 50%;
+    margin-right: 12px;
+}
+
+.details_snapshot ul li .text h4 {
+    font-size: 14px;
+    font-weight: 500;
+    margin: 0;
+}
+
+.details_snapshot ul li .text p {
+    font-size: 12px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.sidebar_countdown .simply-countdown {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.sidebar_countdown .simply-amount {
+    display: block;
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    line-height: 80px;
+    border: 1px solid rgba(4, 6, 24, 0.10);
+    color: var(--colorBlack);
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.sidebar_countdown .simply-word {
+    display: block;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: 3px;
+    text-transform: capitalize;
+}
+
+.about_detels_sidebar_ticket {
+    border: 1px solid rgba(4, 6, 24, 0.10);
+    background: rgba(255, 255, 255, 0.00);
+    margin-bottom: 30px;
+}
+
+.about_detels_sidebar_ticket h3 {
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 600;
+    background: rgba(4, 6, 24, 0.06);
+    padding: 17px 30px;
+}
+
+.about_detels_sidebar_ticket ul {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.about_detels_sidebar_ticket ul li {
+    color: var(--colorBlack);
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: capitalize;
+    padding: 10px 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    border-top: 1px solid rgba(4, 6, 24, 0.10);
+}
+
+.about_detels_sidebar_ticket ul .count_btn_area {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    border: 1px solid rgba(4, 6, 24, 0.10);
+}
+
+.about_detels_sidebar_ticket ul .count_btn_area button {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    background: none;
+    color: var(--colorBlack);
+    font-size: 13px;
+    font-weight: 500;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.about_detels_sidebar_ticket ul .count_btn_area input {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    padding: 0;
+    border: 0;
+    border-radius: 0;
+    font-size: 13px;
+    font-weight: 500;
+    border-left: 1px solid rgba(4, 6, 24, 0.10);
+    border-right: 1px solid rgba(4, 6, 24, 0.10);
 }

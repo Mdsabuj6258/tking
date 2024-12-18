@@ -489,7 +489,7 @@ $(function () {
 
 
 
-
+    // ==========star reting js=========
     const stars = document.querySelectorAll(".select_rating i");
 
     stars.forEach((star, index1) => {

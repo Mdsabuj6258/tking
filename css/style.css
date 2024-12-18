@@ -1486,10 +1486,10 @@ button {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    width: 18px;
-    height: 18px;
-    top: 6px;
-    left: 13px;
+    width: 15px;
+    height: 15px;
+    top: 5px;
+    left: 10px;
 }
 
 .filter_item .text .time {
@@ -2053,7 +2053,6 @@ button {
     display: block;
     width: 16px;
     margin-right: 8px;
-    margin-top: 9px;
 }
 
 .blog .blog_item .blog_text p {
@@ -4034,9 +4033,9 @@ footer .footer_banner {
 }
 
 
-.boat_avelity .text .location {
+/* .boat_avelity .text .location {
     padding-left: 25px;
-}
+} */
 
 .boat_detels .text .location::after {
     top: 13px;
